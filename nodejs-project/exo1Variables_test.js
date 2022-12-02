@@ -1,15 +1,15 @@
 var assert = require('assert');
 var mod = require('./exo1Variables.js');
 
-it("Création des variables : num, txt, bin et flt", function () {
+it("Création des variables : num, str, bool et flt", function () {
   try
   {
     assert.equal( 42, mod.num );
     assert.equal( typeof(mod.num), "number" );
-    assert.equal( "42", mod.txt );
-    assert.equal( typeof(mod.txt), "string" );
-    assert.equal( true, mod.bin );
-    assert.equal( typeof(mod.bin), "boolean" );
+    assert.equal( "42", mod.str );
+    assert.equal( typeof(mod.str), "string" );
+    assert.equal( true, mod.bool );
+    assert.equal( typeof(mod.bool), "boolean" );
     assert.equal( 0.42, mod.flt );
     assert.equal( typeof(mod.flt), "number" );
   }
