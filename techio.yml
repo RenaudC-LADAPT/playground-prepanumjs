@@ -1,8 +1,8 @@
-title: LADAPT Rhône-Métropole de Lyon - Prépa Numérique - Parcours Découverte Javascript 
+title: LADAPT Rhône-Métropole de Lyon - Prépa Numérique - Exercices Parcours Découverte Javascript 
 plan:
 - title: Exercices Variables
   statement: markdowns/Exercices_Variables.md
-  
+
 projects:
   js:
     root: "/exercices"
