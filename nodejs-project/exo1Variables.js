@@ -7,8 +7,8 @@
 // { autofold
 module.exports = {
 	num: num,
-	txt: txt,
-	bin: bin,
+	str: str,
+	bool: bool,
 	flt: flt	
 };
 // }
