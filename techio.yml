@@ -6,4 +6,4 @@ plan:
 projects:
   js:
     root: "/exercices"
-    runner: techio/node-npm-runner
+    runner: techio/node-npm-runner:1.1.0-node-7.4
