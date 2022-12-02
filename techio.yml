@@ -2,3 +2,8 @@ title: LADAPT Rhône-Métropole de Lyon - Prépa Numérique - Parcours Découver
 plan:
 - title: Exercices Variables
   statement: markdowns/Exercices_Variables.md
+  
+projects:
+  js:
+    root: "/exercices"
+    runner: techio/node-npm-runner
