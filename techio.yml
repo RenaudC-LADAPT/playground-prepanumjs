@@ -5,7 +5,7 @@ plan:
 
 projects:
   nodejs:
-    root: "/exercices"
+    root: "/nodejs-project"
     runner:
       name: techio/node-npm-runner
       version: latest
