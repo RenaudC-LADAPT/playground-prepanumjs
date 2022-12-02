@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "RenaudC-LADAPT",
+  "license": "MIT",
+  "dependencies": {
+		"mocha": "*",
+		"should": ">= 0.0.1"
+	}
+}
