@@ -4,6 +4,8 @@ plan:
   statement: markdowns/Exercices_Variables.md
 
 projects:
-  js:
+  nodejs:
     root: "/exercices"
-    runner: techio/node-npm-runner:1.1.0-node-7.4
+    runner:
+      name: techio/node-npm-runner
+      version: latest
