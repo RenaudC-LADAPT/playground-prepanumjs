@@ -1,5 +1,5 @@
-let assert = require('assert');
-let mod = require('./exo1Variables.js');
+var assert = require('assert');
+var mod = require('./exo1Variables.js');
 
 it("Création des variables : num, txt, bin et flt", function () {
   try
