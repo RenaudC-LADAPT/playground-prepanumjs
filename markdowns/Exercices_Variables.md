@@ -6,4 +6,4 @@
 - **bin** qui contient la valeur booléenne *true*
 - **flt** qui contient la valeur 0,42
 
-@[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command": "node_modules/mocha/bin/mochaexo1Variables_test.js --reporter list" })
+@[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command": "node_modules/mocha/bin/mocha exo1Variables_test.js --reporter list" })
