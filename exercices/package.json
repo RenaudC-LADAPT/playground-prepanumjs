@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"author": "RenaudC-LADAPT, <casagrande.renaud@ladapt.net>",
 	"license": "",
-	"homepage":'https://github.com/RenaudC-LADAPT/playground-prepanumjs',
+	"homepage":"https://github.com/RenaudC-LADAPT/playground-prepanumjs",
 	"dependencies": {
 		"mocha": "*",
 		"should": ">= 0.0.1"
