@@ -1,4 +1,4 @@
-title: Custom Template
+title: Parcours Découverte Javascript Prépa Numérique LADAPT Rhône-Métropole de Lyon
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: Exercices Variables
+  statement: markdowns/Exercices_Variables.md
