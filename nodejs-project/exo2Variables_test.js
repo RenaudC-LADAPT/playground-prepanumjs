@@ -15,7 +15,7 @@ it("afficher le type des variables : num, str, bool et flt", function () {
     printMessage('Conseil 💡', "Revoyez l'utlisation de typeof 🤔");
     throw error;
   }
-  printMessage('Vos réponses :' ,"la variable num est de type " + numType + "\nla variable str est de type " + strType + "\nla variable bool est de type " + boolType + "\nla variable flt est de type " + fltType);
+  printMessage('Vos réponses :' ,"la variable num est de type " + mod.numType + "\nla variable str est de type " + mod.strType + "\nla variable bool est de type " + mod.boolType + "\nla variable flt est de type " + mod.fltType);
 });
 
 function printMessage(channel, message)
