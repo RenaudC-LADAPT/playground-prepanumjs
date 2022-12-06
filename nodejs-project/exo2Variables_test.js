@@ -5,6 +5,10 @@ it("afficher le type des variables : num, str, bool et flt", function () {
   try
   {
     
+    assert.equal( "number", mod.numType );
+    assert.equal( "string", mod.strType );
+    assert.equal(  "boolean", mod.boolType );
+    assert.equal( "number", mod.fltType );
   }
   catch (error)
   {
