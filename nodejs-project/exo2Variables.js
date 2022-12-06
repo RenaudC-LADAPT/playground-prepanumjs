@@ -16,8 +16,8 @@ console.log("la variable flt est de type " + fltType);
 // { autofold
 module.exports = {
 	numType: numType,
-	numType: numType,
-	numType: numType,
-	numType: numType	
+	strType: srtType,
+	boolType: boolType,
+	fltType: fltType	
 };
 // }
