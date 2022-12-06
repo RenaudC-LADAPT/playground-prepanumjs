@@ -1,7 +1,7 @@
 var assert = require('assert');
 var mod = require('./exo3Variables.js');
 
-it("afficher le type des variables : num, str, bool et flt", function () {
+it("realiser les opérations demandées", function () {
   try
   {
     assert.equal( 43, mod.num );
