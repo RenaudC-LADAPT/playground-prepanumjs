@@ -18,6 +18,7 @@ it("realiser les opérations demandées", function () {
     printMessage('Conseil 💡', "revoyez les opérations de bases en JavaScript 🤔");
     throw error;
   }
+  printMessage('vos réponses : ', "num = " + num + "\nstr = " + str + "\nbool = " + bool + "\nflt = " + flt;
 });
 
 function printMessage(channel, message)
