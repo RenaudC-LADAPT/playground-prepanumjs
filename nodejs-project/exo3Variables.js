@@ -7,7 +7,7 @@ let flt = 0.42;
 // { autofold
 module.exports = {
 	num: num,
-	str: srt,
+	str: str,
 	bool: bool,
 	flt: flt	
 };
