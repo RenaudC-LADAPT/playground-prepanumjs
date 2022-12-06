@@ -11,7 +11,7 @@ let fltType = /*à compléter*/;
 // { autofold
 module.exports = {
 	numType: numType,
-	strType: srtType,
+	strType: strType,
 	boolType: boolType,
 	fltType: fltType	
 };
