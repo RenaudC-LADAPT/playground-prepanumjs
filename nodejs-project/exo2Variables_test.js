@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./exo1Variables.js');
+var mod = require('./exo2Variables.js');
 
 it("afficher le type des variables : num, str, bool et flt", function () {
   try
