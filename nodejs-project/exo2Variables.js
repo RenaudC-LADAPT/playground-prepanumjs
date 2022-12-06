@@ -8,3 +8,11 @@ console log("la variable str est de type " + );
 console log("la variable bool est de type " + );
 console log("la variable flt est de type " + );
             
+// { autofold
+module.exports = {
+	num: num,
+	str: str,
+	bool: bool,
+	flt: flt	
+};
+// }
