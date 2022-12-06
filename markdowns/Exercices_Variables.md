@@ -10,5 +10,9 @@
 ### Dans l'exercice ci-dessous vous devez compléter le code pour afficher le type des variables num, str, bool & flt :
 @[complétez le code]({ "stubs": ["exo2Variables.js"], "command":"node_modules/mocha/bin/mocha exo2Variables_test.js --reporter list"})
 ## Exercice 3
-### Dans l'exercice ci-dessous vous devez  :
+### Opérations sur les variables dans l'exercice ci-dessous vous devez :
+- Appliquez à num l'opérateur d'incrémentation
+- Concaténez à la chaîne str la chaîne " est la réponse à la grande question sur la vie, l’univers et le reste."
+- Inversez la valeur logique de bool
+- Ajoutez à flt la valeur contenue dans num
 @[complétez le code]({ "stubs": ["exo3Variables.js"], "command":"node_modules/mocha/bin/mocha exo3Variables_test.js --reporter list"})
