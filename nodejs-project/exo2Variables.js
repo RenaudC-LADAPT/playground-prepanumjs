@@ -10,13 +10,12 @@ let boolType = /*à compléter*/;
 let fltType = /*à compléter*/;
 let arrayType = /*à compléter*/;
 
-       
 // { autofold
 module.exports = {
 	numType: numType,
 	strType: strType,
 	boolType: boolType,
 	fltType: fltType,
-	arratType = arrayType,
+	arrayType: arrayType,
 };
 // }
