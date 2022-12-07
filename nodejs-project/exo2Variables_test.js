@@ -2,7 +2,7 @@ var assert = require('assert');
 var mod = require('./exo2Variables.js');
 
 it("afficher le type des variables : num, str, bool et flt", function () {
-  printMessage('Vos réponses :','la variable num est de type ' + mod.numType + ' / la variable str est de type ' + mod.strType + ' / la variable bool est de type ' + mod.boolType + ' / la variable flt est de type ' + mod.fltType) + ' / la variable array est de type ' + mod.arrayType + ' / la variable x est de type ' + mod.xType;
+  printMessage('Vos réponses :','la variable num est de type ' + mod.numType + ' / la variable str est de type ' + mod.strType + ' / la variable bool est de type ' + mod.boolType + ' / la variable flt est de type ' + mod.fltType + ' / la variable array est de type ' + mod.arrayType + ' / la variable x est de type ' + mod.xType)
   try
   {
     assert.equal( "number", mod.numType );
