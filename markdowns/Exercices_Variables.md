@@ -6,7 +6,7 @@ Notez bien déjà qu’une variable en soi et la valeur qu’elle va stocker son
 Les variables sont l’une des constructions de base du JavaScript et vont être des éléments qu’on va énormément utiliser. Nous allons illustrer leur utilité par la suite.
 [![boites qui contient une information](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables/boxes.png)](https://developer.mozilla.org)
 Exemple : dans un programme de jeu vidéo, j’ai besoin de stocker le score et les points de vie du joueur, j’utiliserai des variables.
-## Déclaration des variables en JavaScript**
+## Déclaration des variables en JavaScript
 Pour pouvoir utiliser les variables, il va déjà falloir les créer. Lorsqu’on crée une variable en JavaScript, on dit également qu’on « déclare » une variable.
 Vous pouvez **déclarer** une variable en utilisant le mot clé **let** ou le mot clé **const**.
 ```jsx
@@ -15,7 +15,7 @@ const vie_max;
 ```
 Historiquement, on utilisait le mot clé **var** pour définir ses variables en JavaScript. Si vous avez à faire à un script qui a été codé avant 2015, c’est ce mot clé que vous retrouverez.
 Désormais, l’utilisation de **var** est déconseillée dans la plupart des cas, bien qu’elle fonctionne toujours. Il est plutôt recommandé d’utiliser les mots clés **let** et **const** pour définir vos variables.
-## let vs const
+### let vs const
 Dans ce module de découverte nous n’entrerons dans les détails techniques.
 On utilisera **let** pour déclaré des variables et **const** pour déclarer des constantes.
 Une **constante** est similaire à une **variable** au sens où c’est également un conteneur pour une valeur. Cependant, à la différence des variables, on ne va pas pouvoir modifier la valeur d’une constante.
