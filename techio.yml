@@ -1,8 +1,11 @@
 title: LADAPT Rhône-Métropole de Lyon - Prépa Numérique - Exercices Parcours Découverte Javascript 
 plan:
-- title: Exercices Variables
-  statement: markdowns/Exercices_Variables.md
-
+- title: les Variables
+  statement: markdowns/Variables.md
+- title: Les types de données en JavaScript
+  statement: markdowns/types_de_données.md
+- title: Opérations sur les variables en JavaScript
+  statement: markdowns/operations_sur_les_variables.md
 projects:
   nodejs:
     root: "/nodejs-project"
