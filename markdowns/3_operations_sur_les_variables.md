@@ -77,7 +77,47 @@ Voici l’exemple pour la soustraction et la division:
 console.log( 6 - '2' ); // 4, convertit '2' en nombre
 console.log( '6' / '2' ); // 3, convertit les deux opérandes en nombre
 ```
+### Modification sur place
+Nous avons souvent besoin d’appliquer un opérateur à une variable et d’y stocker le nouveau résultat.
 
+Par exemple :
+```jsx
+let n = 2;
+n = n + 5;
+n = n * 2;
+```
+Cette notation peut être raccourcie en utilisant les opérateurs += et \*= :
+```jsx
+let n = 2;
+n += 5; // maintenant n = 7 (identique à n = n + 5)
+n *= 2; // maintenant n = 14 (identique à n = n * 2)
+console.log( n ); // 14
+```
+Il existe de opérateurs de “modification et assignation” courts pour tous les opérateurs arithmétiques et binaires: /=, -= etc.
+
+Ces opérateurs ont la même précédence qu’une affectation normale. Ils s’exécutent donc après la plupart des autres calculs :
+```jsx
+let n = 2;
+n *= 3 + 5; // right part evaluated first, same as n *= 8
+console.log( n ); // 16
+```
+### Incrémentation / décrémentation
+L’augmentation ou la diminution d’un nombre par 1 compte parmi les opérations numériques les plus courantes.
+
+Il y a donc des opérateurs spéciaux pour cela :
+
+Incrémentation ++ augmente une variable de 1 :
+```jsx
+let i = 2;
+i++;      // fonctionne de la même manière que counter = counter + 1, mais c'est plus court
+consoloe.log( i ); // 3
+```
+Décrémentation -- diminue une variable de 1 :
+```jsx
+let j = 2;
+j--;      // fonctionne de la même manière que counter = counter - 1, mais c'est plus court
+console.log( j ); // 1
+```
 ## Exercice 3
 ### Opérations sur les variables dans l'exercice ci-dessous vous devez :
 - Appliquez à num l'opérateur d'incrémentation
