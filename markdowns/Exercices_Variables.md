@@ -116,7 +116,8 @@ Par exemple, une racine carrée est une exponentiation de ½ :
 4 ** (1/2); // 2 (la puissance de 1/2 équivaut à une racine carrée)
 8 ** (1/3); // 2 (la puissance de 1/3 équivaut à une racine cubique)
 ```
-###Concaténation de chaînes de caractères
+### Concaténation de chaînes de caractères
+
 Découvrons les fonctionnalités des opérateurs JavaScript qui vont au-delà de l’arithmétique scolaire.
 
 Habituellement, l’opérateur + additionne des chiffres.
