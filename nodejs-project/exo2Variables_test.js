@@ -7,7 +7,7 @@ it("afficher le type des variables : num, str, bool et flt", function () {
   {
     assert.equal( "number", mod.numType );
     assert.equal( "string", mod.strType );
-    assert.equal(  "boolean", mod.boolType );
+    assert.equal( "boolean", mod.boolType );
     assert.equal( "number", mod.fltType );
     assert.equal( "object", mod.arrayType );
     assert.equal( "undefined", mod.xType );
