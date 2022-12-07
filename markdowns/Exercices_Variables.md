@@ -159,4 +159,5 @@ console.log( '6' / '2' ); // 3, convertit les deux opérandes en nombre
 - Concaténez à la chaîne str la chaîne " est la réponse à la grande question sur la vie, l’univers et le reste."
 - Inversez la valeur logique de bool
 - Ajoutez à flt la valeur contenue dans num
+
 @[complétez le code]({ "stubs": ["exo3Variables.js"], "command":"node_modules/mocha/bin/mocha exo3Variables_test.js --reporter list"})
