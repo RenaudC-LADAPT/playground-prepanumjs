@@ -77,7 +77,7 @@ Voici l’exemple pour la soustraction et la division:
 console.log( 6 - '2' ); // 4, convertit '2' en nombre
 console.log( '6' / '2' ); // 3, convertit les deux opérandes en nombre
 ```
-### Modification sur place
+## Modification sur place
 Nous avons souvent besoin d’appliquer un opérateur à une variable et d’y stocker le nouveau résultat.
 
 Par exemple :
@@ -101,7 +101,7 @@ let n = 2;
 n *= 3 + 5; // right part evaluated first, same as n *= 8
 console.log( n ); // 16
 ```
-### Incrémentation / décrémentation
+## Incrémentation / décrémentation
 L’augmentation ou la diminution d’un nombre par 1 compte parmi les opérations numériques les plus courantes.
 
 Il y a donc des opérateurs spéciaux pour cela :
