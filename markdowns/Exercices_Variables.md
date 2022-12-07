@@ -1,12 +1,12 @@
 # Les Variables
-# Qu’est ce qu’une variable
+## Qu’est ce qu’une variable
 Une variable est un conteneur servant à stocker des informations de manière temporaire, comme une chaine de caractères (un texte) ou un nombre par exemple.
 Le propre d’une variable est de pouvoir varier, c’est-à-dire de pouvoir stocker différentes valeurs au fil du temps et c’est cette particularité qui les rend si utiles.
 Notez bien déjà qu’une variable en soi et la valeur qu’elle va stocker sont deux éléments différents et qui ne sont pas égaux. Encore une fois, une variable n’est qu’un conteneur. Vous pouvez imaginer une variable comme une boite dans laquelle on va pouvoir placer différentes choses au cours du temps.
 Les variables sont l’une des constructions de base du JavaScript et vont être des éléments qu’on va énormément utiliser. Nous allons illustrer leur utilité par la suite.
 [![boites qui contient une information](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables/boxes.png)](https://developer.mozilla.org)
 Exemple : dans un programme de jeu vidéo, j’ai besoin de stocker le score et les points de vie du joueur, j’utiliserai des variables.
-# D**éclaration des variables en JavaScript**
+## D**éclaration des variables en JavaScript**
 
 Pour pouvoir utiliser les variables, il va déjà falloir les créer. Lorsqu’on crée une variable en JavaScript, on dit également qu’on « déclare » une variable.
 
@@ -49,7 +49,7 @@ le signe `=` ne possède pas du tout la même signification que le « égal »
 
 Ici, c’est un opérateur d’affectation. Il sert à indiquer qu’on affecte (ou « assigne » ou encore « stocke ») la valeur à droite du signe dans le conteneur à gauche de celui-ci. Encore une fois, la variable n’est pas « égale » à sa valeur.
 
-Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef **let** n’est utilisé et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
+Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef **let** n’est utilisé q"une seule fois et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
 
 Ensuite, vous remarquez qu’on utilise des apostrophes droits ou guillemets simples pour entourer la valeur ‘**Suzanne’** mais pas pour la valeur **10**. Cela est dû au fait que ‘**Suzanne’** est une valeur textuelle tandis que **10**  est un nombre et ces valeurs ne vont pas pouvoir être manipulées de la même façon en JavaScript. Nous verrons cela en détail dans une prochaine étape.
 ## Exercice 1
@@ -59,9 +59,29 @@ Ensuite, vous remarquez qu’on utilise des apostrophes droits ou guillemets sim
 - **bool** qui contient la valeur booléenne *true*
 - **flt** qui contient la valeur 0,42
 @[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command":"node_modules/mocha/bin/mocha exo1Variables_test.js --reporter list"})
+
+# Les types de données en JavaScript 
+En JavaScript il existe différents types de données:
+
+- `String` ou « chaine de caractères » en français ;
+- `Number` ou « nombre » en français ;
+- `Boolean` ou « booléen » en français ;
+- `Null` ou « nul / vide » en français;
+- `Undefined` ou « indéfini » en français ;
+- `Symbol` ou « symbole » en français ;
+- `Object` ou « objet » en français ;
+
+La fonction `typeof(variable)` renvoie le type de la variable qui a été passé comme argument.
+
+## Détail des différents types
+Consultez [cette page de l’excellent site de Pierre GIRAUD](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/type-donnee/) pour en apprendre plus sur les types de données
+
 ## Exercice 2
 ### Dans l'exercice ci-dessous vous devez compléter le code pour afficher le type des variables num, str, bool & flt :
 @[complétez le code]({ "stubs": ["exo2Variables.js"], "command":"node_modules/mocha/bin/mocha exo2Variables_test.js --reporter list"})
+
+# Opérations sur les variables en JavaScript 
+
 ## Exercice 3
 ### Opérations sur les variables dans l'exercice ci-dessous vous devez :
 - Appliquez à num l'opérateur d'incrémentation
