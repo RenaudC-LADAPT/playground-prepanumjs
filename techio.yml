@@ -3,7 +3,7 @@ plan:
 - title: 1 - les Variables
   statement: markdowns/1_variables.md
 - title: 2 - Les types de données en JavaScript
-  statement: markdowns/2_types_de_données.md
+  statement: markdowns/2_types_de_donnees.md
 - title: 3 - Opérations sur les variables en JavaScript
   statement: markdowns/3_operations_sur_les_variables.md
 projects:
