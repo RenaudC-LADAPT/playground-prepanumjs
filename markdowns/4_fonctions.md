@@ -18,7 +18,7 @@ Une définition de fonction (aussi appelée déclaration de fonction ou instruct
 - Le nom de la fonction.
 - Une liste d'arguments à passer à la fonction, entre parenthèses et séparés par des virgules.
 - Les instructions JavaScript définissant la fonction, entre accolades, { }.
-- Il est possible (mais pas obligatoire) de renvoyer des informations en sortie grace au mots-clé **`return`**
+- Il est possible (mais pas obligatoire) de renvoyer des informations en sortie grace au mots-clé **`return`** dans le bloc d'instructions
 
 ```jsx
 function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) { 
