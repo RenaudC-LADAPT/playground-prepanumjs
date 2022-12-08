@@ -17,7 +17,7 @@ Ce parcours de découverte ne s'intéresse pas directement au développement web
 
 Il s'adresse aux stagiaires de la préparatoire numérique de l'[E.S.R.P. LADAPT Rhône-Métropole de Lyon](https://www.ladapt.net/etablissement-service-auvergne-rhone-alpes-rhone-metropole-de-lyon), ou à tout autre débutant qui tomberait dessus. 
 
-Il n'a pas vocation à faire de vous un·e développeur·se chevronné·e, mais abordent des notions fondamentales qui vous seront nécessaires si vous vous lancez dans une formation de développeur
+Il n'a pas vocation à faire de vous un·e développeur·se chevronné·e, mais il aborde des notions fondamentales, qui vous seront nécessaires si vous vous lancez dans une formation de développeur.
 
 Il est très largement inspiré du [cours très complet de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/) disponible en ligne, ainsi que du [cours de Valéry Bruniaux de l’IREM Aix-Marseille](https://ens-info.irem.univ-mrs.fr/?p=26) et du [tutoriel JavaScript par Ilya Kantor](https://fr.javascript.info/). Il est vivement conseillé de consulter ces sources si vous souhaitez aller plus loin en JavaScript.
 
