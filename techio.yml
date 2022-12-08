@@ -8,6 +8,14 @@ plan:
   statement: markdowns/2_types_de_donnees.md
 - title: Opérations sur les variables en JavaScript
   statement: markdowns/3_operations_sur_les_variables.md
+- title: Les fonctions en JavaScript
+  statement: markdowns/4_fonctions.md
+- title: Les tests conditionnels
+  statement: markdowns/5_tests_conditionnels.md
+- title: Les tableaux
+  statement: markdowns/6_tableaux.md
+- title: Les boucles
+  statement: markdowns/7_boucles.md
 projects:
   nodejs:
     root: "/nodejs-project"
