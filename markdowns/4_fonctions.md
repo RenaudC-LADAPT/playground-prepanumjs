@@ -28,3 +28,5 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 ```
 **Remarque :** *l'indentation (décalage) du contenu de la fonction (entre l'accolade ouvrante et fermante) a pour but de rendre le code plus lisible. Ce n'est pas obligatoire, mais fortement conseillé.*
 
+
+@[Testez plusieurs fois le programme en cheangant la valeur de la variable num]({ "stubs": ["exo1Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo1Fonctions_test.js --reporter list"})
