@@ -11,9 +11,11 @@ C'est la troisième couche des technologies standards du web, après les deux pr
 
 ## Description du parcours
 
-Ce parcours de découverte ne s'intéresse pas directement au développement web avec JavaScript, mais permet d'apprendre les bases de la programmation en JavasScript (variable, fonction, condition, boucle etc...).
+Ce parcours de découverte ne s'intéresse pas directement au développement web avec JavaScript, mais permet d'apprendre les bases de la programmation en JavaScript (variable, fonction, condition, boucle etc...).
 
-il s'adresse aux stagiaires de la préparatoire numérique de l'[E.S.R.P. LADAPT Rhône-Métropole de Lyon](https://www.ladapt.net/etablissement-service-auvergne-rhone-alpes-rhone-metropole-de-lyon) ou a tout autre débutant qui tomberait dessus, il n'a pas vocation à faire de vous un développeur chevronnée, mais abordent des notions fondamentales qui vous seront nécessaires si vous vous lancer dans une formation de développeur
+Il s'adresse aux stagiaires de la préparatoire numérique de l'[E.S.R.P. LADAPT Rhône-Métropole de Lyon](https://www.ladapt.net/etablissement-service-auvergne-rhone-alpes-rhone-metropole-de-lyon), ou a tout autre débutant qui tomberait dessus. 
+
+Il n'a pas vocation à faire de vous un développeur chevronnée, mais abordent des notions fondamentales qui vous seront nécessaires si vous vous lancez dans une formation de développeur
 
 Il est très largement inspiré du [cours très complet de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/) disponible en ligne, ainsi que du [cours de Valéry Bruniaux de l’IREM Aix-Marseille](https://ens-info.irem.univ-mrs.fr/?p=26) et du [tutoriel JavaScript par Ilya Kantor](https://fr.javascript.info/). Il vivement copnseillé de consulter ces sources si vous souhaiter aller plus loin en JavaScript
 
