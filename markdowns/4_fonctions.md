@@ -31,4 +31,4 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 
 @[Testez plusieurs fois le programme en changeant la valeur de la variable num]({ "stubs": ["exo1Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo1Fonctions_test.js --reporter list"})
 
-`calcul(num)` appelle la fonction `calcul` avec un paramètre (égal à 4). Dans le `console.log` de la dernière ligne, `calcul(num)` est "remplacé" par la valeur retournée (`return y`) par la fonction `calcul`.
+`calcul(num)` appelle la fonction `calcul` avec un paramètre, ici égal à la valeur contenu dans la variable `num`. Dans le `console.log` de la dernière ligne, `calcul(num)` est "remplacé" par la valeur retournée (`return y`) par la fonction `calcul`.
