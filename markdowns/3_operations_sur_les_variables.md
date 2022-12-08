@@ -113,7 +113,7 @@ Incrémentation ++ augmente une variable de 1 :
 ```jsx
 let i = 2;
 i++;      // fonctionne de la même manière que i = i + 1, mais c'est plus court
-consoloe.log( i ); // 3
+console.log( i ); // 3
 ```
 Décrémentation -- diminue une variable de 1 :
 ```jsx
