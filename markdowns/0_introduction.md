@@ -17,7 +17,7 @@ Il s'adresse aux stagiaires de la préparatoire numérique de l'[E.S.R.P. LADAPT
 
 Il n'a pas vocation à faire de vous un développeur chevronnée, mais abordent des notions fondamentales qui vous seront nécessaires si vous vous lancez dans une formation de développeur
 
-Il est très largement inspiré du [cours très complet de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/) disponible en ligne, ainsi que du [cours de Valéry Bruniaux de l’IREM Aix-Marseille](https://ens-info.irem.univ-mrs.fr/?p=26) et du [tutoriel JavaScript par Ilya Kantor](https://fr.javascript.info/). Il vivement copnseillé de consulter ces sources si vous souhaiter aller plus loin en JavaScript
+Il est très largement inspiré du [cours très complet de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/) disponible en ligne, ainsi que du [cours de Valéry Bruniaux de l’IREM Aix-Marseille](https://ens-info.irem.univ-mrs.fr/?p=26) et du [tutoriel JavaScript par Ilya Kantor](https://fr.javascript.info/). Il est vivement conseillé de consulter ces sources si vous souhaitez aller plus loin en JavaScript.
 
 Ce parcours est composé des modules suivants :
 - [Les Variables](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript/1---les-variables)
