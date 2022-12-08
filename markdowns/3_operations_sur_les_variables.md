@@ -3,7 +3,7 @@
 Il existe de nombreux opérateur en JavaScript nous allons voir ici une partie de ces opérateurs
 
 ## Les opérateurs mathématiques
-De nombreux opérateurs nous sont connus de l’école. Ce sont les additions +, multiplications \*, soustractions -, dicisions / etc.
+De nombreux opérateurs nous sont connus de l’école. Ce sont les additions +, multiplications \*, soustractions -, divisions / etc.
 Les opérations mathématiques suivantes sont supportées en javascript:
 
 - Addition +,
@@ -24,7 +24,7 @@ Par exemple:
 5 % 2 // 1, le reste de 5 divisé par 2
 8 % 3 // 2, le reste de 8 divisé par 3
 ```
-### Exponentiation 
+### Exponentiation **
 L’opérateur d’exponentiation a ** b multiplie a par lui-même b fois. En mathématiques à l’école, nous écrivons cela ab.
 
 Par exemple:
@@ -40,7 +40,7 @@ Par exemple, une racine carrée est une exponentiation de ½ :
 4 ** (1/2); // 2 (la puissance de 1/2 équivaut à une racine carrée)
 8 ** (1/3); // 2 (la puissance de 1/3 équivaut à une racine cubique)
 ```
-## Concaténation de chaînes de caractères
+## Concaténation de chaînes de caractères +
 
 Découvrons les fonctionnalités des opérateurs JavaScript qui vont au-delà de l’arithmétique scolaire.
 
@@ -48,10 +48,10 @@ Habituellement, l’opérateur + additionne des chiffres.
 
 Mais si le binaire + est appliqué aux chaînes de caractères, il les fusionne (concatène) :
 ```jsx
-let s = "my" + "string";
-console.log(s); // mystring
+let s = "ma" + "chaine de caractères";
+console.log(s); // ma chaine de caractères
 ```
-Notez que si l’un des opérandes est une chaîne de caractères, l’autre est automatiquement converti en chaîne de caractères.
+**Remarque :** *si l’un des opérandes est une chaîne de caractères, l’autre est automatiquement converti en chaîne de caractères.*
 
 Par exemple :
 ```jsx
@@ -70,7 +70,7 @@ console.log('1' + 2 + 2); // "122" and not "14"
 ```
 Ici, le premier opérande est une chaîne de caractères, le compilateur traite également les deux autres opérandes comme des chaînes de caractères. Le 2 est concaténé à '1', donc c’est comme '1'+ 2 = "12" et "12" + 2 = "122".
 
-Le binaire + est le seul opérateur qui prend en charge les chaînes de caractères de cette manière. D’autres opérateurs arithmétiques ne fonctionnent qu’avec des nombres et convertissent toujours leurs opérandes en nombres.
+Le + est le seul opérateur qui prend en charge les chaînes de caractères de cette manière. D’autres opérateurs arithmétiques ne fonctionnent qu’avec des nombres et convertissent toujours leurs opérandes en nombres.
 
 Voici l’exemple pour la soustraction et la division:
 ```jsx
@@ -80,25 +80,28 @@ console.log( '6' / '2' ); // 3, convertit les deux opérandes en nombre
 ## Modification sur place
 Nous avons souvent besoin d’appliquer un opérateur à une variable et d’y stocker le nouveau résultat.
 
-Par exemple :
+Par exemple : je veux ajouter 5 à n puis le multiplier par 2
 ```jsx
 let n = 2;
+console.log(n); // affiche 2
 n = n + 5;
+console.log(n); // affiche 7
 n = n * 2;
+console.log(n); // affiche 14
 ```
 Cette notation peut être raccourcie en utilisant les opérateurs += et \*= :
 ```jsx
 let n = 2;
 n += 5; // maintenant n = 7 (identique à n = n + 5)
 n *= 2; // maintenant n = 14 (identique à n = n * 2)
-console.log( n ); // 14
+console.log(n); // 14
 ```
-Il existe de opérateurs de “modification et assignation” courts pour tous les opérateurs arithmétiques et binaires: /=, -= etc.
+Il existe des opérateurs de “modification et assignation” courts pour tous les opérateurs arithmétiques et binaires: /=, -= etc.
 
 Ces opérateurs ont la même précédence qu’une affectation normale. Ils s’exécutent donc après la plupart des autres calculs :
 ```jsx
 let n = 2;
-n *= 3 + 5; // right part evaluated first, same as n *= 8
+n *= 3 + 5; //lapartie de droite est évaluée en premier (3 + 5 = 8) puis n est multiplié par (n *= 8);
 console.log( n ); // 16
 ```
 ## Incrémentation / décrémentation
@@ -109,13 +112,13 @@ Il y a donc des opérateurs spéciaux pour cela :
 Incrémentation ++ augmente une variable de 1 :
 ```jsx
 let i = 2;
-i++;      // fonctionne de la même manière que counter = counter + 1, mais c'est plus court
+i++;      // fonctionne de la même manière que i = i + 1, mais c'est plus court
 consoloe.log( i ); // 3
 ```
 Décrémentation -- diminue une variable de 1 :
 ```jsx
 let j = 2;
-j--;      // fonctionne de la même manière que counter = counter - 1, mais c'est plus court
+j--;      // fonctionne de la même manière que j = j - 1, mais c'est plus court
 console.log( j ); // 1
 ```
 ## Exercice 3
