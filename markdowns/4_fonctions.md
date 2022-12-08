@@ -31,6 +31,8 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 
 `calcul(num)` appelle la fonction `calcul` avec un paramètre, ici égal à la valeur contenu dans la variable `num`. Dans le `console.log` de la dernière ligne, `calcul(num)` est "remplacé" par la valeur retournée (`return y`) par la fonction `calcul`.
 
+
+
 ## Les commentaires en JavaScript
 
 Vos programmes vont être de plus en plus complexes. Pour qu'ils restent malgré tout le plus clair possible, vous devrez systématiquement ajouter des commentaires. Ces commentaires auront principalement 2 buts
