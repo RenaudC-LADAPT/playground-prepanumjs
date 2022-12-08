@@ -9,7 +9,7 @@ function calcul (x) {
 console.log("y=3x+2 avec x = " + num + " Résultat : y = " + calcul(num));
 
 // { autofold
-module
-
+module.exports = {
+	num: num,
+};
 // }
-
