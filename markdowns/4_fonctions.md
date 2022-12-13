@@ -57,7 +57,27 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >getSurface(7, 3) ➞ 10.5
 
 @[Créez la fonction getSurface]({ "stubs": ["exo4Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo4Fonctions_test.js --reporter list"})
+### Exercice : 
+Dans cet exercice, on vous demande de  dire combien d'oeufs sont présents dans le rayon d'une superette:
+ensachant qu'il existe 4 formats de boites 
+- petite = 4 oeufs
+- normale = 6 oeufs
+- grande = 10 oeufs
+- très grande = 12 oeufs
 
+On a compté les boites et on vous donne un sous-total pour chaque format de boite . Vous devez implémenter une fonction `nbrsOeufs` qui renvoie le nombre total d'oeufs dans le rayon.
+
+L’ordre des boites transmis à la fonction est : nb de petites, nb de normales, nb de grandes, nb de très grandes.
+
+Exemple:
+- nbrsOeufs(1, 0, 0, 0) ➞ 4
+- nbrsOeufs(0, 1, 0, 0) ➞ 6
+- nbrsOeufs(0, 0, 1, 0) ➞ 10
+- nbrsOeufs(0, 0, 0, 1) ➞ 12
+
+N’oubliez pas que l'on veut connaître le nombre total de d'oeufs et non pas le nombre total de boites
+
+@[Créez la fonction nbrsOeufs]({ "stubs": ["exo5Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo5Fonctions_test.js --reporter list"})
 ## Les commentaires en JavaScript
 
 Vos programmes vont être de plus en plus complexes. Pour qu'ils restent malgré tout le plus clair possible, vous devrez systématiquement ajouter des commentaires. Ces commentaires auront principalement 2 buts
