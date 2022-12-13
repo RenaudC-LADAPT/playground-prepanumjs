@@ -6,7 +6,7 @@ it("Concersion Francs suisses/Euros", function () {
   {
     assert.equal( typeof(mod.chf), "number" );
     assert.equal( typeof(mod.euros), "number" );
-    assert.equal( mod.chf
+    assert.equal( mod.euros, mod.chf*1.01248 );
   }
   catch (error)
   {
