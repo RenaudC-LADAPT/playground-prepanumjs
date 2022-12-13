@@ -9,6 +9,12 @@ En JavaScript il existe différents types de données:
 - `Object` ou « objet » en français ;
 
 La fonction `typeof(variable)` renvoie le type de la variable qui a été passé comme argument.
+
+Ce que vous devez bien comprendre ici est que les données vont pouvoir être manipulées différemment en fonction de leur type et qu’il est donc essentiel de les connaitre pour créer des scripts fonctionnels.
+```jsx
+console.log(2 + 2);\\ valeur attendue 4 car on additionne des données de type "Number"
+console.log('2' + '2');\\ valeur attendue '22' car on concatène des données de type "String"
+```
 ## Détail des différents types
 Consultez [cette page de l’excellent site de Pierre GIRAUD](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/type-donnee/) pour en apprendre plus sur les types de données
 ## Exercice 2
