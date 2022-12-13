@@ -36,7 +36,7 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en_euros` prennent en paramètre un montant en franc suisses et renvoie sa conversion en euros.
 
 @[Complétez la fonction]({ "stubs": ["exo2Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo2Fonctions_test.js --reporter list"})
-Écrivez une fonction qui prend un nombre entier de minutes et le convertit en secondes.
+Écrivez une fonction `minuteToSecond` qui prend un nombre entier de minutes et le convertit en secondes.
 
 >Exemple:
 >
@@ -45,7 +45,7 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >minuteToSecond(3) ➞ 180
 @[Complétez la fonction]({ "stubs": ["exo3Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo3Fonctions_test.js --reporter list"})
 
-Écrivez une fonction qui prend la base et la hauteur d’un triangle et retourne sa surface. Notez que la surface d’un triangle est: (base * hauteur) / 2
+Écrivez une fonction `getSurface` qui prend la base et la hauteur d’un triangle et retourne sa surface. *Notez que la surface d’un triangle est: **(base * hauteur) / 2** *
 
 >Exemple:
 >
