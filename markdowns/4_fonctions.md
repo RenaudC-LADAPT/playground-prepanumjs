@@ -47,7 +47,7 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >minuteToSecond(3) ➞ 180
 
 @[Créez la fonction minuteToSecond]({ "stubs": ["exo3Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo3Fonctions_test.js --reporter list"})
-
+### Exercice :
 Écrivez une fonction `getSurface` qui prend la base et la hauteur d’un triangle et retourne sa surface. *Notez que la surface d’un triangle est: **(base * hauteur) / 2** *
 
 >Exemple:
