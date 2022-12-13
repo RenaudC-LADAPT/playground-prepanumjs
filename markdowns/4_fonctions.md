@@ -31,11 +31,28 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 
 `calcul(num)` appelle la fonction `calcul` avec un paramètre, ici égal à la valeur contenu dans la variable `num`. Dans le `console.log` de la dernière ligne, `calcul(num)` est "remplacé" par la valeur retournée (`return y`) par la fonction `calcul`.
 
-### Exercice :
+### Exercices :
 
 Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en_euros` prennent en paramètre un montant en franc suisses et renvoie sa conversion en euros.
 
 @[Complétez la fonction]({ "stubs": ["exo2Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo2Fonctions_test.js --reporter list"})
+Écrivez une fonction qui prend un nombre entier de minutes et le convertit en secondes.
+
+>Exemple:
+>
+>minuteToSecond(4) ➞ 240
+>
+>minuteToSecond(3) ➞ 180
+@[Complétez la fonction]({ "stubs": ["exo3Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo3Fonctions_test.js --reporter list"})
+
+Écrivez une fonction qui prend la base et la hauteur d’un triangle et retourne sa surface. Notez que la surface d’un triangle est: (base * hauteur) / 2
+
+>Exemple:
+>
+>getSurface(8, 2) ➞ 8
+>
+>getSurface(7, 3) ➞ 10.5
+@[Complétez la fonction]({ "stubs": ["exo4Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo4Fonctions_test.js --reporter list"})
 
 ## Les commentaires en JavaScript
 
