@@ -11,24 +11,21 @@ supermarché AUPRÉ»
 **On peut attribuer à chacun de ces exemples une valeur logique. Soit c’est VRAI soit c’est FAUX, il n’y a pas d’autre valeur possible.**
 
 >Prix du Sans Plomb 98 chez TOPAL : 1,78 €/L
+>
 >Prix du Sans Plomb 98 chez AUPRÉ : 1,76 €/L
+>
 >La phrase « Dans la station-service TOPAL le sans plomb 98 est plus cher que dans celui du
 supermarché AUPRÉ» est donc vraie, **on dit que sa valeur logique est « VRAI »**
 
-
-Mon Salaire : 1789 €
-
-Salaire de mon collègue de Bureau : 1750 €
-
-La phrase « Je touche le même salaire que mon collègue de bureau » est fausse, **on dit que sa valeur logique est « FAUX »**
+>Mon Salaire : 1789 €
+>Salaire de mon collègue de Bureau : 1750 €
+>La phrase « Je touche le même salaire que mon collègue de bureau » est fausse, **on dit que sa valeur logique est « FAUX »**
 
 
-Camille mesure 1 m 56, Rachida mesure 1 m 67
+>Camille mesure 1 m 56, Rachida mesure 1 m 67
+>La phrase « Camille est plus petite que Rachida » est donc vraie, **on dit que sa valeur logique est « VRAI »**
 
-La phrase « Camille est plus petite que Rachida » est donc vraie, **on dit que sa valeur logique est « VRAI »**
-
-
-La phrase « En 2017, Jacques Chirac est président de la république » est fausse, **on dit que sa valeur logique est « FAUX »**
+>La phrase « En 2017, Jacques Chirac est président de la république » est fausse, **on dit que sa valeur logique est « FAUX »**
 
 ## En JavaScript
 
