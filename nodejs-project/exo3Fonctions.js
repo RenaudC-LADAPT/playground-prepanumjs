@@ -7,7 +7,7 @@
 let test1 = minuteToSecond(4);
 let test2 = minuteToSecond(3);
 module.exports = {
+	test1: test1,
 	test2: test2,
-	test1: test1
 };
 // }
