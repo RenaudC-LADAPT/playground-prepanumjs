@@ -7,7 +7,7 @@ function francs_suisses_en_euros(x) {
 
 let euros = francs_suisses_en_euros(chf);
 
-console.log( );
+console.log(chf + " franc suissses valent " + euro + " €.");
 // { autofold
 module.exports = {
 	chf: chf,
