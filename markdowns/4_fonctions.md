@@ -43,6 +43,7 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >minuteToSecond(4) ➞ 240
 >
 >minuteToSecond(3) ➞ 180
+
 @[Complétez la fonction]({ "stubs": ["exo3Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo3Fonctions_test.js --reporter list"})
 
 Écrivez une fonction `getSurface` qui prend la base et la hauteur d’un triangle et retourne sa surface. *Notez que la surface d’un triangle est: **(base * hauteur) / 2** *
@@ -52,6 +53,7 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >getSurface(8, 2) ➞ 8
 >
 >getSurface(7, 3) ➞ 10.5
+
 @[Complétez la fonction]({ "stubs": ["exo4Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo4Fonctions_test.js --reporter list"})
 
 ## Les commentaires en JavaScript
