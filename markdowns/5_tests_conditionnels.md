@@ -125,4 +125,34 @@ console.log(a > 0 || b > 0);
 
 L'opérateur logique NON (`!`) prend l'opposé logique de la valeur fournie par son opérande. Vrai devient faux et vice versa. Il est généralement utilisé avec les booléens. Lorsque cet opérateur est utilisé avec une valeur non-booléenne, il renvoie `false` si son opérande peut être converti en `true` et `true` sinon.
 
+
+## SI ALORS `if {} else {}`
+
+Prenons un exemple en JavaScript :
+
+```jsx
+const a=5; 
+if (a==5) { 
+	console.log("a est égale à 5"); 
+} 
+else { 
+	console.log("a n'est pas égale à 5"); 
+}
+```
+
+Vous constatez que le `if`  `else` se construit de la manière suivante : 
+
+```jsx
+if (/*Test Logique*/) {
+	/*action réalisée si la valeur booleene du test logique est **true** (vrai)*/
+}
+else { 
+	/*action réalisée si la valeur booleene du test logique est **false** (faux)*/
+}
+```
+
+Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
+
+
+
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
