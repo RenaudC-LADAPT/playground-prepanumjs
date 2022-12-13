@@ -18,11 +18,14 @@ supermarché AUPRÉ»
 supermarché AUPRÉ» est donc vraie, **on dit que sa valeur logique est « VRAI »**
 
 >Mon Salaire : 1789 €
+>
 >Salaire de mon collègue de Bureau : 1750 €
+>
 >La phrase « Je touche le même salaire que mon collègue de bureau » est fausse, **on dit que sa valeur logique est « FAUX »**
 
 
 >Camille mesure 1 m 56, Rachida mesure 1 m 67
+>
 >La phrase « Camille est plus petite que Rachida » est donc vraie, **on dit que sa valeur logique est « VRAI »**
 
 >La phrase « En 2017, Jacques Chirac est président de la république » est fausse, **on dit que sa valeur logique est « FAUX »**
