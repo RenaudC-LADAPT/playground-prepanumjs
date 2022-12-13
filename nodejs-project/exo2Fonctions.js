@@ -1,4 +1,4 @@
-slet chf = 10;
+let chf = 10;
 
 function francs_suisses_en_euros(x) {
  //compléter le code ici afin que la fonction renvoi la somme x en franc suisse, convertie en euros
