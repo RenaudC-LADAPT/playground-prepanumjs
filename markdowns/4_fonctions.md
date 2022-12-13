@@ -31,7 +31,11 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 
 `calcul(num)` appelle la fonction `calcul` avec un paramètre, ici égal à la valeur contenu dans la variable `num`. Dans le `console.log` de la dernière ligne, `calcul(num)` est "remplacé" par la valeur retournée (`return y`) par la fonction `calcul`.
 
+### Exercice :
 
+Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en_euros` prennent en paramètre un montant en franc suisses et renvoie sa conversion en euros.
+
+@[Complétez la fonction]({ "stubs": ["exo2Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo2Fonctions_test.js --reporter list"})
 
 ## Les commentaires en JavaScript
 
