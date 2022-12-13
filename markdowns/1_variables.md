@@ -23,7 +23,7 @@ Historiquement, on utilisait le mot clé **var** pour définir ses variables en 
 Désormais, l’utilisation de **var** est déconseillée dans la plupart des cas, bien qu’elle fonctionne toujours. Il est plutôt recommandé d’utiliser les mots clés **let** et **const** pour définir vos variables.
 
 ### let vs const
-Dans ce module de découverte nous n’entrerons dans les détails techniques.
+Dans ce module de découverte nous n’entrerons pas dans les détails techniques.
 On utilisera **let** pour déclaré des variables et **const** pour déclarer des constantes.
 
 Une **constante** est similaire à une **variable** au sens où c’est également un conteneur pour une valeur. Cependant, à la différence des variables, on ne va pas pouvoir modifier la valeur d’une constante.
@@ -46,17 +46,17 @@ le signe `=` ne possède pas du tout la même signification que le « égal »
 
 Ici, c’est un opérateur d’affectation. Il sert à indiquer qu’on affecte (ou « assigne » ou encore « stocke ») la valeur à droite du signe dans le conteneur à gauche de celui-ci. Encore une fois, la variable n’est pas « égale » à sa valeur.
 
-Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef **let** n’est utilisé q"une seule fois et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
+Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef **let** n’est utilisé qu'une seule fois et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
 
-Ensuite, vous remarquez qu’on utilise des apostrophes droits ou guillemets simples pour entourer la valeur ‘**Suzanne’** mais pas pour la valeur **10**. Cela est dû au fait que ‘**Suzanne’** est une valeur textuelle tandis que **10**  est un nombre et ces valeurs ne vont pas pouvoir être manipulées de la même façon en JavaScript.
+Ensuite, vous remarquez qu’on utilise des apostrophes droits ou guillemets simples pour entourer la valeur **‘Suzanne’** mais pas pour la valeur **10**. Cela est dû au fait que **‘Suzanne’** est une valeur textuelle tandis que **10**  est un nombre et ces valeurs ne vont pas pouvoir être manipulées de la même façon en JavaScript.
 
 Nous verrons cela en détail dans une prochaine étape.
 
 ## Exercice 1
 ### Dans l'exercice ci-dessous vous devez créer les variables suivantes :
 - **num** qui contient le nombre 42
-- **str** qui contient la chaîne de caractère *42*
+- **str** qui contient la chaîne de caractère *'42'*
 - **bool** qui contient la valeur booléenne *true*
-- **flt** qui contient la valeur 0,42
+- **flt** qui contient la valeur 0.42
 
 @[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command":"node_modules/mocha/bin/mocha exo1Variables_test.js --reporter list"})
