@@ -30,7 +30,7 @@ supermarché AUPRÉ» est donc vraie, **on dit que sa valeur logique est « VRAI
 
 >La phrase « En 2017, Jacques Chirac est président de la république » est fausse, **on dit que sa valeur logique est « FAUX »**
 
-## En JavaScript
+# En JavaScript
 
 ### Le type de données booléen (Boolean)
 
