@@ -7,7 +7,7 @@ it("Minutes en secondes", function () {
     assert.equal( typeof(mod.test1), "number" );
     assert.equal( mod.test1, 240 );
     assert.equal( typeof(mod.test2), "number" );
-     assert.equal( mod.test1, 180 );
+     assert.equal( mod.test2, 180 );
   }
   catch (error)
   {
