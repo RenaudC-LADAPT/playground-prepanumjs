@@ -136,27 +136,27 @@ let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
 ```
 
 ## Exercice
-?[Lequel de ces exemples utilise correctement le camelCase]
-[ ] let my_code_date = "c";
-[x] let myCodeDate = "c";
-[ ] let MycodeDate = "c";
-[ ] let MyCodeDate = "c";
+?[Lequel de ces exemples utilise correctement le camelCase](single)
+- [ ] let my_code_date = "c";
+- [x] let myCodeDate = "c";
+- [ ] let MycodeDate = "c";
+- [ ] let MyCodeDate = "c";
 
-?[Comment créeriez-vous une variable str qui contiendrait lachaine de caratères "LADAPT"]
-[ ] let LADAPT;
-[ ] 'LADAPT';
-[ ] let str = LADAPT;
-[x] let str = 'LADAPT';
+?[Comment créeriez-vous une variable str qui contiendrait lachaine de caratères "LADAPT"](single)
+- [ ] let LADAPT;
+- [ ] 'LADAPT';
+- [ ] let str = LADAPT;
+- [x] let str = 'LADAPT';
 
-?[Comment changeriez-vous le contenu d'une variable déjà existante str par la chaine de caractère "Suzanne"]
-[ ] let str = 'Suzanne';
-[x] str = 'Suzanne';
-[ ] str = Suzanne;
-[ ] let str = Suzanne;
+?[Comment changeriez-vous le contenu d'une variable déjà existante str par la chaine de caractère "Suzanne"](single)
+- [ ] let str = 'Suzanne';
+- [x] str = 'Suzanne';
+- [ ] str = Suzanne;
+- [ ] let str = Suzanne;
 
-?[Lesquels des déclarations ci dessoussont valables en JavaScript]
-[ ] let 1Step = 1;
-[ ] let USA! = 'United States Of America';
-[x] let maVariable = 'x';
-[ ] let this Is A Good Variable = 'Yes';
-[x] let camelCase = 'Its got the look!';
+?[Lesquels des déclarations ci dessoussont valables en JavaScript](multiple)
+- [ ] let 1Step = 1;
+- [ ] let USA! = 'United States Of America';
+- [x] let maVariable = 'x';
+- [ ] let this Is A Good Variable = 'Yes';
+- [x] let camelCase = 'Its got the look!';
