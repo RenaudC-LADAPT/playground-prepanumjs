@@ -145,13 +145,13 @@ let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
 - [ ] let MycodeDate = "c";
 - [ ] let MyCodeDate = "c";
 
-?[Comment créeriez-vous une variable str qui contiendrait lachaine de caratères "LADAPT"](single)
+?[Comment créeriez-vous une variable str qui contiendrait la chaîne de caractères "LADAPT"](single)
 - [ ] let LADAPT;
 - [ ] 'LADAPT';
 - [ ] let str = LADAPT;
 - [x] let str = 'LADAPT';
 
-?[Comment changeriez-vous le contenu d'une variable déjà existante str par la chaine de caractère "Suzanne"](single)
+?[Comment changeriez-vous le contenu d'une variable déjà existante str par la chaîne de caractères "Suzanne"](single)
 - [ ] let str = 'Suzanne';
 - [x] str = 'Suzanne';
 - [ ] str = Suzanne;
