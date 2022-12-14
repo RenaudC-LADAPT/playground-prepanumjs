@@ -74,7 +74,8 @@ Nous verrons cela en détail dans une prochaine étape.
 ### Nom des variables
 Il existe deux limitations pour un nom de variable en JavaScript :
 
->Le nom ne doit contenir que des lettres (majuscule ou minuscule), des chiffres, des symboles $ ou _ 
+>Le nom ne doit contenir que des lettres (majuscule ou minuscule), des chiffres, des symboles $ ou _
+>
 >Le premier caractère ne doit pas être un chiffre.
 ```jsx
 let userName;
