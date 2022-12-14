@@ -81,8 +81,18 @@ Il existe deux limitations pour un nom de variable en JavaScript :
 let userName;
 let test123;
 ```
-Lorsque le nom contient plusieurs mots, le camelCase est couramment utilisé. C’est-à-dire que les mots se succèdent, chaque mot à l’exception du premier commence par une majuscule : `monTresLongNom`.
+Lorsque le nom contient plusieurs mots, le camelCase est couramment utilisé.
 
+C’est-à-dire que les mots se succèdent, chaque mot à l’exception du premier commence par une majuscule : `monTresLongNom`.
+
+Exemples en Javascript :
+```jsx
+const body = document.getElementsByTagName("body");
+const myFirstParagraph = document.createElement("p");
+const helloWorld = document.createTextNode("Hello, world!");
+myFirstParagraph.appendChild(helloWorld);
+body.item(0).appendChild(myFirstParagraph);
+```
 Le signe dollar '$' et l’underscore ' _ ' peuvent également être utilisé dans les noms. Ce sont des symboles réguliers, tout comme les lettres, sans aucune signification particulière.
 
 Ces noms sont valides :
