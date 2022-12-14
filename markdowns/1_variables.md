@@ -52,7 +52,7 @@ Ensuite, vous remarquez qu’on utilise des apostrophes droits ou guillemets sim
 
 Nous verrons cela en détail dans une prochaine étape.
 
-## Exercice 1
+## Exercices
 ### Dans l'exercice ci-dessous vous devez créer les variables suivantes :
 - **num** qui contient le nombre 42
 - **str** qui contient la chaîne de caractère *'42'*
@@ -69,3 +69,81 @@ Nous verrons cela en détail dans une prochaine étape.
 ?[Que signifie le symbole = dans "let x = 2;" ]
 -[ ] x est égal à 2
 -[x] la valeur 2 est affecté à la variable x
+
+## Règles de nommage des variables
+### Nom des variables
+Il existe deux limitations pour un nom de variable en JavaScript :
+
+>Le nom ne doit contenir que des lettres (majuscule ou minuscule), des chiffres, des symboles $ ou _ 
+>Le premier caractère ne doit pas être un chiffre.
+```jsx
+let userName;
+let test123;
+```
+Lorsque le nom contient plusieurs mots, le camelCase est couramment utilisé. C’est-à-dire que les mots se succèdent, chaque mot à l’exception du premier commence par une majuscule : `monTresLongNom`.
+
+Le signe dollar '$' et l’underscore ' _ ' peuvent également être utilisé dans les noms. Ce sont des symboles réguliers, tout comme les lettres, sans aucune signification particulière.
+
+Ces noms sont valides :
+```jsx
+let $ = 1; // déclarer une variable avec le nom "$"
+let _ = 2; // et maintenant une variable avec le nom "_"
+```
+Exemples de noms de variables incorrects :
+```jsx
+let 1a; // ne peut pas commencer avec un chiffre
+
+let mon-nom; // un trait d'union '-' n'est pas autorisé dans le nom
+```
+### Attention à la casse
+on parle de « casse » pour désigner l'alternative entre capitale (ou majuscule) et minuscule. La sensibilité à la casse est essentielle en informatique selon que les différents langages employés font ou non une distinction entre majuscule et minuscule.
+
+**JavaScript est sensible à la casse**
+
+Des variables nommées `apple` et `Apple` sont deux variables différentes.
+
+### Autres caractères autorisés mais...
+Il est possible d’utiliser les caracyères accentués ou les caractères de n’importe quelle langue, y compris les lettres cyrilliques, les logogrammes chinois, etc., comme ceci :
+```jsx
+let prénom = '...';
+let имя = '...';
+let 我 = '...';
+```
+Techniquement, il n’y a pas d’erreur ici, ces noms sont autorisés, mais il existe une convention internationale d’utiliser uniquement les caracteres de a à z, A à Z et 0 à 9 dans les noms de variables.
+
+### Noms réservés
+Il existe une liste de mots réservés, qui ne peuvent pas être utilisés comme noms de variables, car ils sont utilisés par le langage lui-même.
+
+Par exemple, les mots let, class, return, function sont réservés.
+
+Le code ci-dessous donne une erreur de syntaxe :
+```jsx
+let let = 5; // impossible de nommer une variable "let", erreur!
+let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
+```
+
+## Exercice
+?[Lequel de ces exemples utilise correctement le camelCase]
+[ ] let my_code_date = "c";
+[x] let myCodeDate = "c";
+[ ] let MycodeDate = "c";
+[ ] let MyCodeDate = "c";
+
+?[Comment créeriez-vous une variable str qui contiendrait lachaine de caratères "LADAPT"]
+[ ] let LADAPT;
+[ ] 'LADAPT';
+[ ] let str = LADAPT;
+[x] let str = 'LADAPT';
+
+?[Comment changeriez-vous le contenu d'une variable déjà existante str par la chaine de caractère "Suzanne"]
+[ ] let str = 'Suzanne';
+[x] str = 'Suzanne';
+[ ] str = Suzanne;
+[ ] let str = Suzanne;
+
+Lesquels des déclarations ci dessoussont valables en JavaScript
+[ ] let 1Step = 1;
+[ ] let USA! = 'United States Of America';
+[x] let maVariable = 'x';
+[ ] let this Is A Good Variable = 'Yes';
+[x] let camelCase = 'Its got the look!';
