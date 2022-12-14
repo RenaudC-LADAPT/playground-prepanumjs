@@ -60,3 +60,12 @@ Nous verrons cela en détail dans une prochaine étape.
 - **flt** qui contient la valeur 0.42
 
 @[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command":"node_modules/mocha/bin/mocha exo1Variables_test.js --reporter list"})
+
+?[Lequel de ces mots clés est obsolète et ne doit pas être utilisé]
+-[ ] let
+-[ ] const
+-[x] var
+
+?[Que signifie le symbole = dans "let x = 2;" ]
+-[ ] x est égal à 2
+-[x] la valeur 2 est affecté à la variable x
