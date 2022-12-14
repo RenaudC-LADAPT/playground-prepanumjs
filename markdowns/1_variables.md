@@ -154,7 +154,7 @@ let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
 [ ] str = Suzanne;
 [ ] let str = Suzanne;
 
-Lesquels des déclarations ci dessoussont valables en JavaScript
+?[Lesquels des déclarations ci dessoussont valables en JavaScript]
 [ ] let 1Step = 1;
 [ ] let USA! = 'United States Of America';
 [x] let maVariable = 'x';
