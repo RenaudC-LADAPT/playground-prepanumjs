@@ -94,7 +94,7 @@ for (let i = 0; i <5; i++) {
 Examinons la déclaration for partie par partie :
 
 | partie | code | description |
-| ------ | *--* | ----------- |
+| ------ |:----:| ----------- |
 | début | let i = 0 | Exécute une fois en entrant dans la boucle |
 | condition de répétition | i < 5 | Vérifié avant chaque itération de la boucle, en cas d’échec, la boucle s’arrête |
 | instructions à répéter  | console.log'("i vaut" + i) | Exécute encore et encore tant que la condition est vraie |
