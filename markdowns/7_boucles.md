@@ -77,7 +77,7 @@ Notez que "n vaut 5" est affiché car l'instructions est éxécutée avant le te
 
 Nous avons toujours ici affaire à une boucle, mais les conditions de répétitions sont un peu différentes :
 
-```jsx
+```js
 for (/*début*/ ; /*condition de répétition*/ ; /*incrémentation*/) 
 { 
 //instructions à répéter 
@@ -91,13 +91,14 @@ for (let i = 0; i <5; i++) {
 }
 // affiche i vaut 0, puis i vaut 1, puis i vaut 2,  puis i vaut 3, puis i vaut 4
 ```
-Examinons la déclaration for partie par partie :
+Examinons la déclaration `for` partie par partie :
 
 | partie | code | description |
 | ------ |:----:| ----------- |
-| début | let i = 0 | Exécute une fois en entrant dans la boucle |
+| début | let i = 0 | Exécuté une fois en entrant dans la boucle |
 | condition de répétition | i < 5 | Vérifié avant chaque itération de la boucle, en cas d’échec, la boucle s’arrête |
-| instructions à répéter  | console.log'("i vaut" + i) | Exécute encore et encore tant que la condition est vraie |
-| incrémentation | i++ | Exécute **après** l'instructions à répéters à chaque itération |
+| instructions à répéter  | console.log'("i vaut" + i) | Exécuté encore et encore tant que la condition est vraie |
+| incrémentation | i++ | Exécuté **après** l'instructions à répéters à chaque itération |
+
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
