@@ -92,6 +92,7 @@ for (let i = 0; i <5; i++) {
 // affiche i vaut 0, puis i vaut 1, puis i vaut 2,  puis i vaut 3, puis i vaut 4
 ```
 Examinons la déclaration for partie par partie :
+
 | partie | code | description |
 | ------ | *--* | ----------- |
 | début | let i = 0 | Exécute une fois en entrant dans la boucle |
