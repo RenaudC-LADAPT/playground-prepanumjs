@@ -22,15 +22,25 @@ while (i<=10) {
 ```
 ici on aura l'affichage  suivant dans la console : 
 > 0
+> 
 > 1
+> 
 > 2
+> 
 > 3
+> 
 > 4
+> 
 > 5
+> 
 > 6
+> 
 > 7
+> 
 > 8
+> 
 > 9
+> 
 > 10
 
 ### Retour sur les [opérations sur les variables](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/operations-sur-les-variables-en-javascript)
