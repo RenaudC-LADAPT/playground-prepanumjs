@@ -84,9 +84,10 @@ for (/*début*/ ; /*condition de répétition*/ ; /*incrémentation*/)
 }
 ```
 
-Prenons un exemple, la boucke ci dessous execute `console.log'("i vaut" + i)` pour i allant de 0 à 5 exclus :
+### Exemple
+la boucke ci dessous execute `console.log'("i vaut" + i)` pour i allant de 0 à 4 (5 est exclu)
 ```jsx
-for (let i = 0; i <5; i++) { 
+for (let i = 0; i < 5; i++) { 
  console.log'("i vaut" + i);
 }
 // affiche i vaut 0, puis i vaut 1, puis i vaut 2,  puis i vaut 3, puis i vaut 4
@@ -100,5 +101,13 @@ Examinons la déclaration `for` partie par partie :
 | instructions à répéter  | console.log'("i vaut" + i) | Exécuté encore et encore tant que la condition est vraie |
 | incrémentation | i++ | Exécuté **après** l'instructions à répéters à chaque itération |
 
+
+
+## Aller plus loin
+il existe deux autres formes de boucles en JavaScript qui sont liée aux objets
+- `for/in` qui permet de parcourir l'ensemble des propriétés énumérables d'un objet. 
+- `for/of` qui parcourt l'objet et les valeurs de ses différentes propriétés.
+
+Nous reviendrons sur ces boucles dans un module sur les **Objets** en JavaScript
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
