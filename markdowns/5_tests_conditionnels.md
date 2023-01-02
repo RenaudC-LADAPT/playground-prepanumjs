@@ -218,7 +218,7 @@ function majorite(age) {
 function estPair(num) {
     return num % 2 == 0;
 };
-//On utilise l'opérateur de comparaiseon d'égalisté "==" dans l'expression "num % 2 == 0", l'expression a donc une valeur booléenne,
+//On utilise l'opérateur de comparaison d'égalité "==" dans l'expression "num % 2 == 0", l'expression a donc une valeur booléenne,
 //Ca tombe bien c'est ce que la fonction doit renvoyer
 ```
 :::
