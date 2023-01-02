@@ -162,7 +162,18 @@ Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
 
 @[Créez la fonction majorite]({ "stubs": ["exo1Conditions.js"], "command":"node_modules/mocha/bin/mocha exo1Conditions_test.js --reporter list"})
 
-### Exercice 2 
+### Exercice 2
+Écrivez une fonction `estPair` qui prend en paramètre un nombre entier et qui retourne `true` si le nombre est pair, et `false` s'il est impair.
+#### Exemples
+> estPair(2)) → true
+> 
+> estPair(3)) → false
+> 
+> estPair(-4) → true
+
+@[Créez la fonction majorite]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
+
+### Exercice 3 
 Écrivez une fonction `div` qui prend deux nombres en paramètres, et renvoi le résultat de leur division.
 Si le deuxième nombre est nul, la fonction doit renvoyer un message d'erreur.
 #### Exemples
@@ -170,9 +181,9 @@ Si le deuxième nombre est nul, la fonction doit renvoyer un message d'erreur.
 >
 > div(16, 0) → "Erreur : division par zéro interdite."
 
-@[Créez la fonction div]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
+@[Créez la fonction div]({ "stubs": ["exo3Conditions.js"], "command":"node_modules/mocha/bin/mocha exo3Conditions_test.js --reporter list"})
 
-### Exercice 3
+### Exercice 4
 Écrivez une fonction `maFunction` qui prend un nombre compris entre -100 et 100, et renvoie un message selon que le nombre est positif, négatif ou nul.
 Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un message d'erreur.
 #### Exemples
@@ -184,4 +195,4 @@ Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un me
 > 
 > maFunction(101) → "Erreur : le nombre est en dehors de l'intervalle autorisé."
 
-@[Créez la fonction div]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
+@[Créez la fonction div]({ "stubs": ["exo4Conditions.js"], "command":"node_modules/mocha/bin/mocha exo4Conditions_test.js --reporter list"})
