@@ -1,6 +1,6 @@
 
 var assert = require('assert');
-var mod = require('./exo1Conditions.js');
+var mod = require('./exo2Conditions.js');
 
 it("Est Pair ?", function () {
   try
