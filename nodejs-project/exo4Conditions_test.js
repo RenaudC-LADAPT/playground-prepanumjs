@@ -10,7 +10,7 @@ it("maFonction", function () {
     assert.equal( mod.test2, "Le nombre est négatif." );
     assert.equal( typeof(mod.test3), "string" );
     assert.equal( mod.test3,  "Le nombre est nul." );
-    assert.equal( typeof(mod.test4), "number" );
+    assert.equal( typeof(mod.test4), "string" );
     assert.equal( mod.test4, "Erreur : le nombre est en dehors de l'intervalle autorisé." );
   }
   catch (error)
