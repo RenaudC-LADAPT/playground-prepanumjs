@@ -160,18 +160,18 @@ Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
 >
 > majorite(19) → "Vous êtes majeur."
 
-@[Créez la fonction majorite]({ "stubs": ["exo1Conditions.js"], "command":"node_modules/mocha/bin/mocha exo1Conditions_test.js --reporter list"})
+@[Exercice 1 : Créez la fonction majorite]({ "stubs": ["exo1Conditions.js"], "command":"node_modules/mocha/bin/mocha exo1Conditions_test.js --reporter list"})
 
 ### Exercice 2
 Écrivez une fonction `estPair` qui prend en paramètre un nombre entier et qui retourne `true` si le nombre est pair, et `false` s'il est impair.
 #### Exemples
-> estPair(2)) → true
+> estPair(2) → true
 > 
-> estPair(3)) → false
+> estPair(3) → false
 > 
 > estPair(-4) → true
 
-@[Créez la fonction majorite]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
+@[Exercice 2 : Créez la fonction majorite]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
 
 ### Exercice 3 
 Écrivez une fonction `div` qui prend deux nombres en paramètres, et renvoi le résultat de leur division.
@@ -195,4 +195,4 @@ Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un me
 > 
 > maFunction(101) → "Erreur : le nombre est en dehors de l'intervalle autorisé."
 
-@[Créez la fonction div]({ "stubs": ["exo4Conditions.js"], "command":"node_modules/mocha/bin/mocha exo4Conditions_test.js --reporter list"})
+@[Exercice 4 : Créez la fonction maFunction]({ "stubs": ["exo4Conditions.js"], "command":"node_modules/mocha/bin/mocha exo4Conditions_test.js --reporter list"})
