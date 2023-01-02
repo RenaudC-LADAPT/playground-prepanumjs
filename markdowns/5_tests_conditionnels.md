@@ -173,7 +173,7 @@ Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
 > 
 > estPair(-4) → true
 
-@[Exercice 2 : Créez la fonction majorite]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
+@[Exercice 2 : Créez la fonction estPair]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
 
 ### Exercice 3 
 Écrivez une fonction `div` qui prend deux nombres en paramètres, et renvoi le résultat de leur division.
@@ -183,7 +183,7 @@ Si le deuxième nombre est nul, la fonction doit renvoyer un message d'erreur.
 >
 > div(16, 0) → "Erreur : division par zéro interdite."
 
-@[Créez la fonction div]({ "stubs": ["exo3Conditions.js"], "command":"node_modules/mocha/bin/mocha exo3Conditions_test.js --reporter list"})
+@[Exercice 3 : Créez la fonction div]({ "stubs": ["exo3Conditions.js"], "command":"node_modules/mocha/bin/mocha exo3Conditions_test.js --reporter list"})
 
 ### Exercice 4
 Écrivez une fonction `maFonction` qui prend un nombre compris entre -100 et 100, et renvoie un message selon que le nombre est positif, négatif ou nul.
@@ -199,8 +199,8 @@ Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un me
 
 @[Exercice 4 : Créez la fonction maFunction]({ "stubs": ["exo4Conditions.js"], "command":"node_modules/mocha/bin/mocha exo4Conditions_test.js --reporter list"})
 
-::: corrections des exercices
-###exercice 1
+::: proposition de correction exercice 1
+### exercice 1
 ```jsx
 function majorite(age) {
     if (age >= 18) {
@@ -211,7 +211,9 @@ function majorite(age) {
 };
 // si age est superieur ou égale à 18, alors la fonction renvoie "Vous êtes majeur.", sinon elle renvoie "Vous êtes mineur."
 ```
-###exercice 2
+:::
+::: proposition de correction exercice 2
+### exercice 2
 ```jsx
 function estPair(num) {
     return num % 2 == 0;
@@ -219,5 +221,56 @@ function estPair(num) {
 //On utilise l'opérateur de comparaiseon d'égalisté "==" dans l'expression "num % 2 == 0", l'expression a donc une valeur booléenne,
 //Ca tombe bien c'est ce que la fonction doit renvoyer
 ```
+:::
+::: propositions de correction exercice 3
+### exercice 3
+```jsx
+function div(num1, num2) {
+    if (num2 != 0){
+        let resultat = num1/num2;
+        return 'Le résultat de la division est ' + resultat + '.';
+    }
+    else {
+        return "Erreur : division par zéro interdite.";
+    }
+}
+```
+ou
+```jsx
+function div(num1, num2) {
+    if (num2 == 0){
+    	return "Erreur : division par zéro interdite.";
+    }
+    else {
+    	let resultat = num1/num2;
+        return 'Le résultat de la division est ${resultat}.';
+    }
+}
+```
+:::
+::: proposition de correction exercice 4
+### exercice 4
+```jsx
+function maFonction(num) {
+    //on vérifie si le nombre est dans l'intervalle autorisé
+    if (num >= -100 && num <= 100) {
+        // ensuite on vérifie si le nombre est positif, négatif ou nul
+        if (num > 0) {
+            return "Le nombre est positif.";
+        } 
+        else {
+            if (num < 0) {
+                return "Le nombre est négatif.";
+            }
+            else {
+                return "Le nombre est nul.";
+            }
+        } 
+    }
+    else {
+        return "Erreur : le nombre est en dehors de l'intervalle autorisé.";
+    }
 
+}
+```
 :::
