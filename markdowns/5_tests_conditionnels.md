@@ -164,6 +164,8 @@ Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
 
 ### Exercice 2
 Écrivez une fonction `estPair` qui prend en paramètre un nombre entier et qui retourne `true` si le nombre est pair, et `false` s'il est impair.
+
+**Attention** : Vous ne devez pas utiliser d'instruction if... else pour cet exercie, ce n'est pas utile!
 #### Exemples
 > estPair(2) → true
 > 
@@ -184,15 +186,38 @@ Si le deuxième nombre est nul, la fonction doit renvoyer un message d'erreur.
 @[Créez la fonction div]({ "stubs": ["exo3Conditions.js"], "command":"node_modules/mocha/bin/mocha exo3Conditions_test.js --reporter list"})
 
 ### Exercice 4
-Écrivez une fonction `maFunction` qui prend un nombre compris entre -100 et 100, et renvoie un message selon que le nombre est positif, négatif ou nul.
+Écrivez une fonction `maFonction` qui prend un nombre compris entre -100 et 100, et renvoie un message selon que le nombre est positif, négatif ou nul.
 Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un message d'erreur.
 #### Exemples
-> maFunction(50) → "Le nombre est positif."
+> maFonction(50) → "Le nombre est positif."
 >
-> maFunction(-50) → "Le nombre est négatif."
+> maFonction(-50) → "Le nombre est négatif."
 > 
-> maFunction(0) → "Le nombre est nul."
+> maFonction(0) → "Le nombre est nul."
 > 
-> maFunction(101) → "Erreur : le nombre est en dehors de l'intervalle autorisé."
+> maFonction(101) → "Erreur : le nombre est en dehors de l'intervalle autorisé."
 
 @[Exercice 4 : Créez la fonction maFunction]({ "stubs": ["exo4Conditions.js"], "command":"node_modules/mocha/bin/mocha exo4Conditions_test.js --reporter list"})
+
+::: corrections des exercices
+###exercice 1
+```jsx
+function majorite(age) {
+    if (age >= 18) {
+        return("Vous êtes majeur.");
+      } else {
+        return("Vous êtes mineur.");
+      }
+};
+// si age est superieur ou égale à 18, alors la fonction renvoie "Vous êtes majeur.", sinon elle renvoie "Vous êtes mineur."
+```
+###exercice 2
+```jsx
+function estPair(num) {
+    return num % 2 == 0;
+};
+//On utilise l'opérateur de comparaiseon d'égalisté "==" dans l'expression "num % 2 == 0", l'expression a donc une valeur booléenne,
+//Ca tombe bien c'est ce que la fonction doit renvoyer
+```
+
+:::
