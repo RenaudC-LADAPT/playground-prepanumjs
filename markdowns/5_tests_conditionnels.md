@@ -153,6 +153,12 @@ else {
 
 Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
 
+### Exercice 1 
+Écrivez une fonction `majorite` qui prend un âge (nombre entier) et retourne le message "Vous êtes majeur."  ou "Vous êtes mineur." selon que l'utilisateur est majeur ou mineur.
+####Exemples
+> majorite(16) → "Vous êtes mineur."
+>
+> majorite(19) → "Vous êtes majeur."
 
-
+@[Créez la fonction majorite]({ "stubs": ["exo1Conditions.js"], "command":"node_modules/mocha/bin/mocha exo1Conditions_test.js --reporter list"})
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
