@@ -2,7 +2,7 @@
 var assert = require('assert');
 var mod = require('./exo3Conditions.js');
 
-it("Est Pair ?", function () {
+it(" Histoire de Division", function () {
   try
   {
     assert.equal( typeof(mod.test1), "string" );
@@ -12,7 +12,7 @@ it("Est Pair ?", function () {
   }
   catch (error)
   {
-    printMessage('Attention', 'revoyez la déclaration de votre fonction majorite');
+    printMessage('Attention', 'revoyez la déclaration de votre fonction div(num1, num2)');
     throw error;
   }
 });
