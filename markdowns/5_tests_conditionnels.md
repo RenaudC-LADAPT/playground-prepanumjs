@@ -154,11 +154,34 @@ else {
 Important : le `else` n’est pas obligatoire, on peut utiliser `if` seul.
 
 ### Exercice 1 
-Écrivez une fonction `majorite` qui prend un âge (nombre entier) et retourne le message "Vous êtes majeur."  ou "Vous êtes mineur." selon que l'utilisateur est majeur ou mineur.
-####Exemples
+Écrivez une fonction `majorite` qui prend un âge (nombre entier) et retourne le message "Vous êtes majeur." ou "Vous êtes mineur." selon que l'utilisateur est majeur ou mineur.
+#### Exemples
 > majorite(16) → "Vous êtes mineur."
 >
 > majorite(19) → "Vous êtes majeur."
 
 @[Créez la fonction majorite]({ "stubs": ["exo1Conditions.js"], "command":"node_modules/mocha/bin/mocha exo1Conditions_test.js --reporter list"})
-![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
+
+### Exercice 2 
+Écrivez une fonction `div` qui prend deux nombres en paramètres, et renvoi le résultat de leur division.
+Si le deuxième nombre est nul, la fonction doit renvoyer un message d'erreur.
+#### Exemples
+> div(16, 2) → "Le résultat de la division est 8."
+>
+> div(16, 0) → "Erreur : division par zéro interdite."
+
+@[Créez la fonction div]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
+
+### Exercice 3
+Écrivez une fonction `maFunction` qui prend un nombre compris entre -100 et 100, et renvoie un message selon que le nombre est positif, négatif ou nul.
+Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un message d'erreur.
+#### Exemples
+> maFunction(50) → "Le nombre est positif."
+>
+> maFunction(-50) → "Le nombre est négatif."
+> 
+> maFunction(0) → "Le nombre est nul."
+> 
+> maFunction(101) → "Erreur : le nombre est en dehors de l'intervalle autorisé."
+
+@[Créez la fonction div]({ "stubs": ["exo2Conditions.js"], "command":"node_modules/mocha/bin/mocha exo2Conditions_test.js --reporter list"})
