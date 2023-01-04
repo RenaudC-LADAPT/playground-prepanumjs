@@ -60,7 +60,15 @@ Nous verrons cela en détail dans une prochaine étape.
 - **flt** qui contient la valeur 0.42
 
 @[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command":"node_modules/mocha/bin/mocha exo1Variables_test.js --reporter list"})
-
+::: Correction
+```jsx
+// Créez ci-dessous les variables demandées
+let num = 42;
+let str = '42';
+let bool = true;
+let flt = 0.42;
+```
+:::
 ?[Lequel de ces mots clés est obsolète et ne doit pas être utilisé]
 -[ ] let
 -[ ] const
