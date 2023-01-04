@@ -39,43 +39,43 @@ let xType = typeof(xType);
 :::
 ### Répondez aux questions suivantes en tenant compte des resultats de l'exercice ci-dessus
 ?[De quel type est la valeur 42 contenu dans la variable num ?](single)
-- [ ] string;
-- [x] number;
-- [ ] object;
-- [ ] boolean;
-- [ ] undefined;
+- [ ] string
+- [x] number
+- [ ] object
+- [ ] boolean
+- [ ] undefined
 
 ?[De quel type est la valeur '42' contenu dans la variable str ?](single)
-- [x] string;
-- [ ] number;
-- [ ] object;
-- [ ] boolean;
-- [ ] undefined;
+- [x] string
+- [ ] number
+- [ ] object
+- [ ] boolean
+- [ ] undefined
 
 ?[De quel type est la valeur 0.42 contenu dans la variable flt ?](single)
-- [ ] string;
-- [x] number;
-- [ ] object;
-- [ ] boolean;
-- [ ] undefined;
+- [ ] string
+- [x] number
+- [ ] object
+- [ ] boolean
+- [ ] undefined
 
 ?[De quel type est la valeur [42, '42', true, 0.42] contenu dans la variable array ?](single)
-- [ ] string;
-- [ ] number;
-- [x] object;
-- [ ] boolean;
-- [ ] undefined;
+- [ ] string
+- [ ] number
+- [x] object
+- [ ] boolean
+- [ ] undefined
 
 ?[De quel type est la valeur contenu dans la variable x ?](single)
-- [ ] string;
-- [ ] number;
-- [ ] object;
-- [ ] boolean;
-- [x] undefined;
+- [ ] string
+- [ ] number
+- [ ] object
+- [ ] boolean
+- [x] undefined
 
 ?[De quel type est la valeur true contenu dans la variable bool ?](single)
-- [ ] string;
-- [ ] number;
-- [ ] object;
-- [x] boolean;
-- [ ] undefined;
+- [ ] string
+- [ ] number
+- [ ] object
+- [x] boolean
+- [ ] undefined
