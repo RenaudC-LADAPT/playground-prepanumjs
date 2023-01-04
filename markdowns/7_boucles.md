@@ -56,7 +56,7 @@ Dans certains cas, l'utilisation de la boucle **`do while`** est plus logique ca
 ```jsx
 let n = 0;
 do {
-  document.write("n vaut ",n,"\n")
+  console.log("n vaut ",n,"\n")
 	n++;
 } while (n < 5);
 ```
@@ -96,7 +96,7 @@ for (/*début*/ ; /*condition de répétition*/ ; /*incrémentation*/)
 la boucle ci dessous execute `console.log'("i vaut" + i)` pour i allant de 0 à 4 (5 est exclu)
 ```jsx
 for (let i = 0; i < 5; i++) { 
- console.log'("i vaut" + i);
+ console.log("i vaut" + i);
 }
 // affiche i vaut 0, puis i vaut 1, puis i vaut 2,  puis i vaut 3, puis i vaut 4
 ```
