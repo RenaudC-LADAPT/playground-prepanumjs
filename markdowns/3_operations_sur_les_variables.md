@@ -121,11 +121,26 @@ let j = 2;
 j--;      // fonctionne de la même manière que j = j - 1, mais c'est plus court
 console.log( j ); // 1
 ```
-## Exercice 3
+## Exercice
 ### Opérations sur les variables dans l'exercice ci-dessous vous devez :
 - Appliquez à num l'opérateur d'incrémentation
 - Concaténez à la chaîne str la chaîne " est la réponse à la grande question sur la vie, l’univers et le reste."
 - Inversez la valeur logique de bool
 - Ajoutez à flt la valeur contenue dans num
 
-@[complétez le code]({ "stubs": ["exo3Variables.js"], "command":"node_modules/mocha/bin/mocha exo3Variables_test.js --reporter list"})
+@[Opérations sur les variables]({ "stubs": ["exo3Variables.js"], "command":"node_modules/mocha/bin/mocha exo3Variables_test.js --reporter list"})
+
+::: Correction
+```jsx
+let num = 42;
+let str = "42";
+let bool = true;
+let flt = 0.42;
+//compléter le code ci-dessous
+num++; //Application à num l'opérateur d'incrémentation
+str += " est la réponse à la grande question sur la vie, l’univers et le reste."; //Concaténation d'un chaine à la chaine str
+bool = !bool; //Inversion de la valeur logique de bool
+flt += num; // Ajout à flt de la valeur contenue dans num
+
+```
+:::
