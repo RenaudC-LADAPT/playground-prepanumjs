@@ -122,7 +122,7 @@ j--;      // fonctionne de la même manière que j = j - 1, mais c'est plus cour
 console.log( j ); // 1
 ```
 ## Exercice
-### Opérations sur les variables dans l'exercice ci-dessous vous devez :
+### Opérations sur les variables dans l'exercice ci-dessous, vous devez realiser les opérations suivantes dans l'ordre :
 - Appliquez à num l'opérateur d'incrémentation
 - Concaténez à la chaîne str la chaîne " est la réponse à la grande question sur la vie, l’univers et le reste."
 - Inversez la valeur logique de bool
