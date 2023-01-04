@@ -24,11 +24,10 @@ Par exemple:
 5 % 2 // 1, le reste de 5 divisé par 2
 8 % 3 // 2, le reste de 8 divisé par 3
 ```
-> Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
->
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
 > Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
->
-> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 ### Exponentiation **
 L’opérateur d’exponentiation a ** b multiplie a par lui-même b fois. En mathématiques à l’école, nous écrivons cela ab.
 
@@ -45,6 +44,11 @@ Par exemple, une racine carrée est une exponentiation de ½ :
 4 ** (1/2); // 2 (la puissance de 1/2 équivaut à une racine carrée)
 8 ** (1/3); // 2 (la puissance de 1/3 équivaut à une racine cubique)
 ```
+
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 ## Concaténation de chaînes de caractères +
 
 Découvrons les fonctionnalités des opérateurs JavaScript qui vont au-delà de l’arithmétique scolaire.
@@ -57,6 +61,10 @@ let s = "ma" + "chaine de caractères";
 console.log(s); // ma chaine de caractères
 ```
 **Remarque :** *si l’un des opérandes est une chaîne de caractères, l’autre est automatiquement converti en chaîne de caractères.*
+
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
 Par exemple :
 ```jsx
@@ -101,6 +109,11 @@ n += 5; // maintenant n = 7 (identique à n = n + 5)
 n *= 2; // maintenant n = 14 (identique à n = n * 2)
 console.log(n); // 14
 ```
+
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 Il existe des opérateurs de “modification et assignation” courts pour tous les opérateurs arithmétiques et binaires: /=, -= etc.
 
 Ces opérateurs ont la même précédence qu’une affectation normale. Ils s’exécutent donc après la plupart des autres calculs :
