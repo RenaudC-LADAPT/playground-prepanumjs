@@ -41,8 +41,6 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 let chf = 10;
 
 function francs_suisses_en_euros(x) {
- //compléter le code ici afin que la fonction renvoi la somme x en franc suisse, convertie en euros
- // indice : 1 CHF = 1.01367 EUR
  return x*1.01367;
 }
 
@@ -62,8 +60,6 @@ console.log(chf + " franc suisses valent " + euros + " €.");
 @[Créez la fonction minuteToSecond]({ "stubs": ["exo3Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo3Fonctions_test.js --reporter list"})
 ::: proposition de correction
 ```jsx
-//compléter le code ici afin de déclarer une fonction nommée minuteToSecond qui renvoi les minutes converties en secondes.
-
 function minuteToSecond(num) {
     return num*60;
 }
@@ -81,7 +77,6 @@ function minuteToSecond(num) {
 @[Créez la fonction getSurface]({ "stubs": ["exo4Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo4Fonctions_test.js --reporter list"})
 ::: proposition de correction
 ```jsx
-//compléter le code ici afin de déclarer une fonction nommée getSurface qui prend la base et la hauteur d’un triangle et retourne sa surface.
 function getSurface(b, h) {
     return b*h/2;
 }
