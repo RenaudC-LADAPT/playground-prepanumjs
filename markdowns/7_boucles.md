@@ -99,9 +99,9 @@ Examinons la déclaration `for` partie par partie :
 | début | let i = 0 | Exécuté une fois en entrant dans la boucle |
 | condition de répétition | i < 5 | Vérifié avant chaque itération de la boucle, en cas d’échec, la boucle s’arrête |
 | instructions à répéter  | console.log'("i vaut" + i) | Exécuté encore et encore tant que la condition est vraie |
-| incrémentation | i++ | Exécuté **après** l'instructions à répéters à chaque itération |
+| incrémentation | i++ | Exécuté **après** l'instructions à répéter à chaque itération |
 
-
+---
 
 ## Aller plus loin
 il existe deux autres formes de boucles en JavaScript qui sont liée aux objets
