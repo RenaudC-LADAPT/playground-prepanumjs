@@ -41,10 +41,13 @@ nom_du_joueur = 'Suzanne';
 //déclarer et initialiser en même temps
 let score = 10;
 ```
-Ce point est un point très important à retenir pour éviter les confusions futures : 
+**Ce point est un point très important à retenir pour éviter les confusions futures :**
 le signe `=` ne possède pas du tout la même signification que le « égal » mathématique que vous utilisez dans la vie de tous les jours.
 
-Ici, c’est un opérateur d’affectation. Il sert à indiquer qu’on affecte (ou « assigne » ou encore « stocke ») la valeur à droite du signe dans le conteneur à gauche de celui-ci. Encore une fois, la variable n’est pas « égale » à sa valeur.
+**Ici, c’est un opérateur d’affectation.**
+Il sert à indiquer qu’on affecte (ou « assigne » ou encore « stocke ») la valeur à droite du signe dans le conteneur à gauche de celui-ci. 
+> variable ← valeur
+**Encore une fois, la variable n’est pas « égale » à sa valeur.**
 
 Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef **let** n’est utilisé qu'une seule fois et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
 
