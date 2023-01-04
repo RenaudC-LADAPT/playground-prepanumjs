@@ -31,14 +31,27 @@ function maFonction(/*paramètre1*/, /*paramètre2*/, /* etc... */) {
 
 `calcul(num)` appelle la fonction `calcul` avec un paramètre, ici égal à la valeur contenu dans la variable `num`. Dans le `console.log` de la dernière ligne, `calcul(num)` est "remplacé" par la valeur retournée (`return y`) par la fonction `calcul`.
 
-### Exercice :
+## Exercices :
 
-Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en_euros` prennent en paramètre un montant en franc suisses et renvoie sa conversion en euros.
+### Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en_euros` prennent en paramètre un montant en franc suisses et renvoie sa conversion en euros.
 
 @[Complétez la fonction]({ "stubs": ["exo2Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo2Fonctions_test.js --reporter list"})
-### Exercice :
+::: proposition de correction
+```jsx
+let chf = 10;
 
-Écrivez une fonction `minuteToSecond` qui prend un nombre entier de minutes et le convertit en secondes.
+function francs_suisses_en_euros(x) {
+ //compléter le code ici afin que la fonction renvoi la somme x en franc suisse, convertie en euros
+ // indice : 1 CHF = 1.01367 EUR
+ return x*1.01367;
+}
+
+let euros = francs_suisses_en_euros(chf);
+
+console.log(chf + " franc suisses valent " + euros + " €.");
+```
+:::
+### Écrivez une fonction `minuteToSecond` qui prend un nombre entier de minutes et le convertit en secondes.
 
 >Exemple:
 >
@@ -47,8 +60,17 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >minuteToSecond(3) ➞ 180
 
 @[Créez la fonction minuteToSecond]({ "stubs": ["exo3Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo3Fonctions_test.js --reporter list"})
-### Exercice :
-Écrivez une fonction `getSurface` qui prend la base et la hauteur d’un triangle et retourne sa surface. *Notez que la surface d’un triangle est: **(base * hauteur) / 2** *
+::: proposition de correction
+```jsx
+//compléter le code ici afin de déclarer une fonction nommée minuteToSecond qui renvoi les minutes converties en secondes.
+
+function minuteToSecond(num) {
+    return num*60;
+}
+
+```
+:::
+### Écrivez une fonction `getSurface` qui prend la base et la hauteur d’un triangle et retourne sa surface. *Notez que la surface d’un triangle est: **(base * hauteur) / 2** *
 
 >Exemple:
 >
@@ -57,8 +79,16 @@ Vous devez compléter le code ci-dessous afin que la fonction `francs_suisses_en
 >getSurface(7, 3) ➞ 10.5
 
 @[Créez la fonction getSurface]({ "stubs": ["exo4Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo4Fonctions_test.js --reporter list"})
-### Exercice : 
-Dans cet exercice, on vous demande de  dire combien d'oeufs sont présents dans le rayon d'une superette:
+::: proposition de correction
+```jsx
+//compléter le code ici afin de déclarer une fonction nommée getSurface qui prend la base et la hauteur d’un triangle et retourne sa surface.
+function getSurface(b, h) {
+    return b*h/2;
+}
+
+```
+:::
+### Dans cet exercice, on vous demande de  dire combien d'oeufs sont présents dans le rayon d'une superette :
 ensachant qu'il existe 4 formats de boites 
 - petite = 4 oeufs
 - normale = 6 oeufs
@@ -78,6 +108,14 @@ Exemple:
 N’oubliez pas que l'on veut connaître le nombre total de d'oeufs et non pas le nombre total de boites
 
 @[Créez la fonction nbrsOeufs]({ "stubs": ["exo5Fonctions.js"], "command":"node_modules/mocha/bin/mocha exo5Fonctions_test.js --reporter list"})
+::: proposition de correction
+```jsx
+function nbrsOeufs(p, n, g, tg) {
+    return p*4+n*6+g*10+tg*12;
+}
+```
+:::
+
 ## Les commentaires en JavaScript
 
 Vos programmes vont être de plus en plus complexes. Pour qu'ils restent malgré tout le plus clair possible, vous devrez systématiquement ajouter des commentaires. Ces commentaires auront principalement 2 buts
