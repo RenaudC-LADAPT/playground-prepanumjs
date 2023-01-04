@@ -17,6 +17,23 @@ console.log('2' + '2');\\ valeur attendue '22' car on concatène des données de
 ```
 ## Détail des différents types
 Consultez [cette page de l’excellent site de Pierre GIRAUD](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/type-donnee/) pour en apprendre plus sur les types de données
-## Exercice 2
+## Exercice
 ### Dans l'exercice ci-dessous vous devez compléter le code pour afficher le type des variables num, str, bool, flt, array & x :
-@[complétez le code]({ "stubs": ["exo2Variables.js"], "command":"node_modules/mocha/bin/mocha exo2Variables_test.js --reporter list"})
+@[types de variables]({ "stubs": ["exo2Variables.js"], "command":"node_modules/mocha/bin/mocha exo2Variables_test.js --reporter list"})
+::: Correction
+```jsx
+let num = 42;
+let str = "42";
+let bool = true;
+let flt = 0.42;
+let array = [num, str, bool, flt];
+let x;
+//compléter le code ci-dessous (utiliser la fonction typeof)
+let numType = typeof(numType);
+let strType = typeof(strType);
+let boolType = typeof(boolType);
+let fltType = typeof(fltType);
+let arrayType = typeof(arrayType);
+let xType = typeof(xType);
+```
+:::
