@@ -24,6 +24,11 @@ Par exemple:
 5 % 2 // 1, le reste de 5 divisé par 2
 8 % 3 // 2, le reste de 8 divisé par 3
 ```
+> Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+>
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+>
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.
 ### Exponentiation **
 L’opérateur d’exponentiation a ** b multiplie a par lui-même b fois. En mathématiques à l’école, nous écrivons cela ab.
 
