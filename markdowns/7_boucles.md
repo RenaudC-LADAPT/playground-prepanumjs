@@ -20,6 +20,10 @@ while (i<5) {
 	i=i+1; 
 }
 ```
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 ici on aura l'affichage  suivant dans la console : 
 > i vaut 0
 > 
@@ -56,6 +60,10 @@ do {
 	n++;
 } while (n < 5);
 ```
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 ici on aura l'affichage  suivant dans la console : 
 > n vaut 0
 > 
@@ -85,13 +93,17 @@ for (/*début*/ ; /*condition de répétition*/ ; /*incrémentation*/)
 ```
 
 ### Exemple
-la boucke ci dessous execute `console.log'("i vaut" + i)` pour i allant de 0 à 4 (5 est exclu)
+la boucle ci dessous execute `console.log'("i vaut" + i)` pour i allant de 0 à 4 (5 est exclu)
 ```jsx
 for (let i = 0; i < 5; i++) { 
  console.log'("i vaut" + i);
 }
 // affiche i vaut 0, puis i vaut 1, puis i vaut 2,  puis i vaut 3, puis i vaut 4
 ```
+> *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 Examinons la déclaration `for` partie par partie :
 
 | partie | code | description |
