@@ -42,9 +42,11 @@ let slogan = 'Vivre ensemble, égaux & différents";
 
 ```jsx
 let phrase1 = "LADAPT | L'association pour l'insertion sociale et professionnelle des personnes handicapées";
-//delimiteur guillemets double pas besoin d'échapper les apostrophes
-let phrase2 = 'LADAPT | L\'association pour l\'insertion sociale et professionnelle des personnes handicapées';
-//delimiteur apostrophe, besoin d'échapper les apostrophes
+//délimiteur guillemets doubles"", pas besoin d'échapper les apostrophes
+let phrase2 = 'LADAPT | L'association pour l'insertion sociale et professionnelle des personnes handicapées';
+//délimiteur apostrophe '', renvoie d'un erreur car les apostrophes du texte n'ont pas été echappées
+let phrase3 = 'LADAPT | L\'association pour l\'insertion sociale et professionnelle des personnes handicapées';
+//délimiteur apostrophe '', déclaration correcte : les apostrophes sont echappées
 ```
 
 ## Concaténation
