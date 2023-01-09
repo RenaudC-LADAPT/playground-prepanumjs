@@ -245,7 +245,15 @@ Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un me
 
 @[Exercice 4 : Créez la fonction maFunction]({ "stubs": ["exo4Conditions.js"], "command":"node_modules/mocha/bin/mocha exo4Conditions_test.js --reporter list"})
 
-::: proposition de correction exercice 1
+### Exercice 5
+#### Année bissextile ?
+Si une année est bissextile alors elle a 366 jours.
+Un moyen simple de déterminer si une année est bissextile est de vérifier :
+> si l'année est divisible par 4 et non divisible par 100
+> ou si l'année est divisible par 400.
+Écrire une fonction `estBissextile(annee)` renvoyant "bissextile" si une année fournie en paramètre est bissextile et "non bissextile" sinon.
+
+@[Exercice 5 : Année bissextile ?]({ "stubs": ["exo5Conditions.js"], "command":"node_modules/mocha/bin/mocha exo5Conditions_test.js --reporter list"})
 ### exercice 1
 ```jsx
 function majorite(age) {
