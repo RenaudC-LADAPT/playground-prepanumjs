@@ -42,7 +42,8 @@ En fait, Il y a une toute petite différence entre les deux, et celle que vous r
 ```jsx
 let slogan = 'Vivre ensemble, égaux & différents";
 ```
-**Faites attention cependant à un point : si votre chaine contient un caractère qui est le même que le délimiteur de chaine choisi, il faudra neutraliser ce caractère en l’échappant au moyen d’un antislash ou changer de délimiteur.**
+**Faites attention cependant à un point :**
+>si votre chaine contient un caractère qui est le même que le délimiteur de chaine choisi, il faudra neutraliser ce caractère en l’échappant au moyen d’un antislash `\` ou changer de délimiteur.
 
 ```jsx
 let phrase1 = "LADAPT | L'association pour l'insertion sociale et professionnelle des personnes handicapées";
