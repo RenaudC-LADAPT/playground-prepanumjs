@@ -251,9 +251,11 @@ Si une année est bissextile alors elle a 366 jours.
 Un moyen simple de déterminer si une année est bissextile est de vérifier :
 > si l'année est divisible par 4 et non divisible par 100
 > ou si l'année est divisible par 400.
+
 Écrire une fonction `estBissextile(annee)` renvoyant "bissextile" si une année fournie en paramètre est bissextile et "non bissextile" sinon.
 
 @[Exercice 5 : Année bissextile ?]({ "stubs": ["exo5Conditions.js"], "command":"node_modules/mocha/bin/mocha exo5Conditions_test.js --reporter list"})
+::: proposition de correction exercice 1
 ### exercice 1
 ```jsx
 function majorite(age) {
@@ -326,5 +328,17 @@ function maFonction(num) {
     }
 
 }
+```
+:::
+::: proposition de correction exercice 5
+### exercice 5
+```jsx
+function estBissextile(y) {
+    if ((y % 4 == 0 && y % 100 != 0)|| y % 400 == 0) {
+        return("bissextile");
+      } else {
+        return("non bissextile");
+      }
+};
 ```
 :::
