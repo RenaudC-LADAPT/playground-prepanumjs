@@ -18,7 +18,9 @@ let badString = Voici un test;
 let badString = 'Voici un test;
 let badString = Voici un test';
 ```
-Ces lignes de code ne fonctionnent pas parce que toute chaîne de texte qui n'est pas écrite entre guillemets est considérée comme un nom de variable, un nom de propriété, un mot réservé ou quelque chose de semblable. Quand l'interpréteur ne parvient pas à trouver la déclaration de ladite variable, une erreur est déclenchée (par ex. « missing ; before statement »). Si l'interpréteur voit le début d'une chaîne mais ne trouve pas sa fin, comme dans la ligne 2, il se plaint en émettant une erreur (avec « unterminated string literal »). Si votre programme produit de telles erreurs, revoyez‑le et vérifiez qu'aucun guillemet ne manque.
+Ces lignes de code ne fonctionnent pas parce que toute chaîne de texte qui n'est pas écrite entre guillemets est considérée comme un nom de variable, un nom de propriété, un mot réservé ou quelque chose de semblable.
+
+Quand l'interpréteur ne parvient pas à trouver la déclaration de ladite variable, une erreur est déclenchée (par ex. « missing ; before statement »). Si l'interpréteur voit le début d'une chaîne mais ne trouve pas sa fin, comme dans la ligne 2, il se plaint en émettant une erreur (avec « unterminated string literal »). Si votre programme produit de telles erreurs, revoyez‑le et vérifiez qu'aucun guillemet ne manque.
 
 L'assertion suivante fonctionne si la variable `slogan` a été préalablement définie — essayez maintenant :
 ```jsx
@@ -39,8 +41,10 @@ let slogan = 'Vivre ensemble, égaux & différents";
 **Faites attention cependant à un point : si votre chaine contient un caractère qui est le même que le délimiteur de chaine choisi, il faudra neutraliser ce caractère en l’échappant au moyen d’un antislash ou changer de délimiteur.**
 
 ```jsx
-let phrase1 = "LADAPT | L'association pour l'insertion sociale et professionnelle des personnes handicapées"; //delimiteur guillemets double pas besoin d'échapper les apostrophes
-let phrase2 = 'LADAPT | L\'association pour l\'insertion sociale et professionnelle des personnes handicapées'; //delimiteur apostrophe, besoin d'échapper les apostrophes
+let phrase1 = "LADAPT | L'association pour l'insertion sociale et professionnelle des personnes handicapées";
+//delimiteur guillemets double pas besoin d'échapper les apostrophes
+let phrase2 = 'LADAPT | L\'association pour l\'insertion sociale et professionnelle des personnes handicapées';
+//delimiteur apostrophe, besoin d'échapper les apostrophes
 ```
 
 ## Concaténation
