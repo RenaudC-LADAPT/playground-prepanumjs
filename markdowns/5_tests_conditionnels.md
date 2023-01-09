@@ -249,8 +249,9 @@ Si le nombre  est en dehors de l'intervalle autorisé, la fonction renvoie un me
 #### Année bissextile ?
 Si une année est bissextile alors elle a 366 jours.
 Un moyen simple de déterminer si une année est bissextile est de vérifier :
-> si l'année est divisible par 4 et non divisible par 100
-> ou si l'année est divisible par 400.
+> si l'année est divisible par 4 **et** non divisible par 100
+> **ou**
+> si l'année est divisible par 400.
 
 Écrire une fonction `estBissextile(annee)` renvoyant "bissextile" si une année fournie en paramètre est bissextile et "non bissextile" sinon.
 
