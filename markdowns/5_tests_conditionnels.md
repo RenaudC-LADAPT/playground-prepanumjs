@@ -84,13 +84,13 @@ alert(3<=3); // 3 inférieur ou  égale à 3 - affichera vrai (true)
 alert(3>=3); // 3 supérieur ou  égale à 3 - affichera vrai (true)
 ```
 
-> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.*
 > 
-> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
-> remplacez l'URL par about:blank pour avoir une page vierge
+> *ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+> *remplacez l'URL par about:blank pour avoir une page vierge*
 > 
-> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
-> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+> *Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
+> *Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
 
 ### Tester l’égalité
@@ -102,13 +102,13 @@ alert(2 == "2"); // affichera vrai (true)
 alert(2 === "2"); // affichera faux (false)
 ```
 
-> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.*
 > 
-> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
-> remplacez l'URL par about:blank pour avoir une page vierge
+> *ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+> *remplacez l'URL par about:blank pour avoir une page vierge*
 > 
-> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
-> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+> *Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
+> *Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
 ### Tester la différence
 
@@ -121,13 +121,13 @@ Si vous voulez vérifier que deux variables sont différentes *en valeur et en 
 alert(2 !== "2"); // affichera vrai (true)
 ```
 
-> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.*
 > 
-> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
-> remplacez l'URL par about:blank pour avoir une page vierge
+> *ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+> *remplacez l'URL par about:blank pour avoir une page vierge*
 > 
-> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
-> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+> *Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
+> *Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
 ### ET logique (`&&`)
 
@@ -140,13 +140,13 @@ console.log(a > 0 && b > 0);
 // resultat attendu: false
 ```
 
-> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.*
 > 
-> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
-> remplacez l'URL par about:blank pour avoir une page vierge
+> *ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+> *remplacez l'URL par about:blank pour avoir une page vierge*
 > 
-> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
-> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+> *Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
+> *Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
 ### OU logique (`||`)
 
