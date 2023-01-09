@@ -15,7 +15,11 @@ Comme nous l'avons fait avec les nombres, nous déclarons une variable, l'initia
 Si vous ne le faites pas, ou si vous oubliez un des guillemets, vous déclenchez une erreur. Essayez d'entrer une de ces lignes :
 ```jsx
 let badString = Voici un test;
+```
+```jsx
 let badString = 'Voici un test;
+```
+```jsx
 let badString = Voici un test';
 ```
 Ces lignes de code ne fonctionnent pas parce que toute chaîne de texte qui n'est pas écrite entre guillemets est considérée comme un nom de variable, un nom de propriété, un mot réservé ou quelque chose de semblable.
