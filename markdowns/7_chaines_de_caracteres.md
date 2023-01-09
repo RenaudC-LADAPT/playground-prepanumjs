@@ -56,7 +56,7 @@ let phrase3 = 'LADAPT | L\'association pour l\'insertion sociale et professionne
 
 ## Concaténation
 
-Concaténer est un terme de programmation du genre chic qui signifie « attacher ensemble ». Pour attacher des chaînes en JavaScript, on utilise l'opérateur plus (+) , le même que l'on utilise pour ajouter deux nombres, mais dans ce contexte il fait quelque chose de différent. testez cet exemple dans la console.
+Concaténer est un terme de programmation qui signifie « attacher ensemble ». Pour attacher des chaînes en JavaScript, on utilise l'opérateur plus `+` , le même que l'on utilise pour ajouter deux nombres, mais dans ce contexte il fait quelque chose de différent. testez cet exemple dans la console.
 ```jsx
 let one = 'Hello, ';
 let two = 'comment allez‑vous ?';
@@ -73,9 +73,11 @@ alert(multiple);
 ```
 Vous pouvez aussi mélanger des variables avec des vraies chaînes(*chaînes littérales*). testez :
 ```jsx
-let reponse = one + 'Je vais bien — et vous ' + two;
-alert(reponse);
+let laReponse = 42;
+let phrase = laReponse + 'est la réponse à "la grande question sur la vie, l’univers et le reste"!';
+alert(phrase);
 ```
+
 ## Les littéraux de gabarits
 
 On a vu plus tôt dans ce cours qu’il fallait en JavaScript toujours entourer nos chaines de caractères (nos textes) avec des apostrophes ou des guillemets.
