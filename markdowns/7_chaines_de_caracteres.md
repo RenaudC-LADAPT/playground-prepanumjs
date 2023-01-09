@@ -105,9 +105,53 @@ Leur somme vaut ${x + y}`);
 ### De quelle manière sont indexées les chaînes ?
 
 Chaque caractère qui se trouve dans une chaîne correspond à un numéro d’index. La numérotation commence par 0.
+exemple pour la chaine de caractère `LADAPT est une association.`
 
-| L | A | D | A | P | T |   | e | s | t |   | u | n | e |   | a | s | s | o | c | i | a | t | i | o | n |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
+| L | A | D | A | P | T |   | e | s | t |   | u | n | e |   | a | s | s | o | c | i | a | t | i | o | n | . |
+| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+Le premier caractère de la chaîne est `L` correspond à l’index 0. Le dernier caractère est `.` correspond à 26. Les espaces sont également indexés: le 6, 10  et 14.
+### Déterminer la longueur d’une chaîne
+En utilisant la propriété `length`, vous pouvez obtenir le nombre de caractères dans une chaîne.
+```jsx
+"LADAPT est une association.".length;// renvoie 27
+```
+> **ATTENTION**
+>
+> la propriété `length` renvoie le nombre réel de caractères, dans l'exemple 27 et pas le numéro d’index final 26.
+> 
+> il y a bien 27 caractères numérotés de 0 à 26
 
+### Accéder aux caractères
+Dans la console, entrez l'instruction suivante : 
+```jsx
+"LADAPT est une association."[5];
+```
+?[Quel resultat obtenez-vous ?](single)
+- [ ] A
+- [ ] D
+- [ ] P
+- [x] T
+- [ ] L
+
+En utilisant des crochets et le bon numéro d'index, vous pouvez accéder à n’importe quel caractère de la chaîne.
+
+Vous pouvez également utiliser la méthode charAt() pour renvoyer le caractère en utilisant le numéro d’index comme paramètre
+```jsx
+"LADAPT est une association.".charAt(7); // renvoie 'e'
+```
+Vous pouvez utiliser indexOf() pour renvoyer le numéro d’index par la première instance d’un caractère.
+```jsx
+"LADAPT est une association.".indexOf('A'); // renvoie 1
+```
+Bien que `A` apparaisse deux fois dans la chaîne , indexOf() obtiendra la première instance, ici 1.
+
+lastIndexOf() permet de trouver la dernière instance.
+```jsx
+"LADAPT est une association.".lastIndexOf('A'); // renvoie 3
+```
+Avec ces deux méthodes, vous pouvez également rechercher plusieurs caractères dans la chaîne. Elles renverront le numéro d’index du premier caractère dans l’instance.
+```jsx
+"LADAPT est une association.".indexOf("est");// renvoie 7
+```
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
