@@ -21,6 +21,10 @@ while (i<5) {
 }
 ```
 > *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
 > Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
 > Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
@@ -61,6 +65,10 @@ do {
 } while (n < 5);
 ```
 > *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
 > Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
 > Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
@@ -101,6 +109,10 @@ for (let i = 0; i < 5; i++) {
 // affiche i vaut 0, puis i vaut 1, puis i vaut 2,  puis i vaut 3, puis i vaut 4
 ```
 > *Pour tester l'exemple, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
 > Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
 > Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 
