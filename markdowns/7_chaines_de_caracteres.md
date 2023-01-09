@@ -51,9 +51,29 @@ let phrase3 = 'LADAPT | L\'association pour l\'insertion sociale et professionne
 
 ## Concaténation
 
+Concaténer est un terme de programmation du genre chic qui signifie « attacher ensemble ». Pour attacher des chaînes en JavaScript, on utilise l'opérateur plus (+) , le même que l'on utilise pour ajouter deux nombres, mais dans ce contexte il fait quelque chose de différent. testez cet exemple dans la console.
+```jsx
+let one = 'Hello, ';
+let two = 'comment allez‑vous ?';
+let joined = one + two;
+alert(joined);
+```
+Il en résulte que la variable nommée `joined` contient la valeur `'Hello, comment allez‑vous ?'`.
+
+Dans l'exemple, nous avons juste attaché deux chaînes ensemble, mais vous pouvez en attacher autant que vous voulez, pour autant que vous mettiez un signe + entre chacune.
+Essayez ceci :
+```jsx
+let multiple = one + one + one + one + two;
+alert(multiple);
+```
+Vous pouvez aussi mélanger des variables avec des vraies chaînes(*chaînes littérales*). testez :
+```jsx
+let reponse = one + 'Je vais bien — et vous ' + two;
+alert(reponse);
+```
 ## Les littéraux de gabarits
 
-On a vu plus tôt dans ce cours qu’il fallait en JavaScript toujours entourer nos chaines de caractères (nos textes) avec des apostrophes ou des guillemets droits.
+On a vu plus tôt dans ce cours qu’il fallait en JavaScript toujours entourer nos chaines de caractères (nos textes) avec des apostrophes ou des guillemets.
 
 Il existe en fait une troisième manière introduite récemment d’entourer des chaines de caractères en JavaScript qui va utiliser des accents graves `` ` ``.
 
@@ -63,6 +83,16 @@ Cela signifie notamment qu’on va pouvoir placer du texte et des variables ense
 
 Pour que cela fonctionne bien, il va cependant falloir respecter une certaine syntaxe : il va falloir placer les expressions entre ${ et }.
 
-Prenons immédiatement un exemple pour bien comprendre. Pour cela, je vais créer deux variables et ensuite utiliser une boite d’alerte pour afficher leur valeur et la somme des valeurs avec un texte. On va faire ça de deux façons différentes : en utilisant la concaténation d’abord puis en utilisant les littéraux de gabarits.
+Prenons immédiatement un exemple pour bien comprendre. 
+```jsx
+let x = 2;
+let y = 40;
+//version avec concaténation
+alert('x contient ' + x + '\ny contient ' + y +'\nLeur somme vaut ' + (x + y));
+// version utilisant les littéraux de gabarits.
+alert(`x contient ${x}
+y contient ${y}
+Leur somme vaut ${x + y}`);
+```
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
