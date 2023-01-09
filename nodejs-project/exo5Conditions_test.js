@@ -8,9 +8,9 @@ it("année bissextile", function () {
     assert.equal( typeof(mod.test1), "string" );
     assert.equal( mod.test1, "non bissextile" );
     assert.equal( typeof(mod.test2), "string" );
-    assert.equal( mod.test2, "bissextile" );
+    assert.equal( mod.test2, "non bissextile" );
     assert.equal( typeof(mod.test3), "string" );
-    assert.equal( mod.test3, "non bissextile" );
+    assert.equal( mod.test3, "bissextile" );
     assert.equal( typeof(mod.test4), "string" );
     assert.equal( mod.test4, "bissextile" );
     assert.equal( typeof(mod.test5), "string" );
