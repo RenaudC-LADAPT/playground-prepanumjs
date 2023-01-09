@@ -29,5 +29,6 @@ Ce parcours est composé des modules suivants :
 - [Opérations sur les variables en JavaScript](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
 - [Les fonctions en JavaScript](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
 - [Les tests conditionnels](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Les tableaux](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
 - [Les boucles](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
+- [Les chaînes de caractères](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
+- [Les tableaux](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
