@@ -1,12 +1,12 @@
 # les chaînes de caractères en JavaScript
 
 ## Créer une chaîne de texte
-- Pour débuter, ouvrez un nouvel onglet : *Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+- Pour débuter, ouvrez une nouvelle fenêtre : *Ctrl + N (sous Windows) ou Cmd + N (sous Mac).*
 - Remplacez l'URL par about:blank pour avoir une page vierge.
 - Ouvrez la console : *appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
 
 ```jsx
-let slogan = 'Vivre ensembles, égaux et différents';
+let slogan = 'Vivre ensemble, égaux & différents';
 slogan;
 ```
 
@@ -28,8 +28,23 @@ string;
 badString est maintenant défini avec la même valeur que string.
 
 ### Guillemets simples vs guillemets doubles
+Toute valeur stockée dans une variable en utilisant des guillemets doubles ou des guillemets simples (apostrophes) sera considérée comme une chaine de caractères, et ceci même dans le cas où nos caractères sont à priori des chiffres comme "42" par exemple.
+
+En JavaScript, on va pouvoir utiliser indifféremment des guillemets doubles ou des apostrophes pour entourer une chaine de caractères et ces deux méthodes vont être strictement équivalentes à la différence d’autres langages(*PHP par exemple*)
+
+En fait, Il y a une toute petite différence entre les deux, et celle que vous retenez relève de la préférence personnelle. Prenez-en une, et tenez‑vous y toutefois : du code avec des mises entre guillemets diversifiées peut amener des confusions, en particulier si vous utilisez les deux sortes dans la même chaîne ! Ce qui suit renvoie une erreur :
+
+let slogan = 'Vivre ensemble, égaux & différents";
+
+**Faites attention cependant à un point : si votre chaine contient un caractère qui est le même que le délimiteur de chaine choisi, il faudra neutraliser ce caractère en l’échappant au moyen d’un antislash ou changer de délimiteur.**
+
+```jsx
+let phrase1 = "LADAPT | L’association pour l'insertion sociale et professionnelle des personnes handicapées"; //delimiteur guillemets double pas besoin d'échapper l'apostrophe
+let phrase2 = 'LADAPT | L’association pour l\'insertion sociale et professionnelle des personnes handicapées'; //delimiteur apostrophe, besoin d'échapper l'apostrophe
+```
 
 ## Concaténation
+
 ## Les littéraux de gabarits
 
 On a vu plus tôt dans ce cours qu’il fallait en JavaScript toujours entourer nos chaines de caractères (nos textes) avec des apostrophes ou des guillemets droits.
