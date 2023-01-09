@@ -101,5 +101,13 @@ alert(`x contient ${x}
 y contient ${y}
 Leur somme vaut ${x + y}`);
 ```
+## Indexation des chaînes de caractères
+### De quelle manière sont indexées les chaînes ?
+
+Chaque caractère qui se trouve dans une chaîne correspond à un numéro d’index. La numérotation commence par 0.
+
+| L | A | D | A | P | T |   | e | s | t |   | u | n | e |   | a | s | s | o | c | i | a | t | i | o | n |
+| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
