@@ -110,6 +110,7 @@ exemple pour la chaine de caractère `LADAPT est une association.`
 | L | A | D | A | P | T |   | e | s | t |   | u | n | e |   | a | s | s | o | c | i | a | t | i | o | n | . |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+
 Le premier caractère de la chaîne est `L` correspond à l’index 0. Le dernier caractère est `.` correspond à 26. Les espaces sont également indexés: le 6, 10  et 14.
 ### Déterminer la longueur d’une chaîne
 En utilisant la propriété `length`, vous pouvez obtenir le nombre de caractères dans une chaîne.
