@@ -158,6 +158,15 @@ const b = -2;
 console.log(a > 0 || b > 0);
 // resultat attendu: true
 ```
+
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.*
+> 
+> *ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+> *remplacez l'URL par about:blank pour avoir une page vierge*
+> 
+> *Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
+> *Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
+
 ### NON logique (`!`)
 
 L'opérateur logique NON (`!`) prend l'opposé logique de la valeur fournie par son opérande. Vrai devient faux et vice versa. Il est généralement utilisé avec les booléens. Lorsque cet opérateur est utilisé avec une valeur non-booléenne, il renvoie `false` si son opérande peut être converti en `true` et `true` sinon.
