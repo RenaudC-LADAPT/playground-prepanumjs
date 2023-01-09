@@ -83,6 +83,13 @@ Une comparaison moins stricte, qui accepte l’égalité, peut se faire avec le 
 alert(3<=3); // 3 inférieur ou  égale à 3 - affichera vrai (true)
 alert(3>=3); // 3 supérieur ou  égale à 3 - affichera vrai (true)
 ```
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 ### Tester l’égalité
 Ne pas confondre l’opérateur d’affectation **=** avec l’opérateur d’égalité **`==`**
 
@@ -91,6 +98,13 @@ Bien différencier le **`==`** qui vérifie l’égalité des valeurs et le *
 alert(2 == "2"); // affichera vrai (true)
 alert(2 === "2"); // affichera faux (false)
 ```
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 ### Tester la différence
 
 Pour vérifier que deux variables sont différentes *en valeur* on utilise le signe **`!=`**
@@ -101,6 +115,13 @@ Si vous voulez vérifier que deux variables sont différentes *en valeur et en 
 ```jsx
 alert(2 !== "2"); // affichera vrai (true)
 ```
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 ### ET logique (`&&`)
 
 L'opérateur ET logique (`&&`) (conjonction logique) renvoie vrai si et uniquement si ses deux opérandes sont `true` ou équivalents à `true`. Il est généralement utilisé avec des valeurs booléennes et, quand c'est le cas, il renvoie une valeur booléenne. 
@@ -111,6 +132,13 @@ const b = -2;
 console.log(a > 0 && b > 0);
 // resultat attendu: false
 ```
+> *Pour tester les exemples, vous pouvez utiliser la console JavaScript de votre navigateur.
+> 
+> ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
+> remplacez l'URL par about:blank pour avoir une page vierge
+> 
+> Pour ouvrir la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+> Vous pouvez alors saisir votre code et appuyer sur Entrée pour l'exécuter.*
 ### OU logique (`||`)
 
 L'opérateur OU logique (`||`) (disjonction logique) renvoie vrai si et seulement si au moins un de ses opérandes est vrai. Cet opérateur est généralement utilisé avec des valeurs booléennes et, lorsque c'est le cas, il renvoie une valeur booléenne.
