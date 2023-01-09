@@ -1,9 +1,9 @@
 # les chaînes de caractères en JavaScript
 
 ## Créer une chaîne de texte
-Pour débuter, ouvrez un nouvel onglet Ctrl + T (sous Windows) ou Cmd + T (sous Mac).
-remplacez l'URL par about:blank pour avoir une page vierge
-Ouvrez la console, appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).
+- Pour débuter, ouvrez un nouvel onglet : *Ctrl + T (sous Windows) ou Cmd + T (sous Mac).*
+- Remplacez l'URL par about:blank pour avoir une page vierge.
+- Ouvrez la console : *appuyez sur les touches Ctrl + Maj + J (sous Windows) ou Cmd + Opt + J (sous Mac).*
 
 ```jsx
 let slogan = 'Vivre ensembles, égaux et différents';
