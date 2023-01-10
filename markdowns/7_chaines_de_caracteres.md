@@ -10,7 +10,7 @@ let slogan = 'Vivre ensemble, égaux & différents';
 slogan;
 ```
 
-Comme nous l'avons fait avec les nombres, nous déclarons une variable, l'initialisons avec une valeur de chaîne, puis renvoyons la valeur. La seule différence ici est que lorsque nous écrivons une chaîne, nous la mettons entre guillemets.
+Comme avec les nombres, on declare une variable avec `let` ou `const`, et on l'initialise avec une valeur de chaîne. La seule différence ici est que lorsque nous écrivons une chaîne, nous la mettons entre guillemets.
 
 Si vous ne le faites pas, ou si vous oubliez un des guillemets, vous déclenchez une erreur. Essayez d'entrer une de ces lignes :
 ```jsx
@@ -108,11 +108,11 @@ Chaque caractère qui se trouve dans une chaîne correspond à un numéro d’in
 exemple pour la chaine de caractère `LADAPT est une association.`
 
 | L | A | D | A | P | T |   | e | s | t |   | u | n | e |   |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - | - | - | - | -- | -- | -- | -- | -- |
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 
 | a | s | s | o | c | i | a | t | i | o | n | . |
-| - | - | - | - | - | - | - | - | - | - | - | - |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
 
 Le premier caractère de la chaîne est `L` et correspond à l’index 0. Le dernier caractère est `.`, il correspond à 26.
