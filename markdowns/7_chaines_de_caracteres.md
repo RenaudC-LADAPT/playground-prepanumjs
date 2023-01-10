@@ -140,7 +140,7 @@ Vous pouvez également utiliser la méthode charAt() pour renvoyer le caractère
 ```jsx
 "LADAPT est une association.".charAt(7); // renvoie 'e'
 ```
-Vous pouvez utiliser indexOf() pour renvoyer le numéro d’index par la première instance d’un caractère.
+Vous pouvez utiliser `indexOf()` pour renvoyer le numéro d’index par la première instance d’un caractère.
 ```jsx
 "LADAPT est une association.".indexOf('A'); // renvoie 1
 ```
@@ -154,4 +154,41 @@ Avec ces deux méthodes, vous pouvez également rechercher plusieurs caractères
 ```jsx
 "LADAPT est une association.".indexOf("est");// renvoie 7
 ```
-![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
+Si vous mettez un caractère ou une chaîne en parametre de `indexOf()`ou`lastIndexOf()` qui n'apparait pas dans la chaine, elles renverrons l'index `-1`.
+```jsx
+"LADAPT est une association.".indexOf("O");// renvoie -1
+"LADAPT est une association.".LastIndexOf("à");// renvoie -1
+```
+## Exercices
+### Exercice 
+Écrivez une fonction `vowelCount(str)` qui prend en paramètre une chaîne de caractères et qui retourne le nombre de voyelles contenues dans la chaîne.
+```jsx
+vowelCount("Hello World!"); // doit renvoyer 3
+vowelCount("JavaScript"); // doit renvoyer 3
+```
+***indice*** : on pourra utiliser la propriété length, une boucle for, la méthode indexOf() et une chaine voyelles : 'aeiouyAEIOUY'
+
+::: Proposition de correction
+Dans cette solution, on utilise la propriété length pour déterminer la longueur de la chaîne, une boucle for pour parcourir tous les caractères de la chaîne, et la méthode indexOf() pour vérifier si un caractère donné est présent dans la chaîne "voyelles".
+
+Si la méthode indexOf() retourne un indice différent de -1 cela signifie que le caractère est une voyelle, donc on incrémente le compteur.
+La fonction retourne finalement le nombre de voyelles dans la chaine de caractère.
+
+```jsx
+function vowelCount(str) {
+  let voyelles = "aeiouyAEIOUY";
+  let count = 0;
+  
+  for (let i = 0; i < str.length; i++) {
+    if (voyelles.indexOf(str[i]) !== -1) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(vowelCount("Hello World!")); // doit afficher 3
+console.log(vowelCount("javascript")); // doit afficher 3
+
+```
+:::
