@@ -167,7 +167,7 @@ vowelCount("Hello World!"); // doit renvoyer 3
 vowelCount("JavaScript"); // doit renvoyer 3
 ```
 ***indice*** : on pourra utiliser la propriété length, une boucle for, la méthode indexOf() et une chaine voyelles : 'aeiouyAEIOUY'
-
+@[Créez la fonction vowelCount]({ "stubs": ["exo2Chaines.js"], "command":"node_modules/mocha/bin/mocha exo2Chaines_test.js --reporter list"}) 
 ::: Proposition de correction
 Dans cette solution, on utilise la propriété length pour déterminer la longueur de la chaîne, une boucle for pour parcourir tous les caractères de la chaîne, et la méthode indexOf() pour vérifier si un caractère donné est présent dans la chaîne "voyelles".
 
