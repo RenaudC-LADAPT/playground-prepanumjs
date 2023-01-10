@@ -166,31 +166,41 @@ Si vous mettez un caractère ou une chaîne en parametre de `indexOf()`ou`lastIn
 vowelCount("Hello World!"); // doit renvoyer 3
 vowelCount("JavaScript"); // doit renvoyer 3
 ```
-***indice*** : on pourra utiliser la propriété length, une boucle for, la méthode indexOf() et une chaine voyelles : 'aeiouyAEIOUY'
+:::***indice 1*** :
+déclarer une variables voyelles = 'aeiouyAEIOUY' et une variable compteur = 0en début de fonction
+:::
+
+:::***indice 2*** :
+utiliser la propriété length pour déterminer la longueur de la chaîne `str`
+:::
+
+:::***indice 3*** :
+la méthode indexOf() permet de vérifier si un élément donné est présent dans une chaîne, si elle renvoie autre chose que `-1` cela veut dire que l'élément est présent dans la chaine.
+:::
 
 @[Créez la fonction vowelCount]({ "stubs": ["exo2Chaines.js"], "command":"node_modules/mocha/bin/mocha exo2Chaines_test.js --reporter list"})
 
 ::: Proposition de correction
-Dans cette solution, on utilise la propriété length pour déterminer la longueur de la chaîne, une boucle for pour parcourir tous les caractères de la chaîne, et la méthode indexOf() pour vérifier si un caractère donné est présent dans la chaîne "voyelles".
-
-Si la méthode indexOf() retourne un indice différent de -1 cela signifie que le caractère est une voyelle, donc on incrémente le compteur.
-La fonction retourne finalement le nombre de voyelles dans la chaine de caractère.
-
 ```jsx
 function vowelCount(str) {
   let voyelles = "aeiouyAEIOUY";
-  let count = 0;
+  let compteur = 0;
   
   for (let i = 0; i < str.length; i++) {
     if (voyelles.indexOf(str[i]) !== -1) {
-      count++;
+      compteur++;
     }
   }
-  return count;
+  return compteur;
 }
 
 console.log(vowelCount("Hello World!")); // doit afficher 3
 console.log(vowelCount("javascript")); // doit afficher 3
 
 ```
+Dans cette solution, on utilise la propriété length pour déterminer la longueur de la chaîne, une boucle for pour parcourir tous les caractères de la chaîne, et la méthode indexOf() pour vérifier si un caractère donné est présent dans la chaîne "voyelles".
+
+Si la méthode `voyelles.indexOf(str[i])` retourne un indice différent de -1 cela signifie que le caractère est une voyelle, donc on incrémente le compteur.
+La fonction retourne finalement le nombre de voyelles dans la chaine de caractère.
+
 :::
