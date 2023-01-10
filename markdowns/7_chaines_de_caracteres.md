@@ -160,21 +160,42 @@ Si vous mettez un caractère ou une chaîne en parametre de `indexOf()`ou`lastIn
 "LADAPT est une association.".LastIndexOf("à");// renvoie -1
 ```
 ## Exercices
-### Exercice 
+### Exercice 1
+Écrivez une fonction `bonjour(str)` qui prend en paramètre un Prénom sous forme de chaîne de caractères et qui retourne "Bonjour 'Prenom', que la Force soit avec toi".
+@[Exercice 1 : Créez la fonction bonjour()]({ "stubs": ["exo1Chaines.js"], "command":"node_modules/mocha/bin/mocha exo1Chaines_test.js --reporter list"})
+::: Proposition de correction
+avec littéraux de gabarits
+```jsx
+function bonjour(prenom) {
+  return `Bonjour ${prenom}, que la Force soit avec toi`;
+}
+
+console.log(bonjour("Suzanne")); // doit afficher "Bonjour Suzanne, que la Force soit avec toi"
+```
+avec concaténation
+```jsx
+function bonjour(prenom) {
+  return "Bonjour " + prenom + ", que la Force soit avec toi";
+}
+
+console.log(bonjour("Suzanne")); // doit afficher "Bonjour Suzanne, que la Force soit avec toi"
+```
+:::
+### Exercice 2
 Écrivez une fonction `vowelCount(str)` qui prend en paramètre une chaîne de caractères et qui retourne le nombre de voyelles contenues dans la chaîne.
 ```jsx
 vowelCount("Hello World!"); // doit renvoyer 3
 vowelCount("JavaScript"); // doit renvoyer 3
 ```
-:::***indice 1*** :
+::: ***indice 1*** :
 déclarer une variables voyelles = 'aeiouyAEIOUY' et une variable compteur = 0en début de fonction
 :::
 
-:::***indice 2*** :
+::: ***indice 2*** :
 utiliser la propriété length pour déterminer la longueur de la chaîne `str`
 :::
 
-:::***indice 3*** :
+::: ***indice 3*** :
 la méthode indexOf() permet de vérifier si un élément donné est présent dans une chaîne, si elle renvoie autre chose que `-1` cela veut dire que l'élément est présent dans la chaine.
 :::
 
