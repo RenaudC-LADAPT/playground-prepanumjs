@@ -162,7 +162,9 @@ Si vous mettez un caractère ou une chaîne en parametre de `indexOf()`ou`lastIn
 ## Exercices
 ### Exercice 1
 Écrivez une fonction `bonjour(str)` qui prend en paramètre un Prénom sous forme de chaîne de caractères et qui retourne "Bonjour 'Prenom', que la Force soit avec toi".
+
 @[Exercice 1 : Créez la fonction bonjour()]({ "stubs": ["exo1Chaines.js"], "command":"node_modules/mocha/bin/mocha exo1Chaines_test.js --reporter list"})
+
 ::: Proposition de correction
 avec littéraux de gabarits
 ```jsx
@@ -182,6 +184,38 @@ console.log(bonjour("Suzanne")); // doit afficher "Bonjour Suzanne, que la Force
 ```
 :::
 ### Exercice 2
+Écrivez une fonction `verificationMotDePasse(password)` qui prend un argument de type string. Elle devra retourner un boolean qui vaut `true` si le password fait au moins 12 caractères et `false` si moins.
+
+@[Exercice 2 : Vérification de mot de passe()]({ "stubs": ["exo2Chaines.js"], "command":"node_modules/mocha/bin/mocha exo2Chaines_test.js --reporter list"})
+
+::: Proposition de correction
+```jsx
+function 
+```
+:::
+### Exercice 3
+Écrivez une fonction ` ` 
+
+@[Exercice 3 : ()]({ "stubs": ["exo3Chaines.js"], "command":"node_modules/mocha/bin/mocha exo3Chaines_test.js --reporter list"})
+
+::: Proposition de correction
+```jsx
+function 
+```
+:::
+
+### Exercice 4
+Écrivez une fonction ` ` 
+
+@[Exercice 4 : ()]({ "stubs": ["exo4Chaines.js"], "command":"node_modules/mocha/bin/mocha exo4Chaines_test.js --reporter list"})
+
+::: Proposition de correction
+```jsx
+function 
+```
+:::
+
+### Exercice 5
 Écrivez une fonction `vowelCount(str)` qui prend en paramètre une chaîne de caractères et qui retourne le nombre de voyelles contenues dans la chaîne.
 ```jsx
 vowelCount("Hello World!"); // doit renvoyer 3
@@ -199,7 +233,7 @@ utiliser la propriété length pour déterminer la longueur de la chaîne `str`
 la méthode indexOf() permet de vérifier si un élément donné est présent dans une chaîne, si elle renvoie autre chose que `-1` cela veut dire que l'élément est présent dans la chaine.
 :::
 
-@[Créez la fonction vowelCount]({ "stubs": ["exo2Chaines.js"], "command":"node_modules/mocha/bin/mocha exo2Chaines_test.js --reporter list"})
+@[Créez la fonction vowelCount]({ "stubs": ["exo5Chaines.js"], "command":"node_modules/mocha/bin/mocha exo5Chaines_test.js --reporter list"})
 
 ::: Proposition de correction
 ```jsx
@@ -224,4 +258,23 @@ Dans cette solution, on utilise la propriété length pour déterminer la longue
 Si la méthode `voyelles.indexOf(str[i])` retourne un indice différent de -1 cela signifie que le caractère est une voyelle, donc on incrémente le compteur.
 La fonction retourne finalement le nombre de voyelles dans la chaine de caractère.
 
+:::
+### Exercice 6
+Écrivez une fonction `verificationMotDePasseAvance(password)` qui prend un argument de type string.
+
+Elle devra retourner un boolean qui vaut `true` si les **toutes** les conditions suivantes sont respectées :
+- 'password' fait au moins 12 caractères
+- 'password' contient au moins 1 chiffres
+- 'password' contient au moins 1 lettre en majuscule
+- 'password' contient au moins 1 lettre en minuscule
+- 'password' contient au moins 1 des caractères suivant : &@$£€\*µ¥ƒ_-)([]{}#
+
+Elle devra retourner `false` si au moins une des conditions n'est pas respectée.
+
+@[Exercice 6 : Vérification de mot de passe avancée]({ "stubs": ["exo6Chaines.js"], "command":"node_modules/mocha/bin/mocha exo6Chaines_test.js --reporter list"})
+
+::: Proposition de correction
+```jsx
+function 
+```
 :::
