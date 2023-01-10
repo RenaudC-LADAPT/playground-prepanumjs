@@ -194,9 +194,19 @@ function
 ```
 :::
 ### Exercice 3
-Écrivez une fonction ` ` 
+Écrivez une fonction `replace(phrase, aRemplacer, remplacant)` qui prend 3 arguments.
+- Le premier paramètre doit être de type String et contenir la valeur du texte dans lequel vous souhaitez remplacer un caractère.
+- Le deuxième paramètre doit être de type String et contenir la valeur du caractère que vous souhaitez remplacer.
+- Le troisième paramètre doit également être de type String et contenir la valeur du caractère avec lequel vous souhaitez remplacer le caractère donné en deuxième parametre.
 
-@[Exercice 3 : ()]({ "stubs": ["exo3Chaines.js"], "command":"node_modules/mocha/bin/mocha exo3Chaines_test.js --reporter list"})
+`replace(phrase, aRemplacer, remplacant)` renvoie la `phrase` avec le caractère `aRemplacer` remplacé par le caractère `remplacant`
+
+```jsx
+replace("Hello World!", "o", "0");
+// renvoie "Hell0 W0rld!"
+```
+
+@[Exercice 3 : remplace un caractère]({ "stubs": ["exo3Chaines.js"], "command":"node_modules/mocha/bin/mocha exo3Chaines_test.js --reporter list"})
 
 ::: Proposition de correction
 ```jsx
@@ -205,9 +215,13 @@ function
 :::
 
 ### Exercice 4
-Écrivez une fonction ` ` 
+Écrivez une fonction `lettreEnChiffre(str)` qui prend un argument de type string. Elle devra retourner cette même string mais en remplacant les e (ou E) par des 3, les i ou I) par des 1 et les o (ou O) par des 0 et les (t ou T) par des 7 :
+```jsx
+lettreEnChiffre("LADAPT | L’association pour l’insertion sociale et professionnelle des personnes handicapées");
+// renvoie "LADAP7 | L’ass0c1a710n p0ur l’1ns3r7i0n s0c1al3 37 pr0f3ss10nn3ll3 d3s p3rs0nn3s hand1capé3s"
+```
 
-@[Exercice 4 : ()]({ "stubs": ["exo4Chaines.js"], "command":"node_modules/mocha/bin/mocha exo4Chaines_test.js --reporter list"})
+@[Exercice 4 : lettres en chiffres]({ "stubs": ["exo4Chaines.js"], "command":"node_modules/mocha/bin/mocha exo4Chaines_test.js --reporter list"})
 
 ::: Proposition de correction
 ```jsx
