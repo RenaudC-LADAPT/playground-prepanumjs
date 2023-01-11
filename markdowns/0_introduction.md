@@ -24,11 +24,11 @@ Il n'a pas vocation à faire de vous un·e développeur·se chevronné·e, mais 
 Il est très largement inspiré du [cours très complet de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/) disponible en ligne, ainsi que du [cours de Valéry Bruniaux de l’IREM Aix-Marseille](https://ens-info.irem.univ-mrs.fr/?p=26) et du [tutoriel JavaScript par Ilya Kantor](https://fr.javascript.info/). Il est vivement conseillé de consulter ces sources si vous souhaitez aller plus loin en JavaScript.
 
 Ce parcours est composé des modules suivants :
-- [Les Variables](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript/1---les-variables)
-- [Les types de données en JavaScript](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Opérations sur les variables en JavaScript](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Les fonctions en JavaScript](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Les tests conditionnels](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Les boucles](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Les chaînes de caractères](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
-- [Les tableaux](https://tech.io/playgrounds/99822/ladapt-rhone-metropole-de-lyon---prepa-numerique---exercices-parcours-decouverte-javascript)
+- [Les Variables](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-variables)
+- [Les types de données en JavaScript](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-types-de-donnees-en-javascript)
+- [Opérations sur les variables en JavaScript](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/operations-sur-les-variables-en-javascript)
+- [Les fonctions en JavaScript](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-fonctions-en-javascript)
+- [Les tests conditionnels](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-tests-conditionnels)
+- [Les boucles](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-boucles)
+- [Les chaînes de caractères](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-chaines-de-caracteres)
+- [Les tableaux](https://tech.io/playgrounds/ee095ce774bc37771789091bc0f60b5a22899/ladapt-rhone-metropole-de-lyon---prepa-num----parcours-decouverte-javascript/les-tableaux)
