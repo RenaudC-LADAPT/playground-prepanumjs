@@ -7,7 +7,7 @@ it("Mot de passe", function () {
     assert.equal( typeof(mod.test1), "boolean" );
     assert.equal( mod.test1, false );
     assert.equal( typeof(mod.test2), "boolean" );
-    assert.equal( mod.test1, true );
+    assert.equal( mod.test2, true );
   }
   catch (error)
   {
