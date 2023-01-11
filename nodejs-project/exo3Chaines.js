@@ -2,7 +2,7 @@
 
 
 // { autofold
-let test1 = replace("Hello World!", "o", "0");
+test1 = replace("Hello World!", "o", "0");
 module.exports = {
 	test1: test1,
 };
