@@ -8,7 +8,7 @@ Notez bien déjà qu’une variable en soi et la valeur qu’elle va stocker son
 
 Les variables sont l’une des constructions de base du JavaScript et vont être des éléments qu’on va énormément utiliser. Nous allons illustrer leur utilité par la suite.
 
-[![boites qui contient une information](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/fa547a1399b19bd4f17d089769531993e3ffde72/illustration%20var.png)
+![boites qui contient une information](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/fa547a1399b19bd4f17d089769531993e3ffde72/illustration%20var.png)
 
 Exemple : dans un programme de jeu vidéo, j’ai besoin de stocker le score et les points de vie du joueur, j’utiliserai des variables.
 
