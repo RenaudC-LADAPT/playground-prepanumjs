@@ -1,7 +1,7 @@
 var assert = require('assert');
 var mod = require('./exo3Chaines.js');
 
-it("Maitre Yoda", function () {
+it("Remplacement", function () {
   try
   {
     assert.equal( typeof(mod.test1), "string" );
