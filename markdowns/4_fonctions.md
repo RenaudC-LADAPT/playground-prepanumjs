@@ -4,9 +4,13 @@
 
 Une fonction correspond à **un bloc de code nommé et réutilisable, dont le but est d’effectuer une tâche précise**.
 
+![schema fonction0.PNG](http://zestedesavoir.com/media/galleries/285/df4cd563-07b3-4fdf-a00d-2d60d080ae07.png)
+
 Une fonction a une entrée (des informations qu'on lui fournit appelées paramètres ou arguments), exécute un travail sur ces paramètres et renvoie des informations en sortie, comme des nombres ou des messages par exemple.
 
-![schema fonction.PNG](http://zestedesavoir.com/media/galleries/285/df4cd563-07b3-4fdf-a00d-2d60d080ae07.png)
+![schema fonction1.PNG](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/fa547a1399b19bd4f17d089769531993e3ffde72/schema%20fonction.PNG)
+
+![schema fonction2.PNG](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/fa547a1399b19bd4f17d089769531993e3ffde72/schema%20fonction2.PNG)
 
 ## Définir une fonction en JavaScript
 
