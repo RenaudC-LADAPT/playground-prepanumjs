@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./exo1Chaines.js');
+var mod = require('./exo2Chaines.js');
 
 it("Mot de passe", function () {
   try
