@@ -150,7 +150,6 @@ Le code ci-dessous donne une erreur de syntaxe :
 let let = 5; // impossible de nommer une variable "let", erreur!
 let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
 ```
-
 ## Exercice
 ?[Lequel de ces exemples utilise correctement le camelCase](single)
 - [ ] let my_code_date = "c";
