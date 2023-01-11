@@ -14,18 +14,18 @@ Exemple : dans un programme de jeu vidéo, j’ai besoin de stocker le score et 
 
 ## Déclaration des variables en JavaScript
 Pour pouvoir utiliser les variables, il va déjà falloir les créer. Lorsqu’on crée une variable en JavaScript, on dit également qu’on « déclare » une variable.
-Vous pouvez **déclarer** une variable en utilisant le mot clé **let** ou le mot clé **const**.
+Vous pouvez **déclarer** une variable en utilisant le mot clé `let` ou le mot clé `const`.
 ```jsx
 let point_de_vie;
 const vie_max;
 ```
-Historiquement, on utilisait le mot clé **var** pour définir ses variables en JavaScript. Si vous avez à faire à un script qui a été codé avant 2015, c’est ce mot clé que vous retrouverez.
+Historiquement, on utilisait le mot clé `var` pour définir ses variables en JavaScript. Si vous avez à faire à un script qui a été codé avant 2015, c’est ce mot clé que vous retrouverez.
 
-Désormais, l’utilisation de **var** est déconseillée dans la plupart des cas, bien qu’elle fonctionne toujours. Il est plutôt recommandé d’utiliser les mots clés **let** et **const** pour définir vos variables.
+Désormais, l’utilisation de `var` est déconseillée dans la plupart des cas, bien qu’elle fonctionne toujours. Il est plutôt recommandé d’utiliser les mots clés `let` et `const` pour définir vos variables.
 
 ### let vs const
 Dans ce module de découverte nous n’entrerons pas dans les détails techniques.
-On utilisera **let** pour déclaré des variables et **const** pour déclarer des constantes.
+On utilisera `let` pour déclaré des variables et `const` pour déclarer des constantes.
 
 Une **constante** est similaire à une **variable** au sens où c’est également un conteneur pour une valeur. Cependant, à la différence des variables, on ne va pas pouvoir modifier la valeur d’une constante.
 
@@ -51,7 +51,7 @@ Il sert à indiquer qu’on affecte (ou « assigne » ou encore « stocke ») la
 > 
 **Encore une fois, la variable n’est pas « égale » à sa valeur.**
 
-Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef **let** n’est utilisé qu'une seule fois et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
+Vous pouvez également noter deux autres choses intéressantes dans le code ci-dessus : tout d’abord, vous pouvez voir que le mot clef `let` n’est utilisé qu'une seule fois et ne doit être utilisé que pour déclarer une variable. Lorsqu’on manipule une variable ensuite, on se contente d’utiliser son nom.
 
 Ensuite, vous remarquez qu’on utilise des apostrophes droits ou guillemets simples pour entourer la valeur **‘Suzanne’** mais pas pour la valeur **10**. Cela est dû au fait que **‘Suzanne’** est une valeur textuelle tandis que **10**  est un nombre et ces valeurs ne vont pas pouvoir être manipulées de la même façon en JavaScript.
 
