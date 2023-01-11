@@ -8,7 +8,7 @@ Notez bien déjà qu’une variable en soi et la valeur qu’elle va stocker son
 
 Les variables sont l’une des constructions de base du JavaScript et vont être des éléments qu’on va énormément utiliser. Nous allons illustrer leur utilité par la suite.
 
-[![boites qui contient une information](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables/boxes.png)](https://developer.mozilla.org)
+[![boites qui contient une information](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/fa547a1399b19bd4f17d089769531993e3ffde72/illustration%20var.png)]
 Exemple : dans un programme de jeu vidéo, j’ai besoin de stocker le score et les points de vie du joueur, j’utiliserai des variables.
 
 ## Déclaration des variables en JavaScript
@@ -63,7 +63,7 @@ Nous verrons cela en détail dans une prochaine étape.
 - **bool** qui contient la valeur booléenne *true*
 - **flt** qui contient la valeur 0.42
 
-@[Créez les variables demandées ci-dessus]({ "stubs": ["/Variables/exo1Variables.js"], "command":"node_modules/mocha/bin/mocha /Variables/exo1Variables_test.js --reporter list"})
+@[Créez les variables demandées ci-dessus]({ "stubs": ["exo1Variables.js"], "command":"node_modules/mocha/bin/mocha exo1Variables_test.js --reporter list"})
 ::: Correction
 ```jsx
 // Créez ci-dessous les variables demandées
