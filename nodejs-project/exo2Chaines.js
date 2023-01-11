@@ -7,5 +7,6 @@ test1 = verificationMotDePasse('password');
 test2 = verificationMotDePasse('motdepasselong')
 module.exports = {
 	test1: test1,
+	test2: test2,
 };
 // }
