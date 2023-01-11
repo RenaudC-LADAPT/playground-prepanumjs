@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mod = require('./exo2Chaines.js');
+var mod = require('./exo5Chaines.js');
 
 it("Nombres de Voyelles", function () {
   try
