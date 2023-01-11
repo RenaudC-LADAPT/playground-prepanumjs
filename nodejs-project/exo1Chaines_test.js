@@ -5,7 +5,7 @@ it("Maitre Yoda", function () {
   try
   {
     assert.equal( typeof(mod.test1), "string" );
-    assert.equal( mod.test1, ""Bonjour Suzanne, que la Force soit avec toi"" );
+    assert.equal( mod.test1, "Bonjour Suzanne, que la Force soit avec toi" );
   }
   catch (error)
   {
