@@ -12,8 +12,8 @@ let test5 = verificationMotDePasseAvance('[1MotDeDasseAssezLong]');
 module.exports = {
 	test1: test1,
 	test2: test2,
-	test1: test3,
-	test2: test4,
-	test1: test5,
+	test3: test3,
+	test4: test4,
+	test5: test5,
 };
 // }
