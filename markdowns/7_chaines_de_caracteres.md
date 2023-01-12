@@ -204,23 +204,19 @@ function
 ```
 :::
 ### Exercice 3
-Écrivez une fonction `replace(phrase, aRemplacer, remplacant)` qui prend 3 arguments.
-- Le premier paramètre doit être de type String et contenir la valeur du texte dans lequel vous souhaitez remplacer un caractère.
-- Le deuxième paramètre doit être de type String et contenir la valeur du caractère que vous souhaitez remplacer.
-- Le troisième paramètre doit également être de type String et contenir la valeur du caractère avec lequel vous souhaitez remplacer le caractère donné en deuxième parametre.
+ - Créez une variable appelée `phrase` qui contient la chaîne de caractères suivante: "Bonjour tout le monde, comment allez-vous aujourd'hui?".
+ - Utilisez la méthode [`charAt()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) pour stocker le 3ème caractère de la variable `phrase` dans une variable `caractere3 `.
+ - Utilisez la méthode [`substring()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/substring) pour extraire la sous-chaîne de caractères allant de la position 10 à la position 20 de la variable "phrase" et stockez-la dans une nouvelle variable appelée "sousPhrase".
+ - Utilisez la méthode [`indexOf()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) pour trouver la position du premier caractère 'a' dans la variable "phrase" et stockez-la dans une variable appelée "indexA".
 
-`replace(phrase, aRemplacer, remplacant)` renvoie la `phrase` avec le caractère `aRemplacer` remplacé par le caractère `remplacant`
-
-```jsx
-replace("Hello World!", "o", "0");
-// renvoie "Hell0 W0rld!"
-```
-
-@[Exercice 3 : remplace un caractère]({ "stubs": ["exo3Chaines.js"], "command":"node_modules/mocha/bin/mocha exo3Chaines_test.js --reporter list"})
+@[Exercice 3 : Chaînes et index]({ "stubs": ["exo3Chaines.js"], "command":"node_modules/mocha/bin/mocha exo3Chaines_test.js --reporter list"})
 
 ::: Proposition de correction
 ```jsx
-function 
+let phrase = "Bonjour tout le monde, comment allez-vous aujourd'hui?" ;// contient la chaine de caratères : "Bonjour tout le monde, comment allez-vous aujourd'hui?"
+let caractere3 = phrase.charAt(2) ;// contient le 3ème caractère de la variable "phrase" : le caractère d'index 2
+let sousPhrase = phrase.substring(9,20);// contient la sous-chaîne de caractères allant de la position 10 à la position 20 de la variable "phrase"
+let indexA = indexOf('a');// contient la position du premier caractère 'a' dans la variable "phrase"
 ```
 :::
 
