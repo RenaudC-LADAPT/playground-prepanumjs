@@ -1,12 +1,8 @@
-//replace(phrase, aRemplacer, remplacant) renvoie la phrase avec le caractère aRemplacer remplacé par le caractère remplacant
-
-let phrase = ;
-let caractere3 = ;
-let sousPhrase = ;
-let indexA = ;
-
-
-
+// Complétez le code ci dessous
+let phrase = ;// doit contenir la chaine de caratères : "Bonjour tout le monde, comment allez-vous aujourd'hui?"
+let caractere3 = ;// doit contenir le 3ème caractère de la variable "phrase" 
+let sousPhrase = ;// doit contenir la sous-chaîne de caractères allant de la position 10 à la position 20 de la variable "phrase"
+let indexA = ;// doit contenir la position du premier caractère 'a' dans la variable "phrase"
 // { autofold
 
 module.exports = {
