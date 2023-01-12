@@ -17,7 +17,7 @@ it("Mot de passe avancé", function () {
   }
   catch (error)
   {
-    printMessage('Attention', 'revoyez la déclaration de votre fonction majorite');
+    printMessage('Attention', 'revoyez la déclaration de votre fonction verificationMotDePasseAvance');
     throw error;
   }
 });
