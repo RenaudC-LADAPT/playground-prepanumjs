@@ -159,6 +159,13 @@ Si vous mettez un caractère ou une chaîne en parametre de `indexOf()`ou`lastIn
 "LADAPT est une association.".indexOf("O");// renvoie -1
 "LADAPT est une association.".LastIndexOf("à");// renvoie -1
 ```
+## Récapitulatif
+> Les chaînes de caractères sont utiles pour stocker des données qui peuvent être représentées sous forme de texte.
+> Parmi les opérations les plus utilisées pour manipuler les chaînes de caractères, on a : la vérification de leur longueur avec `length`,
+> la construction et la concaténation avec les opérateurs + et +=, 
+> la recherche de sous-chaîne avec les méthodes includes() ou indexOf() ou encore l'extraction de sous-chaînes avec la méthode substring().
+> 
+> Il existe un grand nombre de méthodesqui permettents des oipérations sur les chaînes de caractères, toutes référencées sur [le site pour les developpeurs  de la fondation mozilla](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String)
 ## Exercices
 ### Exercice 1
 Écrivez une fonction `bonjour(str)` qui prend en paramètre un Prénom sous forme de chaîne de caractères et qui retourne "Bonjour 'Prenom', que la Force soit avec toi".
