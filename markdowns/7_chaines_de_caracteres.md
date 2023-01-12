@@ -213,10 +213,17 @@ function
 
 ::: Proposition de correction
 ```jsx
-let phrase = "Bonjour tout le monde, comment allez-vous aujourd'hui?" ;// contient la chaine de caratères : "Bonjour tout le monde, comment allez-vous aujourd'hui?"
-let caractere3 = phrase.charAt(2) ;// contient le 3ème caractère de la variable "phrase" : le caractère d'index 2
-let sousPhrase = phrase.substring(9,20);// contient la sous-chaîne de caractères allant de la position 10 à la position 20 de la variable "phrase"
-let indexA = indexOf('a');// contient la position du premier caractère 'a' dans la variable "phrase"
+let phrase = "Bonjour tout le monde, comment allez-vous aujourd'hui?" ;
+// contient la chaine de caratères : "Bonjour tout le monde, comment allez-vous aujourd'hui?"
+
+let caractere3 = phrase.charAt(2) ;
+// contient le 3ème caractère de la variable "phrase" : le caractère d'index 2
+
+let sousPhrase = phrase.substring(9,20);
+// contient la sous-chaîne de caractères allant de la position 10 à la position 20 de la variable "phrase"
+
+let indexA = indexOf('a');
+// contient la position du premier caractère 'a' dans la variable "phrase"
 ```
 :::
 
