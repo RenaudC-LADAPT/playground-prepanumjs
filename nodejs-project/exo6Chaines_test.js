@@ -13,7 +13,7 @@ it("Mot de passe avancé", function () {
     assert.equal( typeof(mod.test4), "boolean" );
     assert.equal( mod.test4, false );
     assert.equal( typeof(mod.test5), "boolean" );
-    assert.equal( mod.test51, true );
+    assert.equal( mod.test5, true );
   }
   catch (error)
   {
