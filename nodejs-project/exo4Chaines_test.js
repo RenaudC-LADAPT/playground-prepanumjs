@@ -5,7 +5,7 @@ it("lettres en chiffres", function () {
   try
   {
     assert.equal( typeof(mod.test1), "string" );
-    assert.equal( mod.test1, "LADAP7 | L’ass0c1a710n p0ur l’1ns3r7i0n s0c1al3 37 pr0f3ss10nn3ll3 d3s p3rs0nn3s hand1capé3s" );
+    assert.equal( mod.test1, "LADAP7 | L’ass0c1a710n p0ur l’1ns3r710n s0c1al3 37 pr0f3ss10nn3ll3 d3s p3rs0nn3s hand1capé3s" );
   }
   catch (error)
   {
