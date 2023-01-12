@@ -230,7 +230,9 @@ let indexA = indexOf('a');
 ### Exercice 4
 Écrivez une fonction `lettreEnChiffre(str)` qui prend un argument de type string. Elle devra retourner cette même string mais en remplacant les e (ou E) par des 3, les i ou I) par des 1 et les o (ou O) par des 0 et les (t ou T) par des 7 :
 
-Utilisez la méthode [`replace()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+Utilisez la méthode [`replace()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replace).
+
+Le remplacement global ne peut être fait qu'avec une expression régulière, prenez le temps de bien lire [la documentation de replace sur le site mdn](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
 
 ```jsx
 lettreEnChiffre("LADAPT | L’association pour l’insertion sociale et professionnelle des personnes handicapées");
@@ -241,7 +243,13 @@ lettreEnChiffre("LADAPT | L’association pour l’insertion sociale et professi
 
 ::: Proposition de correction
 ```jsx
-function 
+function lettreEnChiffre(str) {
+    str = str.replace(/i/gi, '1'); // Utilisation de global et ignore avec replace()
+    str = str.replace(/e/gi, '3');
+    str = str.replace(/o/gi, '0');
+    str = str.replace(/t/gi, '7');
+    return str;
+}
 ```
 :::
 
