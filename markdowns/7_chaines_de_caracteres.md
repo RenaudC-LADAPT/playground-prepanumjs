@@ -394,6 +394,6 @@ function verificationMotDePasseAvance(password) {
 # Aller plus loin...
 ## les Expressions Régulières
 
-[cours de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/introduction-expression-reguliere-rationnelle/)
+[cours de Pierre Giraud sur les expressions régulières](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/introduction-expression-reguliere-rationnelle/)
 
-[video de Pierre Giraud les expressions régulières](https://youtu.be/3JQGuVOEQ-0)
+[video de Pierre Giraud sur les expressions régulières](https://youtu.be/3JQGuVOEQ-0)
