@@ -200,7 +200,9 @@ console.log(bonjour("Suzanne")); // doit afficher "Bonjour Suzanne, que la Force
 
 ::: Proposition de correction
 ```jsx
-function 
+function verificationMotDePasse(password) {
+    return password.length >= 12;
+}
 ```
 :::
 ### Exercice 3
@@ -309,10 +311,78 @@ Elle devra retourner un boolean qui vaut `true` si les **toutes** les conditions
 
 Elle devra retourner `false` si au moins une des conditions n'est pas respectée.
 
+:::Indice
+
+Vous pouvez vous inspirer de l'exercice 5 pour verifier la présence de certains caractères
+
+```jsx
+
+function verificationMotDePasseAvance(password) {
+    //verification de la longueur
+    
+    let longueurCheck;
+    
+    //vérification de la présence d'un chiffre
+    
+    let chiffresCheck;
+    
+    /*vérification de la présence d'une minuscule*/
+    
+    let minusCheck;
+    
+    /*vérification de la présence d'une majuscule*/
+    
+    let majCheck;
+   
+    // verification de la présence d'un caractère de la liste &@$£€*µ¥ƒ_-)([]{}#
+    
+    let carSpecialCheck;
+    
+   
+    return longueurCheck && chiffresCheck && minusCheck && majCheck && carSpecialCheck;
+}
+
+```
+:::
+
 @[Exercice 6 : Vérification de mot de passe avancée]({ "stubs": ["exo6Chaines.js"], "command":"node_modules/mocha/bin/mocha exo6Chaines_test.js --reporter list"})
 
 ::: Proposition de correction
 ```jsx
-function 
+
+function verificationMotDePasseAvance(password) {
+    //verification de la longueur
+    let longueurCheck = password.length >= 12;
+    //vérification de la présence d'un chiffre (sans utiliser les expressions régulières)
+    let chiffres = "0123456789";
+    let chiffresCheck = false;
+    for (let i = 0; i < password.length; i++) {
+        if (chiffres.indexOf(password[i]) != -1) {
+            chiffresCheck = true;
+            break;
+        }
+    }
+    
+    /*vérification de la présence d'une minuscule (en les expressions régulières)
+    il est possible en utilisant un chaine "abcdefghijklmnopqrstuvwxyz" d'utiliser la même methode que pour les chiffres*/
+    let minus = /[a-z]/g;
+    let minusCheck = password.match(minus).length!= null;// voir le documentation de String.prototype.match() sur https://developer.mozilla.org/
+    
+    /*vérification de la présence d'une majuscule (en les expressions régulières)*/
+    let maj = /[A-Z]/g;
+    let majCheck = password.match(maj) != null;// voir le documentation de String.prototype.match() sur https://developer.mozilla.org/
+    
+    // verification de la présence d'un caractère de la liste &@$£€*µ¥ƒ_-)([]{}# (sans utiliser les expressions régulières)
+    let carSpecial = "&@$£€*µ¥ƒ_-)([]{}#";
+    let carSpecialCheck = false;
+    for (let i = 0; i < password.length; i++) {
+        if (carSpecial.indexOf(password[i]) != -1) {
+            carSpecialCheck = true;
+            break;
+        }
+    }
+    return longueurCheck && chiffresCheck && minusCheck && majCheck && carSpecialCheck;
+}
+
 ```
 :::
