@@ -314,6 +314,7 @@ Elle devra retourner `false` si au moins une des conditions n'est pas respectée
 :::Indice
 
 Vous pouvez vous inspirer de l'exercice 5 pour verifier la présence de certains caractères
+il est également possible d'utiliser la methode `match` mais il faut utiliser les expressions régulières
 
 ```jsx
 
@@ -337,9 +338,9 @@ function verificationMotDePasseAvance(password) {
     // verification de la présence d'un caractère de la liste &@$£€*µ¥ƒ_-)([]{}#
     
     let carSpecialCheck;
-    
    
-    return longueurCheck && chiffresCheck && minusCheck && majCheck && carSpecialCheck;
+   
+    return /*à compléter*/;
 }
 
 ```
@@ -353,6 +354,7 @@ function verificationMotDePasseAvance(password) {
 function verificationMotDePasseAvance(password) {
     //verification de la longueur
     let longueurCheck = password.length >= 12;
+    
     //vérification de la présence d'un chiffre (sans utiliser les expressions régulières)
     let chiffres = "0123456789";
     let chiffresCheck = false;
@@ -363,12 +365,12 @@ function verificationMotDePasseAvance(password) {
         }
     }
     
-    /*vérification de la présence d'une minuscule (en les expressions régulières)
+    /*vérification de la présence d'une minuscule (en utilisant les expressions régulières)
     il est possible en utilisant un chaine "abcdefghijklmnopqrstuvwxyz" d'utiliser la même methode que pour les chiffres*/
     let minus = /[a-z]/g;
     let minusCheck = password.match(minus).length!= null;// voir le documentation de String.prototype.match() sur https://developer.mozilla.org/
     
-    /*vérification de la présence d'une majuscule (en les expressions régulières)*/
+    /*vérification de la présence d'une majuscule (en utilisantles expressions régulières)*/
     let maj = /[A-Z]/g;
     let majCheck = password.match(maj) != null;// voir le documentation de String.prototype.match() sur https://developer.mozilla.org/
     
@@ -381,8 +383,15 @@ function verificationMotDePasseAvance(password) {
             break;
         }
     }
+    
+    //je m'assure en utilisant le && logique quesi tous les Check sont vrais la fonction renvoie true mais que qi au moins un est faux elle renvoie false
     return longueurCheck && chiffresCheck && minusCheck && majCheck && carSpecialCheck;
 }
 
 ```
 :::
+
+# Aller plus loin...
+##les Expressions Régulières
+[cours de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/introduction-expression-reguliere-rationnelle/)
+[video de Pierre Giraud les expressions régulières](https://youtu.be/3JQGuVOEQ-0)
