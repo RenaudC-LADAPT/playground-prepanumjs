@@ -179,4 +179,5 @@ let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
 
 # Aller plus loin 
 Tutoriel de grafikart : Les variables
-https://youtu.be/GU8kxJ3P67I
+
+https://youtu.be/watch?v=GU8kxJ3P67I
