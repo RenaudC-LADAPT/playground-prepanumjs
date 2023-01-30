@@ -345,5 +345,3 @@ function estBissextile(y) {
 };
 ```
 :::
-
-![La portées des variables](https://youtu.be/qYuvcK8QU4c "Apprendre le JavaScript : La portée des variables")
