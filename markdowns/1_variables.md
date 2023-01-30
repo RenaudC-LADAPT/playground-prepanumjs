@@ -176,3 +176,7 @@ let return = 5; // on ne peut pas la nommer "return" aussi, erreur!
 - [x] let maVariable = 'x';
 - [ ] let this Is A Good Variable = 'Yes';
 - [x] let camelCase = 'Its got the look!';
+
+# Aller plus loin 
+Tutoriel de grafikart : Les variables
+https://youtu.be/GU8kxJ3P67I
