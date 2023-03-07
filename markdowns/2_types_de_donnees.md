@@ -29,12 +29,12 @@ let flt = 0.42;
 let array = [num, str, bool, flt];
 let x;
 //compléter le code ci-dessous (utiliser la fonction typeof)
-let numType = typeof(numType);
-let strType = typeof(strType);
-let boolType = typeof(boolType);
-let fltType = typeof(fltType);
-let arrayType = typeof(arrayType);
-let xType = typeof(xType);
+let numType = typeof(num);
+let strType = typeof(str);
+let boolType = typeof(bool);
+let fltType = typeof(flt);
+let arrayType = typeof(array);
+let xType = typeof(x);
 ```
 :::
 ### Répondez aux questions suivantes en tenant compte des resultats de l'exercice ci-dessus
