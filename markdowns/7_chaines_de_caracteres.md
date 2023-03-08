@@ -224,7 +224,7 @@ let caractere3 = phrase.charAt(2) ;
 let sousPhrase = phrase.substring(9,20);
 // contient la sous-chaîne de caractères allant de la position 10 à la position 20 de la variable "phrase"
 
-let indexA = indexOf('a');
+let indexA = phrase.indexOf('a');
 // contient la position du premier caractère 'a' dans la variable "phrase"
 ```
 :::
