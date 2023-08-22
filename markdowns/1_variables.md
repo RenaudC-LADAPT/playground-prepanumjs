@@ -142,7 +142,7 @@ let 我 = '...';
 Techniquement, il n’y a pas d’erreur ici, ces noms sont autorisés, mais il existe une convention internationale d’utiliser uniquement les caracteres de a à z, A à Z et 0 à 9 dans les noms de variables.
 
 ### Noms réservés
-Il existe une liste de [mots réservés](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Lexical_grammar#mots-cl%C3%A9s), qui ne peuvent pas être utilisés comme noms de variables, car ils sont utilisés par le langage lui-même.
+Il existe une liste de [mots réservés](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Lexical_grammar#mots-clés), qui ne peuvent pas être utilisés comme noms de variables, car ils sont utilisés par le langage lui-même.
 
 Par exemple, les mots let, class, return, function sont réservés.
 
