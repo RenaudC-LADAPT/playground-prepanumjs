@@ -96,6 +96,23 @@ Heureusement, un ajout récent au language JavaScript permet une syntaxe plus co
 - pour les valeurs négatives de i on ne peut pas utiliser les crochets, on utilise la methode `array.at()`
 - `array.at(-1)` renvoie le dernier élément
 
+## Les méthodes et propriétés des tableaux JavaScript
+### C'est quoi ces trucs ?
+#### propriétés
+Vous connaissez déjà une **propriété** des tableaux, la propriété `length` qui retourne le nombre d’éléments d’un tableau
+La seconde propriété (il n'y en a pas d'autres sinon j'aurais dit "deuxième" `;)`) est la propriété prototype.
+C'est une propriété que possèdent tous les constructeurs en JavaScript mais que nous n'expiquerons pas ici
+#### méthodes
+Oour "vulgariser" le concept et ne pas entrer dans des explications trop techniques si tôt dans votre découverte du developpement, dison qu'une methode est un fonction propre à l'objet
+c'est un fonction qui est la propriété d'un objet
 
+Nous allons voir ici des **méthodes** de l'objet `Array`
 
+### Les méthodes push() et pop()
+### Les méthodes unshift() et shift()
+### La méthode splice()
+### La méthode join()
+### La méthode slice()
+### La méthode concat()
+### La méthode includes()
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
