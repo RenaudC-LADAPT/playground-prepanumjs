@@ -51,6 +51,8 @@ monDeuxiemeTableau.length; // 3
 ## Accéder aux éléments d'un tableau
 Les éléments de tableau sont donc numérotés en commençant par **0**.
 
+### Accéder à un élément
+
 On peut obtenir un élément de tableau par son numéro d'index grace aux crochets :
 ```jsx
 let monDeuxiemeTableau = new Array(1929, 'Association', ['engagement', 'militant', 'sensibilisation'])
@@ -59,6 +61,8 @@ monDeuxiemeTableau[1]; // Association
 monDeuxiemeTableau[2]; // ['engagement', 'militant', 'sensibilisation']
 monDeuxiemeTableau[2][0]; // engagement
 ```
+
+### Modifier une élément existant
 On peut également remplacer un élément d'un tableau en utilisant l'index
 
 exemple : on remplace `Recrutement` par `Rejoignez-nous` dans le tableau `rubriques`  qui est placé à l'index `3`
@@ -75,8 +79,23 @@ Certains langages de programmation permettent d'utiliser des index négatifs , c
 
 Cependant, en JavaScript, cela ne fonctionnera pas. Le résultat sera `undifined`, car l’index entre crochets est traité littéralement.
 
-Nous pouvons calculer explicitement l'index du dernier élément puis y accéder : `rubriques[rubriques.length -1]` pour obtenir `Contact`.
+Nous pouvons calculer explicitement l'index du dernier élément puis y accéder : `rubriques[rubriques.length - 1]` pour obtenir `Contact`.
 
-#### Pourquoi lenght-1 ?
+#### Pourquoi "length - 1"?
+Dans l'exemple la longueur du tableau `rubriques` est de 7 **éléments**, mais comme le décompte se fait à partir de 0, l'**index** du dernier élément est 6, d'où la nécessité d'écrire length-1.
+
+Un peu lourdingue comme écriture, n'est-ce pas ? Nous sommes obligés d'écrire le nom de la variable deux fois.
+
+Heureusement, un ajout récent au language JavaScript permet une syntaxe plus courte : `rubriques.at(-1)` 
+
+### En Résumé
+- le premier élément d'un tableau a pour index `0`
+- le dernier element a pour index `length-1`
+- `array[n]` permet d'accéder au Nieme élément, si `array.length` >= n
+- écrire `array.at(i)` revient au même que d'écrire `array[i]`, si i >= 0.
+- pour les valeurs négatives de i on ne peut pas utiliser les crochets, on utilise la methode `array.at()`
+- `array.at(-1)` renvoie le dernier élément
+
+
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
