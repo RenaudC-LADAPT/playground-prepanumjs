@@ -29,10 +29,14 @@ monDeuxiemeTableau;
 Quand on crée un tableau, chaque valeur, ou **élément** du tableau, est placée à un emplacement ou un **index** dans le tableau
 
 Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’**index**. La numérotation commence par **0** :
- `[1929, 'Association', Array(3)]`
- 0: `1929`
- 1: `"Association"`
- 2: `['engagement', 'militant', 'sensibilisation']`
+
+ `[1929, 'Association', ['engagement', 'militant', 'sensibilisation']]`
+ 
+- 0: `1929`
+- 1: `"Association"`
+- 2: `['engagement', 'militant', 'sensibilisation']`
+
+## Accéder aux éléments d'un tableau
 
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
