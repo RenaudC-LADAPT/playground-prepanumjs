@@ -42,6 +42,22 @@ Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’
 - 2: `['engagement', 'militant', 'sensibilisation']`
 
 ## Accéder aux éléments d'un tableau
+Les éléments de tableau sont donc numérotés en commençant par **0**.
 
+On peut obtenir un élément de tableau par son numéro d'index grace aux crochets :
+```jsx
+let monDeuxiemeTableau = new Array(1929, 'Association', ['engagement', 'militant', 'sensibilisation'])
+monDeuxiemeTableau[0]; // 1929
+monDeuxiemeTableau[1]; // Association
+monDeuxiemeTableau[2]; // ['engagement', 'militant', 'sensibilisation']
+monDeuxiemeTableau[2][0]; // engagement
+```
+On peut également remplacer un élément
+exemple : on remplace `Recrutement` par `Rejoignez-nous` dans le tableau `rubriques` ci dessous qui est plavé à l'index `3`
+```jsx
+let rubriques = ['Accessibilité', 'Mentions légales', 'Crédits', 'Recrutement', 'Publications', 'Presse',  'Contact']
+rubriques[3] = 'Rejoignez-nous';
+rubriques; // ['Accessibilité', 'Mentions légales', 'Crédits', 'Rejoignez-nous', 'Publications', 'Presse',  'Contact']
+```
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
