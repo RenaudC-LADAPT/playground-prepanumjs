@@ -67,6 +67,7 @@ let rubriques = ['Accessibilité', 'Mentions légales', 'Crédits', 'Recrutement
 rubriques[3] = 'Rejoignez-nous';
 rubriques; // ['Accessibilité', 'Mentions légales', 'Crédits', 'Rejoignez-nous', 'Publications', 'Presse',  'Contact']
 ```
+
 ### le dernier élément
 Imaginons que nous souhaitions accéder au dernier élément du tableau sans nécessairement connaitre sa longueur.
 
