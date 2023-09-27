@@ -100,11 +100,12 @@ Heureusement, un ajout récent au language JavaScript permet une syntaxe plus co
 ### C'est quoi ces trucs ?
 #### propriétés
 Vous connaissez déjà une **propriété** des tableaux, la propriété `length` qui retourne le nombre d’éléments d’un tableau. 
-La seconde propriété (il n'y en a pas d'autres sinon j'aurais dit "deuxième" `;)`) est la propriété prototype.
-C'est une propriété que possèdent tous les constructeurs en JavaScript mais que nous n'expliquerons pas ici
+La seconde propriété (il n'y en a pas d'autres sinon j'aurais dit "deuxième" `;)`) est la propriété **prototype**.
+C'est une propriété que possèdent tous les constructeurs en JavaScript mais que nous n'expliquerons pas ici.
 #### méthodes
-Pour "vulgariser" le concept et ne pas entrer dans des explications trop techniques si tôt dans votre découverte du developpement, disons qu'une **méthode** est une **fonction** propre à l'objet. 
-C'est une **fonction** qui est la **propriété** d'un objet
+Pour "vulgariser" le concept, et ne pas entrer dans des explications trop techniques si tôt dans votre découverte du developpement,
+disons qu'une **méthode** est une **fonction** propre à un objet. 
+C'est une **fonction** qui est la **propriété** d'un objet.
 
 Nous allons voir ici des **méthodes** de l'objet `Array`
 
