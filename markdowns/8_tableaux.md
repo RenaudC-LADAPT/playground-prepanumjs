@@ -41,6 +41,13 @@ Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’
 - 1: `"Association"`
 - 2: `['engagement', 'militant', 'sensibilisation']`
 
+Le nombre total d’éléments dans le tableau est sa **`length`** (longueur) :
+
+```jsx
+let monDeuxiemeTableau = new Array(1929, 'Association', ['engagement', 'militant', 'sensibilisation'])
+monDeuxiemeTableau.length; // 3
+```
+
 ## Accéder aux éléments d'un tableau
 Les éléments de tableau sont donc numérotés en commençant par **0**.
 
@@ -52,12 +59,23 @@ monDeuxiemeTableau[1]; // Association
 monDeuxiemeTableau[2]; // ['engagement', 'militant', 'sensibilisation']
 monDeuxiemeTableau[2][0]; // engagement
 ```
-On peut également remplacer un élément
-exemple : on remplace `Recrutement` par `Rejoignez-nous` dans le tableau `rubriques` ci dessous qui est plavé à l'index `3`
+On peut également remplacer un élément d'un tableau en utilisant l'index
+
+exemple : on remplace `Recrutement` par `Rejoignez-nous` dans le tableau `rubriques`  qui est placé à l'index `3`
 ```jsx
 let rubriques = ['Accessibilité', 'Mentions légales', 'Crédits', 'Recrutement', 'Publications', 'Presse',  'Contact']
 rubriques[3] = 'Rejoignez-nous';
 rubriques; // ['Accessibilité', 'Mentions légales', 'Crédits', 'Rejoignez-nous', 'Publications', 'Presse',  'Contact']
 ```
+### le dernier élément
+Imaginons que nous souhaitions accéder au dernier élément du tableau sans nécessairement connaitre sa longueur.
+
+Certains langages de programmation permettent d'utiliser des index négatifs , comme `rubriques[-1]`.
+
+Cependant, en JavaScript, cela ne fonctionnera pas. Le résultat sera `undifined`, car l’index entre crochets est traité littéralement.
+
+Nous pouvons calculer explicitement l'index du dernier élément puis y accéder : `rubriques[rubriques.length -1]` pour obtenir `Contact`.
+
+#### Pourquoi lenght-1 ?
 
 ![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
