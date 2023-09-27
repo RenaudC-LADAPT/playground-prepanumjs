@@ -77,7 +77,7 @@ Imaginons que nous souhaitions accéder au dernier élément du tableau sans né
 
 Certains langages de programmation permettent d'utiliser des index négatifs , comme `rubriques[-1]`.
 
-Cependant, en JavaScript, cela ne fonctionnera pas. Le résultat sera `undifined`, car l’index entre crochets est traité littéralement.
+Cependant, en JavaScript, cela ne fonctionnera pas. Le résultat sera `undefined`, car l’index entre crochets est traité littéralement.
 
 Nous pouvons calculer explicitement l'index du dernier élément puis y accéder : `rubriques[rubriques.length - 1]` pour obtenir `Contact`.
 
