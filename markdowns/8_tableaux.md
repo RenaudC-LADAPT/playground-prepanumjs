@@ -6,6 +6,8 @@ En JavaScript, les tableaux sont avant tout des objets. Cependant, dans la plupa
 
 Nous reviedrons sur les objets dans la séquence suivante
 
+![schéma d'array](https://github.com/RenaudC-LADAPT/playground-prepanumjs/blob/master/arrayJS.png)
+
 ## Créer un tableau
 - Pour débuter, ouvrez une nouvelle fenêtre : *Ctrl + N (sous Windows) ou Cmd + N (sous Mac).*
 - Remplacez l'URL par about:blank pour avoir une page vierge.
@@ -21,9 +23,11 @@ Comme avec les nombres ou les chaînes de caractères, on declare une variable a
 
 Dans ma variable monPremierTableau, par exemple, j'ai un tableau qui contient trois éléments, `['engagement', 'militant', 'sensibilisation']`
 
-Dans un tableau tous les élements ne sont pas nécessairement de même type. 
+Un tableau est capable de stocker tous types d'éléments. Contrairement à d'autres langages de programmation, JavaScript permet de stocker, dans une unique variable, plusieurs types de données.
 
-Un même tableau peut contenir plusieurs types de données, ex : `[1929, 'Association', ['engagement', 'militant', 'sensibilisation']]`.
+La liste d'éléments du tableau peut ainsi contenir des chaînes de caractères, des nombres, des booléens ainsi que d'autres objets. Un tableau peut par exemple contenir un ou plusieurs autres tableaux.
+
+ ex : `[1929, 'Association', ['engagement', 'militant', 'sensibilisation']]`.
 
 ### un peu de vocabulaire
 **tableau** est la traduction de l'anglais **array**, une autre facon de déclarer un tableau serait d'utiliser le constructeur `Array()` avec le mot clef `new` 
