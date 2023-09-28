@@ -41,12 +41,27 @@ Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’
 - 1: `"Association"`
 - 2: `['engagement', 'militant', 'sensibilisation']`
 
+### Exercice
+?[Dans le tableau \['un', ''deux', 'trois', 'quatre'\] Quel est l'index de l'element 'deux' ? ](single)
+- [ ] 0;
+- [x] 1;
+- [ ] 2;
+- [ ] 3;
+- [ ] 4;
+
 Le nombre total d’éléments dans le tableau est sa **`length`** (longueur) :
 
 ```jsx
 let monDeuxiemeTableau = new Array(1929, 'Association', ['engagement', 'militant', 'sensibilisation'])
 monDeuxiemeTableau.length; // 3
 ```
+### Exercice
+?[Quel est la longueur de ce tableau : \[1, 3, 5, 7\] ? ](single)
+- [ ] 7;
+- [x] 4;
+- [ ] 3;
+- [ ] 5;
+
 
 ## Accéder aux éléments d'un tableau
 Les éléments de tableau sont donc numérotés en commençant par **0**.
