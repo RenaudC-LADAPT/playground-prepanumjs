@@ -43,11 +43,11 @@ Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’
 
 ### Exercice
 ?[Dans le tableau suivant : new Array('un', 'deux', 'trois', 'quatre'), Quel est l'index de l'element 'deux' ? ](single)
-- [ ] 0;
-- [x] 1;
-- [ ] 2;
-- [ ] 3;
-- [ ] 4;
+- [ ] 0
+- [x] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
 
 Le nombre total d’éléments dans le tableau est sa **`length`** (longueur) :
 
@@ -57,10 +57,10 @@ monDeuxiemeTableau.length; // 3
 ```
 ### Exercice
 ?[Quel est la longueur de ce tableau : new Array(1, 3, 5, 7) ? ](single)
-- [ ] 7;
-- [x] 4;
-- [ ] 3;
-- [ ] 5;
+- [ ] 7
+- [x] 4
+- [ ] 3
+- [ ] 5
 
 
 ## Accéder aux éléments d'un tableau
@@ -76,7 +76,25 @@ monDeuxiemeTableau[1]; // Association
 monDeuxiemeTableau[2]; // ['engagement', 'militant', 'sensibilisation']
 monDeuxiemeTableau[2][0]; // engagement
 ```
+Vous avez surement remarqué que dans le 4e exemple : `monDeuxiemeTableau[2][0]` il y a deux index entre crochets et on obtient en retour `'engagement'`
 
+En effet  `monDeuxiemeTableau[2]` correspond au troisieme élément de monDeuxiemeTableau : `['engagement', 'militant', 'sensibilisation']`
+
+`monDeuxiemeTableau[2][0]` correspond donc au premier élément de `['engagement', 'militant', 'sensibilisation']` d'où le `'engagement'` en retour.
+#### Exercices
+Voici la déclaration d'un tableau :
+
+`let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+?[quel est l'élément situé à l'index 0 ](single)
+- [ ] 'patate douce'
+- [ ] 'brocoli'
+- [ ] aucun, legumes[0] n'est pas défini
+- [x] 'aubergine'
+?[quel est l'élément situé à l'index 5 ](single)
+- [ ] 'patate douce'
+- [ ] 'brocoli'
+- [x] aucun, legumes[5] n'est pas défini
+- [ ] 'aubergine'
 ### Modifier une élément existant
 On peut également remplacer un élément d'un tableau en utilisant l'index
 
