@@ -1,3 +1,3 @@
 # Les Objets et les classes
 
-![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
+![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
