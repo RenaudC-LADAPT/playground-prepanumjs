@@ -150,4 +150,4 @@ Nous allons voir ici des **méthodes** de l'objet `Array`
 ### La méthode slice()
 ### La méthode concat()
 ### La méthode includes()
-![travaux en cours](https://www.gifgratis.net/gifs_animes/travaux_en_cours/21.gif "travaux en cours")
+![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
