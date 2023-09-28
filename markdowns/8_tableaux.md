@@ -105,6 +105,7 @@ rubriques[3] = 'Rejoignez-nous';
 rubriques; // ['Accessibilité', 'Mentions légales', 'Crédits', 'Rejoignez-nous', 'Publications', 'Presse',  'Contact']
 ```
 
+@[Exercice 1 : Modifier une élément de tableau]({ "stubs": ["exo1Tableaux.js"], "command":"node_modules/mocha/bin/mocha exo1Tableaux_test.js --reporter list"})
 ### le dernier élément
 Imaginons que nous souhaitions accéder au dernier élément du tableau sans nécessairement connaitre sa longueur.
 
