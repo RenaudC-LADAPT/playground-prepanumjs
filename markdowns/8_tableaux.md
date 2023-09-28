@@ -136,8 +136,8 @@ Heureusement, un ajout récent au language JavaScript permet une syntaxe plus co
 ### En Résumé
 - le premier élément d'un tableau a pour index `0`
 - le dernier element a pour index `length-1`
-- `array[n]` permet d'accéder au Nieme élément, si `array.length` >= n
-- écrire `array.at(i)` revient au même que d'écrire `array[i]`, si i >= 0.
+- `array[n]` permet d'accéder à l'élément d'index n (le n+1ème élément), si `array.length` > n
+- écrire `array.at(i)` revient au même que d'écrire `array[i]`, si i >= 0 et i < `array.length`.
 - pour les valeurs négatives de i on ne peut pas utiliser les crochets, on utilise la methode `array.at()`
 - `array.at(-1)` renvoie le dernier élément
 
