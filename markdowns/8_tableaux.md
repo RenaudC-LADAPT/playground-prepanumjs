@@ -6,7 +6,7 @@ En JavaScript, les tableaux sont avant tout des objets. Cependant, dans la plupa
 
 Nous reviedrons sur les objets dans la séquence suivante
 
-![schéma d'array](https://github.com/RenaudC-LADAPT/playground-prepanumjs/blob/ba37dac511f7364e3bb21434f79d4e216127b1a5/arrayJS.png)
+![schéma d'array](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/fa547a1399b19bd4f17d089769531993e3ffde72/arrayJS.png)
 
 ## Créer un tableau
 - Pour débuter, ouvrez une nouvelle fenêtre : *Ctrl + N (sous Windows) ou Cmd + N (sous Mac).*
