@@ -7,7 +7,7 @@ let rubriques = ['Accessibilité', 'Mentions légales', 'Crédits', 'Rejoignez-n
 
 
 // { autofold
-console.log(`le 6e élément du tableau est désormais ${rubriques[5]}`);
+console.log(`le 6e élément du tableau est désormais '${rubriques[5]}'`);
 module.exports = {
 	test: rubriques[5],
 };
