@@ -42,7 +42,8 @@ Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’
 - 2: `['engagement', 'militant', 'sensibilisation']`
 
 ### Exercice
-?[Dans le tableau \['un', ''deux', 'trois', 'quatre'\] Quel est l'index de l'element 'deux' ? ](single)
+?[Dans le tableau ci dessous Quel est l'index de l'element 'deux' ? ](single)
+['un', 'deux', 'trois', 'quatre']
 - [ ] 0;
 - [x] 1;
 - [ ] 2;
