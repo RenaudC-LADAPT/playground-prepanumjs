@@ -42,8 +42,7 @@ Chaque **élément** qui se trouve dans un tableau correspond à un numéro d’
 - 2: `['engagement', 'militant', 'sensibilisation']`
 
 ### Exercice
-?[Dans le tableau ci dessous Quel est l'index de l'element 'deux' ? ](single)
-['un', 'deux', 'trois', 'quatre']
+?[Dans le tableau suivant : new Array('un', 'deux', 'trois', 'quatre'), Quel est l'index de l'element 'deux' ? ](single)
 - [ ] 0;
 - [x] 1;
 - [ ] 2;
@@ -57,7 +56,7 @@ let monDeuxiemeTableau = new Array(1929, 'Association', ['engagement', 'militant
 monDeuxiemeTableau.length; // 3
 ```
 ### Exercice
-?[Quel est la longueur de ce tableau : \[1, 3, 5, 7\] ? ](single)
+?[Quel est la longueur de ce tableau : new Array(1, 3, 5, 7) ? ](single)
 - [ ] 7;
 - [x] 4;
 - [ ] 3;
