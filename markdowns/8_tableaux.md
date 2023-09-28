@@ -142,7 +142,7 @@ disons qu'une **méthode** est une **fonction** propre à un objet.
 C'est une **fonction** qui est la **propriété** d'un objet.
 
 Nous allons voir ici des **méthodes** de l'objet `Array`
-
+![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
 ### Les méthodes push() et pop()
 ### Les méthodes unshift() et shift()
 ### La méthode splice()
@@ -150,4 +150,4 @@ Nous allons voir ici des **méthodes** de l'objet `Array`
 ### La méthode slice()
 ### La méthode concat()
 ### La méthode includes()
-![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
+
