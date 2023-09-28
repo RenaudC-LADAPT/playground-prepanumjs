@@ -1,7 +1,8 @@
 let rubriques = ['Accessibilité', 'Mentions légales', 'Crédits', 'Rejoignez-nous', 'Publications', 'Presse',  'Contact']
 
-//Remplacez 'Presse' parle 'On parle de nous' dans le tableau rubriques
-// Vous ne devez pas modifierla ligne 1 de ce code ecrire du code ci dessous pour arrivber à vos fins
+/*Remplacez 'Presse' parle 'On parle de nous' dans le tableau rubriques
+ Vous ne devez pas modifier la ligne 1 de ce code
+ Ecrire du code ci dessous pour arriver à vos fins*/
 
 
 
