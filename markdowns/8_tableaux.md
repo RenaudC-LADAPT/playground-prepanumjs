@@ -6,8 +6,6 @@ En JavaScript, les tableaux sont avant tout des objets. Cependant, dans la plupa
 
 Nous reviedrons sur les objets dans la séquence suivante
 
-![schéma d'array](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/master/arrayJS.png)
-
 ## Créer un tableau
 - Pour débuter, ouvrez une nouvelle fenêtre : *Ctrl + N (sous Windows) ou Cmd + N (sous Mac).*
 - Remplacez l'URL par about:blank pour avoir une page vierge.
@@ -30,6 +28,7 @@ La liste d'éléments du tableau peut ainsi contenir des chaînes de caractères
  ex : `[1929, 'Association', ['engagement', 'militant', 'sensibilisation']]`.
 
 ### un peu de vocabulaire
+![schéma d'array](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/master/arrayJS.png)
 **tableau** est la traduction de l'anglais **array**, une autre facon de déclarer un tableau serait d'utiliser le constructeur `Array()` avec le mot clef `new` 
 ```jsx
 let monDeuxiemeTableau = new Array(1929, 'Association', ['engagement', 'militant', 'sensibilisation'])
