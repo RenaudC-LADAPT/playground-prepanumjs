@@ -169,7 +169,7 @@ On peut  appeler la méthode sur l'objet de la façon suivante :
 `objet.nomMethode();`
 
 Nous allons voir ici des **méthodes** de l'objet `Array`
-![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
+
 ### Les méthodes shift() et pop()
 #### la méthode shift()
 
@@ -285,6 +285,9 @@ Voici la déclaration d'un tableau :
 - [ ] 5
 - [ ] 'potiron'
 - [x] 6
+
+
+![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
 ### La méthode splice()
 ### La méthode join()
 ### La méthode slice()
