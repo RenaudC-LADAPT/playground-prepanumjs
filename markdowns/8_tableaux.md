@@ -300,4 +300,4 @@ Voici la déclaration d'un tableau :
 ### La méthode concat()
 ### La méthode includes()
 # Aller plus loin...
-[Testez vos compétences : les tableaux](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/Test_your_skills:_Arrays 'Testez vos compétences : les tableaux')
+[Testez vos compétences : les tableaux](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/Test_your_skills:_Arrays/ "Testez vos compétences : les tableaux")
