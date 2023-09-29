@@ -299,4 +299,5 @@ Voici la déclaration d'un tableau :
 ### La méthode slice()
 ### La méthode concat()
 ### La méthode includes()
-
+# Aller plus loin...
+[https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/Test_your_skills:_Arrays](Testez vos compétences : les tableaux)
