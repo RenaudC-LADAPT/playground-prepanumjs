@@ -187,6 +187,7 @@ Vous pouvez voir que le premier élément du tableau a été supprimé et affect
 Voici la déclaration d'un tableau :
 
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+
 `let maVariable = legumes.shift()`
 ?[Que renvoie désormais legumes.at(0) ](single)
 - [ ] 'patate douce'
@@ -216,6 +217,7 @@ Vous pouvez voir que le dernier élément du tableau a été supprimé et affect
 Voici la déclaration d'un tableau :
 
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+
 `let maVariable = legumes.pop()`
 ?[Que renvoie désormais legumes.at(-1) ](single)
 - [ ] 'patate douce'
@@ -244,7 +246,9 @@ console.log(nombreDeFelins);
 Vous pouvez voir que le premier élément du tableau et désormais`'tigre'`, le deuxieme `panthère` et que la nouvelle longueur du tableau est affectée à la variable `nombreDeFelins`.
 #### Exercices
 Voici la déclaration d'un tableau :
+
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+
 `let maVariable = legumes.unshift('radis', 'potiron')`
 ?[Que renvoie désormais legumes.at(1) ](single)
 - [ ] 'patate douce'
@@ -272,7 +276,9 @@ console.log(nombreDeFelins);
 Vous pouvez voir que le dernier élément du tableau et désormais`'tigre'`, l'avant dernier et `'panthère`, et que la nouvelle longueur du tableau est affectée à la variable `nombreDeFelins`.
 #### Exercices
 Voici la déclaration d'un tableau :
+
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+
 `let maVariable = legumes.push('potiron')`
 ?[Que renvoie désormais legumes.at(-1) ](single)
 - [ ] 'patate douce'
