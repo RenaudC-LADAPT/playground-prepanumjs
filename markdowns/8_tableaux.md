@@ -150,15 +150,141 @@ Heureusement, un ajout récent au language JavaScript permet une syntaxe plus co
 Vous connaissez déjà une **propriété** des tableaux, la propriété `length` qui retourne le nombre d’éléments d’un tableau. 
 La seconde propriété (il n'y en a pas d'autres sinon j'aurais dit "deuxième" `;)`) est la propriété **prototype**.
 C'est une propriété que possèdent tous les constructeurs en JavaScript mais que nous n'expliquerons pas ici.
+
+Les propriétés d'un objet représentent ses caractéristiques et on peut y accéder avec une notation utilisant le point « . », de la façon suivante :
+
+`nomObjet.nomPropriete;`
+
 #### méthodes
 Pour "vulgariser" le concept, et ne pas entrer dans des explications trop techniques si tôt dans votre découverte du developpement,
 disons qu'une **méthode** est une **fonction** propre à un objet. 
 C'est une **fonction** qui est la **propriété** d'un objet.
 
+On peut  appeler la méthode sur l'objet de la façon suivante : 
+
+`objet.nomMethode(parametres);`
+
+à note que certaines méthodes n'ont besoin d'aucun paramètre, il faut tout de même mettre les parenthèses, contrairement aux propriétés : 
+
+`objet.nomMethode();`
+
 Nous allons voir ici des **méthodes** de l'objet `Array`
 ![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
-### Les méthodes push() et pop()
-### Les méthodes unshift() et shift()
+### Les méthodes shift() et pop()
+#### la méthode shift()
+
+La méthode shift() permet de retirer le premier élément d'un tableau et de renvoyer cet élément. Cette méthode modifie la longueur du tableau.
+
+dans la console de votre navigateur, testez le code suivant : 
+```jsx
+let felins = ['lion', 'chat', 'jaguar','léopard'];
+let premier = felins.shift();
+console.log(felins);
+console.log(premier);
+```
+Vous pouvez voir que le premier élément du tableau a été supprimé et affecté à la variable `premier`.
+#### Exercices
+Voici la déclaration d'un tableau :
+
+`let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+`let maVariable = legumes.shift()`
+?[Que renvoie désormais legumes.at(0) ](single)
+- [ ] 'patate douce'
+- [ ] 'brocoli'
+- [x] 'courgette'
+- [ ] 'aubergine'
+?[Que contient la variable maVariable ](single)
+- [ ] 'patate douce'
+- [ ] 'brocoli'
+- [x] 'aubergine'
+?[Quelle est désormais la longueur de legumes ](single)
+- [ ] 6
+- [ ] 5
+- [x] 4
+#### la méthode pop()
+La méthode `pop()` supprime le dernier élément d'un tableau et retourne cet élément. Cette méthode modifie la longueur du tableau.
+
+dans la console de votre navigateur, testez le code suivant : 
+```jsx
+let felins = ['lion', 'chat', 'jaguar','léopard'];
+let dernier = felins.pop();
+console.log(felins);
+console.log(dernier);
+```
+Vous pouvez voir que le dernier élément du tableau a été supprimé et affecté à la variable `dernier`.
+#### Exercices
+Voici la déclaration d'un tableau :
+
+`let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+`let maVariable = legumes.pop()`
+?[Que renvoie désormais legumes.at(-1) ](single)
+- [ ] 'patate douce'
+- [x] 'brocoli'
+- [ ] 'aubergine'
+?[Que contient la variable maVariable ](single)
+- [x] 'patate douce'
+- [ ] 'brocoli'
+- [ ] 'aubergine'
+?[Quelle est désormais la longueur de legumes ](single)
+- [x] 4
+- [ ] 3
+- [ ] 5
+### Les méthodes unshift() et push()
+#### la méthode unshift()
+La méthode unshift() ajoute un ou plusieurs éléments au début d'un tableau et renvoie la nouvelle longueur du tableau.
+
+dans la console de votre navigateur, testez le code suivant : 
+```jsx
+let felins = ['lion', 'chat', 'jaguar','léopard'];
+console.log(felins.length);
+let nombreDeFelins = felins.unshift('tigre', 'panthère');
+console.log(felins);
+console.log(nombreDeFelins);
+```
+Vous pouvez voir que le premier élément du tableau et désormais`'tigre'`, le deuxieme `panthère` et que la nouvelle longueur du tableau est affectée à la variable `nombreDeFelins`.
+#### Exercices
+Voici la déclaration d'un tableau :
+`let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+`let maVariable = legumes.unshift('radis', 'potiron')`
+?[Que renvoie désormais legumes.at(1) ](single)
+- [ ] 'patate douce'
+- [ ] 'brocoli'
+- [ ] 'radis'
+- [x] 'potiron'
+- [ ] 'aubergine'
+?[Que contient la variable maVariable ](single)
+- [ ] 5
+- [ ] 'radis'
+- [ ] 6
+- [ ] 'potiron'
+- [x] 7
+#### la méthode push()
+La méthode push() ajoute un ou plusieurs éléments à la fin d'un tableau et retourne la nouvelle taille du tableau.
+
+dans la console de votre navigateur, testez le code suivant : 
+```jsx
+let felins = ['lion', 'chat', 'jaguar','léopard'];
+console.log(felins.length);
+let nombreDeFelins = felins.push('panthère', 'tigre');
+console.log(felins);
+console.log(nombreDeFelins);
+```
+Vous pouvez voir que le dernier élément du tableau et désormais`'tigre'`, l'avant dernier et `'panthère`, et que la nouvelle longueur du tableau est affectée à la variable `nombreDeFelins`.
+#### Exercices
+Voici la déclaration d'un tableau :
+`let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+`let maVariable = legumes.push('potiron')`
+?[Que renvoie désormais legumes.at(-1) ](single)
+- [ ] 'patate douce'
+- [ ] 'brocoli'
+- [x] 'potiron'
+- [ ] 'aubergine'
+?[Que contient la variable maVariable ](single)
+- [ ] 4
+- [ ] 'patate douce'
+- [ ] 5
+- [ ] 'potiron'
+- [x] 6
 ### La méthode splice()
 ### La méthode join()
 ### La méthode slice()
