@@ -145,22 +145,31 @@ Heureusement, un ajout récent au language JavaScript permet une syntaxe plus co
 - pour les valeurs négatives de i on ne peut pas utiliser les crochets, on utilise la methode `array.at()`
 - `array.at(-1)` renvoie le dernier élément
 - 
-## Les tableaux à double entrées
-Il n'existe pas en JavaScript de type d'objet "tableau à double entrées" ou "tableau multidimensionnel" de manière native. Il est néamoins possible de créer un tableau à double entrées en définissant un tableau d’éléments, où chaque élément est également un autre tableau et tous ces tableaux seraient de la même longueur.
+## Les tableaux à double entrée
+Il n'existe pas en JavaScript de type d'objet "tableau à double entrées" ou "tableau multidimensionnel" de manière native. Il est néanmoins possible de créer un tableau à double entrée en définissant un tableau d’éléments, où chaque élément est également un autre tableau et tous ces tableaux seraient de la même longueur.
 
 Prenons le tableau suivant : 
+
 ![tableau à double entrées](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/master/Capture%20tableau.PNG)
-en JavaScript cela donnerait
+
+en JavaScript cela donnerait :
 ```jsx
-let tableuDoubleEntree = [
-[Monsieur, Dupont, Martin, 30],
-[Monsieur, Jacques, Alain, 32],
-[Madame, Joce, Jessica, 28],
-[Madame, Luna, Alberta, 36],
-[Madame, Robert, Aline, 38],
-[Monsieur, Giscard D'Estaing, Bernard, 42]
+let tableauDoubleEntree = [
+['Monsieur', 'Dupont', 'Martin', 30],
+['Monsieur', 'Jacques', 'Alain', 32],
+['Madame', 'Joce', 'Jessica', 28],
+['Madame', 'Luna', 'Alberta', 36],
+['Madame', 'Robert', 'Aline', 38],
+['Monsieur', 'Giscard D'Estaing', 'Bernard', 42],
 ]
 ```
+et pour accéder à un des éléments du tableau il me faudra précise dans un premier temps l'indice de la "ligne" puis l'indice de la "colonne" 
+
+par exemple : `tableauDoubleEntree[0][0]` correspond à "Monsieur"
+
+`tableauDoubleEntree[5][4]` correspond à 42
+
+`tableauDoubleEntree[3][1]` correspond à "Luna"
 
 ## Les méthodes et propriétés des tableaux JavaScript
 ### C'est quoi ces trucs ?
