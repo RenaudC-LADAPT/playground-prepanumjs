@@ -144,6 +144,23 @@ Heureusement, un ajout récent au language JavaScript permet une syntaxe plus co
 - écrire `array.at(i)` revient au même que d'écrire `array[i]`, si i >= 0 et i < `array.length`.
 - pour les valeurs négatives de i on ne peut pas utiliser les crochets, on utilise la methode `array.at()`
 - `array.at(-1)` renvoie le dernier élément
+- 
+## Les tableaux à double entrées
+Il n'existe pas en JavaScript de type d'objet "tableau à double entrées" ou "tableau multidimensionnel" de manière native. Il est néamoins possible de créer un tableau à double entrées en définissant un tableau d’éléments, où chaque élément est également un autre tableau et tous ces tableaux seraient de la même longueur.
+
+Prenons le tableau suivant : 
+![tableau à double entrées](https://raw.githubusercontent.com/RenaudC-LADAPT/playground-prepanumjs/master/Capture%20tableau.PNG)
+en JavaScript cela donnerait
+```jsx
+let tableuDoubleEntree = [
+[Monsieur, Dupont, Martin, 30],
+[Monsieur, Jacques, Alain, 32],
+[Madame, Joce, Jessica, 28],
+[Madame, Luna, Alberta, 36],
+[Madame, Robert, Aline, 38],
+[Monsieur, Giscard D'Estaing, Bernard, 42]
+]
+```
 
 ## Les méthodes et propriétés des tableaux JavaScript
 ### C'est quoi ces trucs ?
@@ -161,7 +178,7 @@ Pour "vulgariser" le concept, et ne pas entrer dans des explications trop techni
 disons qu'une **méthode** est une **fonction** propre à un objet. 
 C'est une **fonction** qui est la **propriété** d'un objet.
 
-On peut  appeler la méthode sur l'objet de la façon suivante : 
+On peut appeler la méthode sur l'objet de la façon suivante : 
 
 `objet.nomMethode(parametres);`
 
