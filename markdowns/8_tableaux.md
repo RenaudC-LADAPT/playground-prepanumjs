@@ -175,7 +175,7 @@ Nous allons voir ici des **méthodes** de l'objet `Array`
 
 La méthode shift() permet de retirer le premier élément d'un tableau et de renvoyer cet élément. Cette méthode modifie la longueur du tableau.
 
-dans la console de votre navigateur, testez le code suivant : 
+Dans la console de votre navigateur, testez le code suivant ligne par ligne en appuyant sur entrée à la fin de chaque ligne : 
 ```jsx
 let felins = ['lion', 'chat', 'jaguar','léopard'];
 let premier = felins.shift();
@@ -204,7 +204,7 @@ Voici la déclaration d'un tableau :
 #### la méthode pop()
 La méthode `pop()` supprime le dernier élément d'un tableau et retourne cet élément. Cette méthode modifie la longueur du tableau.
 
-dans la console de votre navigateur, testez le code suivant : 
+Dans la console de votre navigateur, testez le code suivant ligne par ligne en appuyant sur entrée à la fin de chaque ligne : 
 ```jsx
 let felins = ['lion', 'chat', 'jaguar','léopard'];
 let dernier = felins.pop();
@@ -233,7 +233,7 @@ Voici la déclaration d'un tableau :
 #### la méthode unshift()
 La méthode unshift() ajoute un ou plusieurs éléments au début d'un tableau et renvoie la nouvelle longueur du tableau.
 
-dans la console de votre navigateur, testez le code suivant : 
+Dans la console de votre navigateur, testez le code suivant ligne par ligne en appuyant sur entrée à la fin de chaque ligne : 
 ```jsx
 let felins = ['lion', 'chat', 'jaguar','léopard'];
 console.log(felins.length);
@@ -261,7 +261,7 @@ Voici la déclaration d'un tableau :
 #### la méthode push()
 La méthode push() ajoute un ou plusieurs éléments à la fin d'un tableau et retourne la nouvelle taille du tableau.
 
-dans la console de votre navigateur, testez le code suivant : 
+Dans la console de votre navigateur, testez le code suivant ligne par ligne en appuyant sur entrée à la fin de chaque ligne : 
 ```jsx
 let felins = ['lion', 'chat', 'jaguar','léopard'];
 console.log(felins.length);
