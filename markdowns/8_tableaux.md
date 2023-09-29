@@ -88,6 +88,7 @@ En effet  `monDeuxiemeTableau[2]` correspond au troisieme élément de monDeuxie
 Voici la déclaration d'un tableau :
 
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
+
 ?[quel est l'élément situé à l'index 0 ](single)
 - [ ] 'patate douce'
 - [ ] 'brocoli'
@@ -189,6 +190,7 @@ Voici la déclaration d'un tableau :
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
 
 `let maVariable = legumes.shift()`
+
 ?[Que renvoie désormais legumes.at(0) ](single)
 - [ ] 'patate douce'
 - [ ] 'brocoli'
@@ -219,6 +221,7 @@ Voici la déclaration d'un tableau :
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
 
 `let maVariable = legumes.pop()`
+
 ?[Que renvoie désormais legumes.at(-1) ](single)
 - [ ] 'patate douce'
 - [x] 'brocoli'
@@ -250,6 +253,7 @@ Voici la déclaration d'un tableau :
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
 
 `let maVariable = legumes.unshift('radis', 'potiron')`
+
 ?[Que renvoie désormais legumes.at(1) ](single)
 - [ ] 'patate douce'
 - [ ] 'brocoli'
@@ -280,6 +284,7 @@ Voici la déclaration d'un tableau :
 `let legumes = ['aubergine', 'courgette', 'haricots verts', 'brocoli', 'patate douce']`
 
 `let maVariable = legumes.push('potiron')`
+
 ?[Que renvoie désormais legumes.at(-1) ](single)
 - [ ] 'patate douce'
 - [ ] 'brocoli'
@@ -294,10 +299,11 @@ Voici la déclaration d'un tableau :
 
 
 ![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
-### La méthode splice()
-### La méthode join()
-### La méthode slice()
 ### La méthode concat()
+### La méthode join()
 ### La méthode includes()
+### La méthode splice()
+### La méthode slice()
+
 # Aller plus loin...
 [Testez vos compétences : les tableaux](https://developer.mozilla.org/fr/docs/Learn/JavaScript/First_steps/Test_your_skills:_Arrays/ "Testez vos compétences : les tableaux")
