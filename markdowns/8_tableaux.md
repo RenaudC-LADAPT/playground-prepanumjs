@@ -323,11 +323,29 @@ Voici la déclaration d'un tableau :
 - [ ] 'potiron'
 - [x] 6
 
+### La méthode splice()
+La méthode splice() modifie le contenu d'un tableau en retirant des éléments et/ou en ajoutant de nouveaux éléments à ce même tableau.
+On peut ainsi vider ou remplacer une partie d'un tableau.
+```jsx
+const months = ['Jan', 'Mars', 'Avril', 'Juin'];
+months.splice(1, 0, 'Fev');
+//insere 'Fev' à l'index 1
+months;// ["Jan", "Feb", "March", "April", "June"]
+months.splice(4, 1, 'May');
+// Remplace 1 element à l'index 4
+months;//["Jan", "Feb", "March", "April", "May"]
+```
+#### syntaxe
+`array.splice(début, nbASupprimer, éléments)`
+
+`début` : L'indice à partir duquel commencer à changer le tableau (l'indice du premier élement étant 0).
+`nbASupprimer` : Un entier indiquant le nombre d'anciens éléments à remplacer. Si ce paramètre est absent ou si sa valeur est supérieure ou égale à array.length - début, alors les éléments entre début et la fin du tableau seront supprimés. Si nbASupprimer vaut 0, aucun élément ne sera supprimé. Dans ce cas, il est nécessaire de spécifier au moins un nouvel élément.
+`éléments` : Les éléments à ajouter au tableau à partir de début. Si vous ne spécifiez pas de nouvel élément, les anciens éléments seront simplement supprimés du tableau.
 
 ![travaux en cours](http://www.animated-gifs.fr/category_website/under-construction-fr/14285595.gif)
 ### La méthode concat()
 ### La méthode join()
-### La méthode includes()
+
 ### La méthode splice()
 ### La méthode slice()
 
