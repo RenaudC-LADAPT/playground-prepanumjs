@@ -160,7 +160,7 @@ let tableauDoubleEntree = [
 ['Madame', 'Joce', 'Jessica', 28],
 ['Madame', 'Luna', 'Alberta', 36],
 ['Madame', 'Robert', 'Aline', 38],
-['Monsieur', 'Giscard D'Estaing', 'Bernard', 42],
+['Monsieur', "Giscard D'Estaing", 'Bernard', 42],
 ]
 ```
 et pour accéder à un des éléments du tableau il me faudra précise dans un premier temps l'indice de la "ligne" puis l'indice de la "colonne" 
