@@ -341,7 +341,7 @@ months;//["Jan", "Feb", "March", "April", "May"]
 
 `début` : L'indice à partir duquel commencer à changer le tableau (l'indice du premier élement étant 0).
 
-`nbASupprimer` : Un entier indiquant le nombre d'anciens éléments à remplacer. Si ce paramètre est absent ou si sa valeur est supérieure ou égale à array.length - début, alors les éléments entre début et la fin du tableau seront supprimés. Si nbASupprimer vaut 0, aucun élément ne sera supprimé. Dans ce cas, il est nécessaire de spécifier au moins un nouvel élément.
+`nbASupprimer` : Un entier indiquant le nombre d'anciens éléments à remplacer. Si ce paramètre est absent ou si sa valeur est supérieure ou égale à `array.length - début`, alors les éléments entre début et la fin du tableau seront supprimés. Si `nbASupprimer` vaut 0, aucun élément ne sera supprimé. Dans ce cas, il est nécessaire de spécifier au moins un nouvel élément.
 
 `éléments` : Les éléments à ajouter au tableau à partir de début. Si vous ne spécifiez pas de nouvel élément, les anciens éléments seront simplement supprimés du tableau.
 
