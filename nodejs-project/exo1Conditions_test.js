@@ -1,6 +1,6 @@
 
-var assert = require('assert');
-var mod = require('./exo1Conditions.js');
+const assert = require('node:assert/strict');
+let mod = require('./exo1Conditions.js');
 
 it("Majorité ?", function () {
   try
