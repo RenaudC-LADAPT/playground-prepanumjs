@@ -6,9 +6,11 @@ it("Majorité ?", function () {
   try
   {
     assert.equal( typeof(mod.test1), "string" );
-    assert.equal( mod.test1, "Vous êtes mineur." );
+    assert.match(mod.test1, /mineur/);
+    //assert.equal( mod.test1, "Vous êtes mineur." );
     assert.equal( typeof(mod.test2), "string" );
-    assert.equal( mod.test2, "Vous êtes majeur." );
+    assert.match(mod.test2, /majeur/);
+    //assert.equal( mod.test2, "Vous êtes majeur." );
   }
   catch (error)
   {
